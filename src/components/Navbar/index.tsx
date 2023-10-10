@@ -1,14 +1,13 @@
-import { Fingerprint } from "@phosphor-icons/react"
 import Link from "next/link"
+import Login from "../Login"
 import Logo from "../Logo"
+
 export default function Navbar() {
   return (
     <ul
       className={`flex flex-col md:flex-row w-full justify-center items-center text-zinc-300 gap-2 xl:gap-5 p-4`}
     >
-      <li
-        className={`hover:cursor-pointer hover:text-rose-500 hover:animate-wiggle md:hover:text-xl lg:hover:text-3xl`}
-      >
+      <li className={`hover:cursor-pointer md:hover:text-xl lg:hover:text-3xl`}>
         <Logo />
       </li>
 
@@ -33,7 +32,9 @@ export default function Navbar() {
       <li
         className={`hover:cursor-pointer hover:text-rose-500 hover:animate-pulse-slow-stop md:hover:text-xl lg:hover:text-3xl`}
       >
-        <Fingerprint size={32} />
+        <Link href={"/api/login"}>
+          <Login />
+        </Link>
       </li>
     </ul>
   )

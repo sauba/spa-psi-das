@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import logo from "../../../public/logoBranca.svg"
+import logo from "../../../public/logo.svg"
 
 export default function Logo() {
   return (
@@ -8,8 +8,8 @@ export default function Logo() {
       <Link href={"/"}>
         <Image
           src={logo}
-          width={200}
-          height={256}
+          width={300}
+          height={220}
           alt="Leveza Para Viver"
           priority
         />

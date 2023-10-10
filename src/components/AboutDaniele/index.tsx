@@ -12,9 +12,7 @@ export default function AboutDaniele() {
       `}
       id="aboutDaniele"
     >
-      <div
-        className={`flex flex-col justify-center items-center pt-32 md:pt-20`}
-      >
+      <div className={`flex flex-col justify-center items-center pt-40`}>
         <Image
           src={perfilDani}
           alt="Foto de Daniele de Andrade Silva"
