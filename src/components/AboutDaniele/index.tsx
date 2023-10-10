@@ -5,14 +5,14 @@ export default function AboutDaniele() {
   return (
     <div
       className={`
-        pt-52
-        md:pt-20
+        pt-4
+        md:pt-8
         md:pb-20
       text-zinc-300
       `}
       id="aboutDaniele"
     >
-      <div className={`flex flex-col justify-center items-center pt-40`}>
+      <div className={`flex flex-col justify-center items-center`}>
         <Image
           src={perfilDani}
           alt="Foto de Daniele de Andrade Silva"

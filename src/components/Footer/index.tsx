@@ -53,45 +53,43 @@ export default function Footer() {
               className={`text-rose-500 animate-spin-slow hover:cursor-none`}
             />
           </span>
-        </div>
 
-        <div
-          className={`flex flex-col justify-between items-center gap-3 mr-2`}
-        >
-          <div className={`hover:animate-wiggle`}>
-            <span className={`text-rose-400`}>
-              <Link
-                href="https://www.instagram.com/levezaparaviver/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <InstagramLogo size={48} />
-              </Link>
-            </span>
-          </div>
+          <div className={`flex justify-between items-center gap-3 mr-2`}>
+            <div className={`hover:animate-wiggle`}>
+              <span className={`text-rose-400`}>
+                <Link
+                  href="https://www.instagram.com/levezaparaviver/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <InstagramLogo size={48} />
+                </Link>
+              </span>
+            </div>
 
-          <div className={`hover:animate-wiggle`}>
-            <span className={`text-green-600`}>
-              <Link
-                href="https://wa.me/558183049659"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <WhatsappLogo size={48} />
-              </Link>
-            </span>
-          </div>
+            <div className={`hover:animate-wiggle`}>
+              <span className={`text-green-600`}>
+                <Link
+                  href="https://wa.me/558183049659"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <WhatsappLogo size={48} />
+                </Link>
+              </span>
+            </div>
 
-          <div className={`hover:animate-wiggle`}>
-            <span className={`text-blue-500`}>
-              <Link
-                href="https://www.linkedin.com/in/psidanieleandrade/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <LinkedinLogo size={48} />
-              </Link>
-            </span>
+            <div className={`hover:animate-wiggle`}>
+              <span className={`text-blue-500`}>
+                <Link
+                  href="https://www.linkedin.com/in/psidanieleandrade/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <LinkedinLogo size={48} />
+                </Link>
+              </span>
+            </div>
           </div>
         </div>
       </div>
