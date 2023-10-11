@@ -31,7 +31,7 @@ module.exports = {
         'zeyada': ['Zeyada', 'cursive']
       },
       animation: {
-        'spin-slow': 'spin 8s linear infinite',
+        'spin-slow': 'spin 10s linear infinite',
         'ping-slow': 'ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite',
         'ping-fast': 'ping 0.75s cubic-bezier(0, 0, 0.2, 1) infinite',
         'bounce-slow': 'bounce 2s infinite ease-in-out',
