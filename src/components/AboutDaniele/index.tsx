@@ -25,7 +25,7 @@ export default function AboutDaniele() {
         >
           Olá, eu sou
           <span
-            className={`font-allura text-3xl md:text-6xl hover:text-rose-500`}
+            className={`font-allura text-3xl md:text-8xl hover:text-rose-500`}
           >
             Daniele Andrade
           </span>
