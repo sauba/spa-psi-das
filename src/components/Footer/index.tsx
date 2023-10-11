@@ -97,7 +97,7 @@ export default function Footer() {
       <div
         className={`flex-col justify-center items-center text-center text-[10px] text-sky-800 mb-1`}
       >
-        <span className={`flex justify-center`}>
+        <span className={`flex justify-center tracking-tighter`}>
           Developed by Thiago José de Queiroz. Leveza Para Viver
           <TrademarkRegistered size={14} />
           2023 Todos os direitos reservados.
