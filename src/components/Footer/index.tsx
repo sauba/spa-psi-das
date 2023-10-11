@@ -54,11 +54,11 @@ export default function Footer() {
             />
           </span>
 
-          <div className={`flex justify-between items-center gap-1 mr-2`}>
+          <div className={`flex justify-center items-center gap-1`}>
             <div className={`hover:animate-wiggle`}>
               <span className={`text-rose-400`}>
                 <Link
-                  href="https://www.instagram.com/levezaparaviver/"
+                  href="https://www.instagram.com/psidanieleandrade/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
