@@ -62,7 +62,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <InstagramLogo size={48} />
+                  <InstagramLogo size={32} />
                 </Link>
               </span>
             </div>
