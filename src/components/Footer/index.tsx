@@ -54,7 +54,7 @@ export default function Footer() {
             />
           </span>
 
-          <div className={`flex justify-center items-center gap-3`}>
+          <div className={`flex justify-center items-center gap-3 pb-8`}>
             <div className={`hover:animate-wiggle`}>
               <span className={`text-rose-400`}>
                 <Link
@@ -67,7 +67,7 @@ export default function Footer() {
               </span>
             </div>
 
-            <div className={`hover:animate-wiggle`}>
+            <div className={`animate-wiggle`}>
               <span className={`text-green-600`}>
                 <Link
                   href="https://wa.me/558183049659"
@@ -97,9 +97,8 @@ export default function Footer() {
       <div
         className={`flex-col justify-center items-center text-center text-[10px] text-sky-800 mb-1`}
       >
-        <span>Developed by Thiago José de Queiroz.</span>
-        <span className={`flex justify-center items-center`}>
-          Leveza Para Viver
+        <span className={`flex justify-center`}>
+          Developed by Thiago José de Queiroz. Leveza Para Viver
           <TrademarkRegistered size={14} />
           2023 Todos os direitos reservados.
         </span>
