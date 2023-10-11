@@ -54,7 +54,7 @@ export default function Footer() {
             />
           </span>
 
-          <div className={`flex justify-center items-center gap-1`}>
+          <div className={`flex justify-center items-center gap-3`}>
             <div className={`hover:animate-wiggle`}>
               <span className={`text-rose-400`}>
                 <Link
