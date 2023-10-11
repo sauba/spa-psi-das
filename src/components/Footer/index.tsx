@@ -74,7 +74,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <WhatsappLogo size={48} />
+                  <WhatsappLogo size={32} />
                 </Link>
               </span>
             </div>
@@ -86,7 +86,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <LinkedinLogo size={48} />
+                  <LinkedinLogo size={32} />
                 </Link>
               </span>
             </div>
