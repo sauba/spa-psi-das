@@ -11,7 +11,8 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <footer
-      className={`w-full bg-black justify-center items-center text-center`} id="footer"
+      className={`w-full bg-black justify-center items-center text-center`}
+      id="footer"
     >
       <div
         className={`flex w-full justify-center items-center text-center text-sky-500/75 gap-10`}
