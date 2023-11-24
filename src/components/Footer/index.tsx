@@ -11,7 +11,7 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <footer
-      className={`w-full bg-black justify-center items-center text-center`}
+      className={`w-full bg-black justify-center items-center text-center`} id="footer"
     >
       <div
         className={`flex w-full justify-center items-center text-center text-sky-500/75 gap-10`}
@@ -48,7 +48,7 @@ export default function Footer() {
           >
             Caminhos para uma vida com mais leveza para viver
             <Flower
-              size={32}
+              size={48}
               weight="fill"
               className={`text-rose-500 animate-spin-slow hover:cursor-none`}
             />
@@ -62,7 +62,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <InstagramLogo size={32} />
+                  <InstagramLogo size={48} />
                 </Link>
               </span>
             </div>
@@ -74,7 +74,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <WhatsappLogo size={32} />
+                  <WhatsappLogo size={48} />
                 </Link>
               </span>
             </div>
@@ -86,7 +86,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <LinkedinLogo size={32} />
+                  <LinkedinLogo size={48} />
                 </Link>
               </span>
             </div>
@@ -95,10 +95,10 @@ export default function Footer() {
       </div>
 
       <div
-        className={`flex-col justify-center items-center text-center text-[10px] text-sky-800 mb-1`}
+        className={`flex-col justify-center items-center text-center text-[8px] text-sky-800 mb-1`}
       >
         <span className={`flex justify-center tracking-tighter`}>
-          Developed by Thiago José de Queiroz. Leveza Para Viver
+          Developed by Thiago J. de Queiroz. Psicóloga Daniele Andrade
           <TrademarkRegistered size={14} />
           2023 Todos os direitos reservados.
         </span>

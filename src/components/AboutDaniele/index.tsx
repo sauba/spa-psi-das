@@ -35,24 +35,21 @@ export default function AboutDaniele() {
       <div
         className={`m-4 flex flex-col gap-3 text-lg md:text-2xl text-center font-Shadows-into-light-two tracking-widest hover:cursor-none hover:text-green-500`}
       >
-        <h1>Sou Psicóloga e Especialista em Gestão de Pessoas.</h1>
+        <h1>Sou Psicóloga e atuo na área clínica há 5 cinco anos.</h1>
         <h1>
-          Atuo na área clínica com psicoterapia para adultos, terapia de casal e
-          projetos terapêuticos em grupo.
+          Sempre direcionei meus atendimentos ao público adulto, e você pode
+          contar comigo através da Psicoterapia Individual e da Terapia de
+          Casal, ambas apoiadas na abordagem humanista
+          fenomenológica-existencial.
         </h1>
         <h1>
-          Possuo Certificação em Coaching Sistêmico e Programação
-          Neurolinguística.
+          As sessões acontecem no formato online, o que permite que a gente se
+          conecte com flexibilidade e de qualquer parte do Brasil, alcançando,
+          também, brasileiros que vivem fora do país.
         </h1>
-        <h1>Especialista em Constelações Intrauterinas.</h1>
         <h1>
-          Sempre em busca de aperfeiçoamento, atualmente cursando formação em
-          Constelações Sistêmicas.
-        </h1>
-
-        <h1>
-          Sou uma profissional da área do comportamento humano que acredita na
-          construção de caminhos para uma vida com mais leveza para viver.
+          Sou Pós Graduada em Gestão de Pessoas e tenho Certificação em Coaching
+          Sistêmico e outras terapêuticas.
         </h1>
       </div>
     </div>

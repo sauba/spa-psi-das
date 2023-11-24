@@ -8,9 +8,9 @@ export default function Logo() {
       <Link href={"/"}>
         <Image
           src={logo}
-          width={300}
-          height={220}
-          alt="Leveza Para Viver"
+          width={220}
+          height={140}
+          alt="Psi Daniele Andrade"
           priority
         />
       </Link>
