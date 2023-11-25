@@ -5,7 +5,7 @@ import logo from "../../../public/logo.svg"
 export default function Logo() {
   return (
     <span>
-      <Link href={"/"}>
+      <Link href={"https://danieleandrade.com"}>
         <Image
           src={logo}
           width={220}
