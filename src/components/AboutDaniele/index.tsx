@@ -11,7 +11,7 @@ export default function AboutDaniele() {
       id="aboutDaniele"
     >
       <div
-        className={`m-4 flex flex-col gap-3 text-lg md:text-2xl text-center font-Shadows-into-light-two tracking-widest`}
+        className={`m-4 flex flex-col gap-3 text-md md:text-2xl text-center font-Shadows-into-light-two tracking-widest`}
       >
         <span className={`flex flex-col justify-center items-center`}>
           <p
