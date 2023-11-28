@@ -34,7 +34,7 @@ export default function AbordagemHumanista() {
           Abordagem Humanista Fenomenológica-existencial
         </h1>
         <div
-          className={`flex-col text-left px-6 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl tracking-widest leading-loose`}
+          className={`flex-col text-left px-6 sm:text-md md:text-2xl lg:text-3xl xl:text-3xl tracking-widest leading-loose`}
         >
           <p className={``}>
             Na Psicologia existem diferentes linhas teóricas para abordagem, as
