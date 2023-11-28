@@ -6,6 +6,7 @@ export default function PsicoterapiaIndividual() {
     <div
       className={`
       w-full
+      my-8
       flex
       xs:flex
       md:flex
@@ -17,14 +18,14 @@ export default function PsicoterapiaIndividual() {
       `}
       id="abordagem"
     >
-      <div className={`w-9/12 flex-col`}>
+      <div className={`w-10/12 flex-col`}>
         <h1
-          className={`text-left text-2xl xl:text-6xl font-allura text-teal-500`}
+          className={`xl:pt-8 pl-8 text-left text-2xl xl:text-6xl font-allura text-violet-400 tracking-widest`}
         >
           Psicoterapia Individual
         </h1>
         <div
-          className={`flex-col text-left px-6 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl tracking-widest leading-loose`}
+          className={`flex-col text-right xl:pt-8 xl:px-8 sm:text-md md:text-2xl xl:text-2xl tracking-widest leading-loose gap-3`}
         >
           <p className={``}>
             A psicoterapia individual é um processo mediado por profissional
@@ -49,7 +50,7 @@ export default function PsicoterapiaIndividual() {
         </div>
       </div>
 
-      <div className={`w-3/12`}>
+      <div className={`w-2/12`}>
         <Image
           src={patient}
           quality={100}

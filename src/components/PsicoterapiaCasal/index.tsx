@@ -16,7 +16,7 @@ export default function PsicoterapiaCasal() {
       `}
       id="abordagem"
     >
-      <div className={`w-3/12`}>
+      <div className={`w-2/12`}>
         <Image
           src={coupleImg}
           quality={100}
@@ -27,14 +27,14 @@ export default function PsicoterapiaCasal() {
         />
       </div>
 
-      <div className={`w-9/12 flex-col`}>
+      <div className={`w-10/12 flex-col`}>
         <h1
-          className={`text-left text-2xl xl:text-6xl font-allura text-teal-500`}
+          className={`xl:pt-8 text-left text-2xl xl:text-6xl font-allura text-violet-400 tracking-widest`}
         >
           Psicoterapia Casal
         </h1>
         <div
-          className={`flex-col text-left px-6 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl tracking-widest leading-loose`}
+          className={`flex-col text-right xl:pt-8 xl:px-8 sm:text-md md:text-2xl xl:text-2xl tracking-widest leading-loose gap-3`}
         >
           <p className={``}>
             A terapia de casal é um processo mediado por profissional
