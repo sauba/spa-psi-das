@@ -40,7 +40,7 @@ export default function Footer() {
           </span>
 
           <span className={`py-1 tracking-widest flex-wrap`}>
-            Gestão de Pessoas | Coaching | PNL
+            Gestão de Pessoas|Coaching| PNL
           </span>
 
           <div className={`flex justify-center items-center gap-3 py-6`}>
