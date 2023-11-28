@@ -32,7 +32,7 @@ export default function PsicoterapiaCasal() {
       <div
         className={`w-full text-center xl:p-8 sm:text-md md:text-2xl xl:text-2xl tracking-widest leading-loose gap-3`}
       >
-        <p className={``}>
+        <p>
           A terapia de casal é um processo mediado por profissional
           especializado, tendo como base o conhecimento científico, os
           princípios e as técnicas da Psicologia. Para além de um espaço que

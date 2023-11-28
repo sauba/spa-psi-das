@@ -32,7 +32,7 @@ export default function PsicoterapiaIndividual() {
       <div
         className={`w-full xl:p-8 text-right sm:text-md md:text-2xl xl:text-2xl tracking-widest leading-loose gap-3`}
       >
-        <p className={``}>
+        <p>
           A psicoterapia individual é um processo mediado por profissional
           especializado, tendo como base o conhecimento científico, os
           princípios e as técnicas da Psicologia. Configura uma relação

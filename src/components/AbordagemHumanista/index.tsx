@@ -32,7 +32,7 @@ export default function AbordagemHumanista() {
       <div
         className={`text-left xl:p-8 sm:text-md md:text-2xl xl:text-3xl tracking-widest leading-loose gap-3`}
       >
-        <p className={``}>
+        <p>
           Na Psicologia existem diferentes linhas teóricas para abordagem, as
           quais, direcionam o método de atuação do Psicólogo Clínico frente ao
           seu Cliente. Eu escolho conduzir os processos tendo como apoio a
