@@ -8,7 +8,7 @@ export default function AbordagemHumanista() {
       flex
       xs:flex
       md:flex
-      lg:flex
+      lg:flex-col
       xl:flex
       justify-center
       items-center
