@@ -6,9 +6,9 @@ export default function AbordagemHumanista() {
       className={`
       w-full
       flex
-      xs:flex
-      md:flex
-      lg:flex-col
+      xs:flex-col
+      md:flex-col
+      lg:flex
       xl:flex
       justify-center
       items-center
