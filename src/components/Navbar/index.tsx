@@ -14,6 +14,14 @@ export default function Navbar() {
       <li
         className={`hover:cursor-pointer hover:text-rose-500 hover:animate-wiggle md:hover:text-xl lg:hover:text-3xl`}
       >
+        <Link href="#aboutDaniele" className={`transition`}>
+          Quem Sou Eu
+        </Link>
+      </li>
+
+      <li
+        className={`hover:cursor-pointer hover:text-rose-500 hover:animate-wiggle md:hover:text-xl lg:hover:text-3xl`}
+      >
         <Link href="#abordagem" className={`transition`}>
           Abordagem
         </Link>
@@ -42,15 +50,6 @@ export default function Navbar() {
           </li>
         </ul>
       </li>
-
-      <li
-        className={`hover:cursor-pointer hover:text-rose-500 hover:animate-wiggle md:hover:text-xl lg:hover:text-3xl`}
-      >
-        <Link href="#aboutDaniele" className={`transition`}>
-          Quem Sou Eu
-        </Link>
-      </li>
-
       <li
         className={`hover:cursor-pointer hover:text-rose-500 hover:animate-wiggle md:hover:text-xl lg:hover:text-3xl`}
       >

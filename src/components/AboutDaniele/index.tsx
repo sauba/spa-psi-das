@@ -1,35 +1,22 @@
-import Image from "next/image"
-import perfilDani from "../../../public/perfilDani2.svg"
 export default function AboutDaniele() {
   return (
     <div
       className={`
         flex
-        flex-row
+        flex-col
         xl:flex
-        justify-center
-        items-center
-        pt-4
-        md:pt-8
-        md:pb-20
       text-zinc-300
+        bg-daniele-profile2
+        bg-cover
       `}
       id="aboutDaniele"
     >
-      <Image
-        src={perfilDani}
-        quality={100}
-        style={{ objectFit: `cover` }}
-        className={`w-3/12 opacity-90`}
-        alt=""
-        priority
-      />
       <div
-        className={`w-full text-center xl:p-8 sm:text-md md:text-2xl xl:text-4xl tracking-widest leading-loose gap-3 font-Shadows-into-light-two`}
+        className={`text-center mt-72 xl:mt-0 bg-zinc-900 bg-opacity-90 sm:text-xs md:text-2xl xl:text-4xl tracking-widest font-Shadows-into-light-two`}
       >
-        <span className={`flex flex-col justify-center items-center`}>
+        <span className={`flex flex-col py-8 justify-center items-center`}>
           <p
-            className={`text-left text-xl md:text-4xl xl:text-5xl font-bad-script hover:cursor-none flex items-center gap-2`}
+            className={`text-left text-lg md:text-4xl xl:text-5xl font-bad-script hover:cursor-none flex items-center gap-2`}
           >
             Olá, eu sou
             <span
@@ -39,9 +26,8 @@ export default function AboutDaniele() {
             </span>
           </p>
         </span>
-
-        <p>
-          Sou Psicóloga e atuo na área clínica há 5 cinco anos. Sempre
+        <p className={`px-6 xl:mb-80 pb-8 xl:pb-80`}>
+          Sou Psicóloga e atuo na área clínica há 05 cinco anos. Sempre
           direcionei meus atendimentos ao público adulto, e você pode contar
           comigo através da Psicoterapia Individual e da Terapia de Casal, ambas
           apoiadas na abordagem humanista fenomenológica-existencial. As sessões

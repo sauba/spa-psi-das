@@ -99,6 +99,7 @@ module.exports = {
         'daniele-profile2': "url('/perfilDani2.svg')",
         'patient': "url('/patient.svg')",
         'patient-happy': "url('/patientHappy.svg')",
+        'patient-couple': "url('/couple.svg')",
       },
     },
   },

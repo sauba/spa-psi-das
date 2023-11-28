@@ -13,7 +13,10 @@ export default function PsicoterapiaCasal() {
       `}
       id="abordagem"
     >
-      <div className={`flex justify-center items-center gap-12`}>
+      <div
+        className={`flex justify-center items-center bg-patient-couple bg-contain bg-no-repeat`}
+        style={{ objectFit: `contain`, objectPosition: `` }}
+      >
         <Image
           src={coupleImg}
           quality={100}

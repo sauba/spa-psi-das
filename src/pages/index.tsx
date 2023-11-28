@@ -25,10 +25,11 @@ export default function Home() {
       `}
     >
       <Header />
+      <AboutDaniele />
       <AbordagemHumanista />
       <PsicoterapiaIndividual />
       <PsicoterapiaCasal />
-      <AboutDaniele />
+
       <Footer />
     </main>
   )
