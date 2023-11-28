@@ -12,14 +12,7 @@ export default function About() {
         <h1 className={`text-4xl pt-2`}>Leveza Para Viver</h1>
         <h1 className={`text-2xl`}>Espaço de Evolução</h1>
         <p className={`m-5 text-center`}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
-          similique repellat error id. Culpa illo, minima perferendis quidem
-          quia quaerat assumenda explicabo ex at iusto possimus amet facilis
-          dolore eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Voluptatum similique repellat error id. Culpa illo, minima perferendis
-          quidem quia quaerat assumenda explicabo ex at iusto possimus amet
-          facilis dolore eius. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Voluptatum similique repellat error id. Culpa illo,
+          Lorem ipsum dolor. Voluptatum similique repellat error id. Culpa illo,
           minima perferendis quidem quia quaerat assumenda explicabo ex at iusto
           possimus amet facilis dolore eius. Lorem ipsum dolor sit amet
           consectetur, adipisicing elit. Voluptatum similique repellat error id.
@@ -50,6 +43,13 @@ export default function About() {
           dolor sit amet consectetur, adipisicing elit. Voluptatum similique
           repellat error id. Culpa illo, minima perferendis quidem quia quaerat
           assumenda explicabo ex at iusto possimus amet facilis dolore eius.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+          similique repellat error id. Culpa illo, minima perferendis quidem
+          quia quaerat assumenda explicabo ex at iusto possimus amet facilis
+          dolore eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Voluptatum similique repellat error id. Culpa illo, minima perferendis
+          quidem quia quaerat assumenda explicabo ex at iusto possimus amet
+          facilis dolore eius.
         </p>
       </div>
 
