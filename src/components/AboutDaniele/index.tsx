@@ -15,7 +15,7 @@ export default function AboutDaniele() {
       >
         <span className={`flex flex-col justify-center items-center`}>
           <p
-            className={`text-center text-3xl md:text-4xl xl:text-5xl font-bad-script hover:cursor-none flex items-center gap-2`}
+            className={`text-center text-2xl md:text-4xl xl:text-5xl font-bad-script hover:cursor-none flex items-center gap-2`}
           >
             Olá, eu sou
             <span
