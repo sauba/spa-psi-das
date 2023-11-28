@@ -1,17 +1,31 @@
+import Image from "next/image"
+import perfilDani from "../../../public/perfilDani2.svg"
 export default function AboutDaniele() {
   return (
     <div
       className={`
+        flex
+        flex-row
+        xl:flex
+        justify-center
+        items-center
         pt-4
         md:pt-8
         md:pb-20
       text-zinc-300
-        object-left
       `}
       id="aboutDaniele"
     >
+      <Image
+        src={perfilDani}
+        quality={100}
+        style={{ objectFit: `cover` }}
+        className={`w-3/12 opacity-90`}
+        alt=""
+        priority
+      />
       <div
-        className={`m-4 flex flex-col gap-3 text-md md:text-2xl text-center font-Shadows-into-light-two tracking-widest`}
+        className={`w-full text-center xl:p-8 sm:text-md md:text-2xl xl:text-4xl tracking-widest leading-loose gap-3 font-Shadows-into-light-two`}
       >
         <span className={`flex flex-col justify-center items-center`}>
           <p
@@ -19,28 +33,23 @@ export default function AboutDaniele() {
           >
             Olá, eu sou
             <span
-              className={`font-allura text-3xl md:text-8xl hover:text-rose-500`}
+              className={`font-allura text-3xl md:text-8xl animate-bounce-slow hover:text-rose-500`}
             >
               Daniele Andrade
             </span>
           </p>
         </span>
 
-        <p>Sou Psicóloga e atuo na área clínica há 5 cinco anos.</p>
         <p>
-          Sempre direcionei meus atendimentos ao público adulto, e você pode
-          contar comigo através da Psicoterapia Individual e da Terapia de
-          Casal, ambas apoiadas na abordagem humanista
-          fenomenológica-existencial.
-        </p>
-        <p>
-          As sessões acontecem no formato online, o que permite que a gente se
-          conecte com flexibilidade e de qualquer parte do Brasil, alcançando,
-          também, brasileiros que vivem fora do país.
-        </p>
-        <p>
-          Sou Pós Graduada em Gestão de Pessoas e tenho Certificação em Coaching
-          Sistêmico e outras terapêuticas.
+          Sou Psicóloga e atuo na área clínica há 5 cinco anos. Sempre
+          direcionei meus atendimentos ao público adulto, e você pode contar
+          comigo através da Psicoterapia Individual e da Terapia de Casal, ambas
+          apoiadas na abordagem humanista fenomenológica-existencial. As sessões
+          acontecem no formato online, o que permite que a gente se conecte com
+          flexibilidade e de qualquer parte do Brasil, alcançando, também,
+          brasileiros que vivem fora do país. Sou Pós Graduada em Gestão de
+          Pessoas e tenho Certificação em Coaching Sistêmico e outras
+          terapêuticas.
         </p>
       </div>
     </div>
