@@ -14,7 +14,7 @@ export default function AboutDaniele() {
         className={`m-4 flex flex-col gap-3 text-lg md:text-2xl text-center font-Shadows-into-light-two tracking-widest`}
       >
         <span className={`flex flex-col justify-center items-center`}>
-          <h1
+          <p
             className={`text-center text-2xl md:text-4xl xl:text-5xl font-bad-script hover:cursor-none flex items-center gap-2`}
           >
             Olá, eu sou
@@ -23,7 +23,7 @@ export default function AboutDaniele() {
             >
               Daniele Andrade
             </span>
-          </h1>
+          </p>
         </span>
 
         <p>Sou Psicóloga e atuo na área clínica há 5 cinco anos.</p>
