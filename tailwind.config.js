@@ -95,6 +95,10 @@ module.exports = {
         }
       },
       backgroundImage: {
+        'daniele-profile': "url('/perfilDani.svg')",
+        'daniele-profile2': "url('/perfilDani2.svg')",
+        'patient': "url('/patient.svg')",
+        'patient-happy': "url('/patientHappy.svg')",
       },
     },
   },

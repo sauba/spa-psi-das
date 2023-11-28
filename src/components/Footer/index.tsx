@@ -1,5 +1,4 @@
 import {
-  Flower,
   Heart,
   InstagramLogo,
   LinkedinLogo,
@@ -41,21 +40,10 @@ export default function Footer() {
           </span>
 
           <span className={`py-1 tracking-widest flex-wrap`}>
-            Gestão de Pessoas|Coaching|PNL
+            Gestão de Pessoas | Coaching | PNL
           </span>
 
-          <span
-            className={`flex w-10/12 md:w-full justify-center items-center pl-16 md:pl-0 mb-4 gap-1`}
-          >
-            Caminhos para uma vida com mais leveza para viver
-            <Flower
-              size={48}
-              weight="fill"
-              className={`text-rose-500 animate-spin-slow hover:cursor-none`}
-            />
-          </span>
-
-          <div className={`flex justify-center items-center gap-3 pb-8`}>
+          <div className={`flex justify-center items-center gap-3 py-6`}>
             <div className={`hover:animate-wiggle`}>
               <span className={`text-rose-400`}>
                 <Link
