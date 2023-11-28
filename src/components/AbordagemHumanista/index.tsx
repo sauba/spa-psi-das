@@ -1,38 +1,27 @@
-import Image from "next/image"
-import patientHappy from "../../../public/patientHappy.svg"
 export default function AbordagemHumanista() {
   return (
     <div
       className={`
-      w-full
-      mb-24
-      flex-col
-      justify-center
-      items-center
-      text-zinc-300
+        w-full
+        flex-col
+        justify-center
+        items-center
+        text-zinc-300
+        bg-patient
+        bg-cover
       `}
-      id="abordagem"
+      id="psicoterapiaCasal"
     >
-      <div className={`flex justify-center items-center gap-12`}>
-        <Image
-          src={patientHappy}
-          quality={100}
-          style={{ objectFit: `contain` }}
-          className={`w-1/12 rounded-b-full`}
-          alt=""
-          priority
-        />
+      <div
+        className={`text-center mt-72 xl:mt-0 bg-zinc-900 bg-opacity-90 sm:text-xs md:text-2xl xl:text-4xl tracking-widest font-Shadows-into-light-two`}
+      >
         <h1
-          className={`w-11/12 text-left text-2xl xl:text-7xl font-allura text-violet-400 tracking-widest`}
+          className={`pl-8 text-left text-2xl xl:text-8xl font-allura text-rose-500 tracking-widest`}
         >
           Abordagem Humanista Fenomenológica-existencial
         </h1>
-      </div>
 
-      <div
-        className={`text-left xl:p-8 sm:text-md md:text-2xl xl:text-3xl tracking-widest leading-loose gap-3`}
-      >
-        <p>
+        <p className={`px-6 xl:mb-80 pb-8 xl:pb-80`}>
           Na Psicologia existem diferentes linhas teóricas para abordagem, as
           quais, direcionam o método de atuação do Psicólogo Clínico frente ao
           seu Cliente. Eu escolho conduzir os processos tendo como apoio a

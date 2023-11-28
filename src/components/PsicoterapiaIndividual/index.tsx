@@ -1,38 +1,27 @@
-import Image from "next/image"
-import patient from "../../../public/patient.svg"
-
 export default function PsicoterapiaIndividual() {
   return (
     <div
       className={`
-      w-full
-      flex-col
-      justify-center
-      items-center
-      text-zinc-300
+        w-full
+        flex-col
+        justify-center
+        items-center
+        text-zinc-300
+        bg-patient-happy
+        bg-cover
       `}
       id="psicoterapiaIndividual"
     >
-      <div className={`w-full flex justify-center items-center gap-12`}>
+      <div
+        className={`text-center mt-72 xl:mt-0 bg-zinc-900 bg-opacity-90 sm:text-xs md:text-2xl xl:text-4xl tracking-widest font-Shadows-into-light-two`}
+      >
         <h1
-          className={`w-11/12 text-right text-2xl xl:text-8xl font-allura text-violet-400 tracking-widest`}
+          className={`pl-8 text-left text-2xl xl:text-8xl font-allura text-rose-500 tracking-widest`}
         >
           Psicoterapia Individual
         </h1>
-        <Image
-          src={patient}
-          quality={100}
-          style={{ objectFit: `contain`, objectPosition: `right` }}
-          className={`w-1/12 opacity-95 rounded-l-full`}
-          alt=""
-          priority
-        />
-      </div>
 
-      <div
-        className={`w-full xl:p-8 text-right sm:text-md md:text-2xl xl:text-2xl tracking-widest leading-loose gap-3`}
-      >
-        <p>
+        <p className={`px-6 xl:mb-80 pb-8 xl:pb-80`}>
           A psicoterapia individual é um processo mediado por profissional
           especializado, tendo como base o conhecimento científico, os
           princípios e as técnicas da Psicologia. Configura uma relação

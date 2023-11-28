@@ -1,41 +1,27 @@
-import Image from "next/image"
-import coupleImg from "../../../public/couple.svg"
-
 export default function PsicoterapiaCasal() {
   return (
     <div
       className={`
-      w-full
-      flex-col
-      justify-center
-      items-center
-      text-zinc-300
+        w-full
+        flex-col
+        justify-center
+        items-center
+        text-zinc-300
+        bg-patient-couple
+        bg-cover
       `}
-      id="abordagem"
+      id="psicoterapiaCasal"
     >
       <div
-        className={`flex justify-center items-center bg-patient-couple bg-contain bg-no-repeat`}
-        style={{ objectFit: `contain`, objectPosition: `` }}
+        className={`text-center mt-72 xl:mt-0 bg-zinc-900 bg-opacity-90 sm:text-xs md:text-2xl xl:text-4xl tracking-widest font-Shadows-into-light-two`}
       >
-        <Image
-          src={coupleImg}
-          quality={100}
-          style={{ objectFit: `contain` }}
-          className={`w-1/12 rounded-r-full`}
-          alt=""
-          priority
-        />
         <h1
-          className={`w-11/12 text-left text-2xl xl:text-8xl font-allura text-violet-400 tracking-widest`}
+          className={`pl-8 text-left text-2xl xl:text-8xl font-allura text-rose-500 tracking-widest`}
         >
           Psicoterapia Casal
         </h1>
-      </div>
 
-      <div
-        className={`w-full text-center xl:p-8 sm:text-md md:text-2xl xl:text-2xl tracking-widest leading-loose gap-3`}
-      >
-        <p>
+        <p className={`px-6 xl:mb-80 pb-8 xl:pb-80`}>
           A terapia de casal é um processo mediado por profissional
           especializado, tendo como base o conhecimento científico, os
           princípios e as técnicas da Psicologia. Para além de um espaço que
