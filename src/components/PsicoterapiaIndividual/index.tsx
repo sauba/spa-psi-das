@@ -13,7 +13,7 @@ export default function PsicoterapiaIndividual() {
       id="psicoterapiaIndividual"
     >
       <div
-        className={`text-center my-96 xl:my-0 bg-zinc-900 bg-opacity-90 sm:text-xs md:text-2xl xl:text-4xl tracking-widest font-Shadows-into-light-two`}
+        className={`text-center mt-96 xl:mt-0 bg-zinc-900 bg-opacity-90 sm:text-xs md:text-2xl xl:text-4xl tracking-widest font-Shadows-into-light-two`}
       >
         <h1
           className={`pl-8 text-left text-2xl xl:text-8xl font-allura text-rose-500 tracking-widest`}
