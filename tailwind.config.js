@@ -101,6 +101,11 @@ module.exports = {
         'patient-happy': "url('/patientHappy.svg')",
         'patient-couple': "url('/couple.svg')",
       },
+      screens: {
+        'xs': '475px',
+        '3xl': '2048px',
+        '4xl': '4096px',
+      }
     },
   },
   plugins: [],
