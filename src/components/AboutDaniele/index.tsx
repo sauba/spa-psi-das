@@ -57,7 +57,7 @@ export default function AboutDaniele() {
               hover:cursor-none
               flex
               items-center
-              gap-6
+              gap-3
             `}
           >
             Olá, eu sou
