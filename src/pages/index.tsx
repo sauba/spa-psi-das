@@ -21,7 +21,7 @@ export default function Home() {
       min-h-screen
       items-center
       justify-between
-      bg-sky-900
+      bg-black
       `}
     >
       <Header />
