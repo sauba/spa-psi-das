@@ -1,6 +1,7 @@
 import { Menu, Transition } from "@headlessui/react"
 import { Handshake, Info, Person, UsersThree } from "@phosphor-icons/react"
 import Image from "next/image"
+import { Fragment } from "react"
 import homeLogo from "../../../public/logo.svg"
 import perfilDani from "../../../public/perfilDani.svg"
 
@@ -8,191 +9,214 @@ export default function NavbarDropdownMenu() {
   return (
     <div className="flex justify-start items-start">
       <Menu as="div" className="relative">
-        {/* Menu Button */}
-        <Menu.Button className="inline-flex justify-center w-full rounded-md">
-          <Image src={homeLogo} width={300} height={300} alt="" />
-        </Menu.Button>
+        {({ open }) => (
+          <Fragment>
+            <Menu.Button className="inline-flex justify-center w-full rounded-md">
+              <Image src={homeLogo} width={200} height={200} alt="" />
+            </Menu.Button>
 
-        {/* Menu Items */}
-        <Transition>
-          <Menu.Items className="origin-top-left absolute left-0 w-56 rounded-md bg-black text-white">
-            <div className="flex-col justify-center items-center">
-              <Menu.Item>
-                {({ active }) => (
-                  <div
-                    className={`
+            {/* Menu Items */}
+            <Transition
+              show={open}
+              enter="transform transition duration-100 ease-in"
+              enterFrom="opacity-0 scale-95"
+              enterTo="opacity-100 scale-100"
+              leave="transform transition duration-75 ease-out"
+              leaveFrom="opacity-100 scale-100"
+              leaveTo="opacity-0 scale-95"
+            >
+              <Menu.Items className="origin-top-left absolute left-0 w-96 rounded-md bg-black text-white">
+                <div className="flex-col justify-center items-center">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                flex
+                py-2
+                justify-center
+                items-center                              
+                ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
+              `}
+                      >
+                        <a
+                          href="#aboutDaniele"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-12
+                          `}
+                        >
+                          <Image
+                            src={perfilDani}
+                            width={32}
+                            height={32}
+                            alt=""
+                            className="rounded-full"
+                          />
+                          Quem Sou Eu
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
                 flex
                 py-2
                 justify-evenly
                 items-center                
                 ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
               `}
-                  >
-                    <Image
-                      src={perfilDani}
-                      width={32}
-                      height={32}
-                      alt=""
-                      className="rounded-full"
-                    />
-                    <a
-                      href="#aboutDaniele"
-                      className={`
-                    flex
-                    items-center
-                    px-4
-                    py-2
-                    text-sm
-                  `}
-                    >
-                      Quem Sou Eu
-                    </a>
-                  </div>
-                )}
-              </Menu.Item>
-
-              <Menu.Item>
-                {({ active }) => (
-                  <div
-                    className={`
-                flex
-                py-2
-                justify-evenly
-                items-center                
-                ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
-              `}
-                  >
-                    <Handshake
-                      size={32}
-                      className={`${
-                        active ? "bg-indigo-500 text-white font-bold" : ""
-                      }`}
-                    />
-                    <a
-                      href="#aboutDaniele"
-                      className={`
-                    flex
-                    items-center
-                    px-4
-                    py-2
-                    text-sm
-                  `}
-                    >
-                      Abordagem
-                    </a>
-                  </div>
-                )}
-              </Menu.Item>
-
-              <Menu.Item>
-                {({ active }) => (
-                  <Menu.Items>
-                    <p
-                      className={`text-center hover:cursor-none hover:font-bold`}
-                    >
-                      Psicoterapia
-                    </p>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <div
+                      >
+                        <a
+                          href="#abordagem"
                           className={`
-                flex
-                py-4
-                justify-center
-                items-center
-                ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
-              `}
-                        >
-                          <Person size={32} weight="bold" />
-                          <a
-                            href="#"
-                            className={`
                     flex
                     items-center
                     px-4
                     py-2
                     text-sm
-                    hover:text-xl
-                    hover:font-bold
+                    gap-12
                   `}
-                          >
-                            Individual
-                          </a>
-                        </div>
-                      )}
-                    </Menu.Item>
-                  </Menu.Items>
-                )}
-              </Menu.Item>
+                        >
+                          <Handshake
+                            size={32}
+                            className={`${
+                              active ? "bg-indigo-500 text-white font-bold" : ""
+                            }`}
+                          />
+                          Abordagem
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
 
-              <Menu.Item>
-                {({ active }) => (
-                  <Menu.Items>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <div
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Menu.Items>
+                        <p
+                          className={`text-center hover:cursor-none hover:font-bold pt-8`}
+                        >
+                          Psicoterapia
+                        </p>
+                        <Menu.Item>
+                          {({ active }) => (
+                            <div
+                              className={`
+                                flex
+                                py-4
+                                justify-center
+                                items-center
+                                ${
+                                  active
+                                    ? "bg-indigo-500 text-white font-bold"
+                                    : "text-white"
+                                }
+                              `}
+                            >
+                              <a
+                                href="#psicoterapiaIndividual"
+                                className={`
+                                  flex
+                                  items-center
+                                  px-4
+                                  py-2
+                                  text-sm
+                                  gap-12
+                                  hover:font-bold
+                                `}
+                              >
+                                <Person size={32} weight="bold" />
+                                Individual
+                              </a>
+                            </div>
+                          )}
+                        </Menu.Item>
+                      </Menu.Items>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Menu.Items>
+                        <Menu.Item>
+                          {({ active }) => (
+                            <div
+                              className={`
+                                flex
+                                py-4
+                                justify-center
+                                items-center
+                                ${
+                                  active
+                                    ? "bg-indigo-500 text-white font-bold"
+                                    : "text-white"
+                                }
+                              `}
+                            >
+                              <a
+                                href="#psicoterapiaCasal"
+                                className={`
+                                  flex
+                                  items-center
+                                  px-4
+                                  py-2
+                                  text-sm
+                                  gap-12
+                                  hover:font-bold
+                                `}
+                              >
+                                <UsersThree size={32} weight="bold" />
+                                Casal
+                              </a>
+                            </div>
+                          )}
+                        </Menu.Item>
+                      </Menu.Items>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          py-2
+                          justify-center
+                          items-center
+                          ${
+                            active
+                              ? "bg-indigo-500 text-white font-bold"
+                              : "text-white"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#contato"
                           className={`
-                flex
-                py-4
-                justify-center
-                items-center
-                ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
-              `}
+                    flex
+                    items-center
+                    px-4
+                    py-2
+                    text-sm
+                    gap-12
+                    hover:font-bold
+                  `}
                         >
-                          <a
-                            href="#"
-                            className={`
-                    flex
-                    items-center
-                    px-4
-                    py-2
-                    text-sm
-                    hover:text-xl
-                    hover:font-bold
-                  `}
-                          >
-                            Casal
-                          </a>
-                          <UsersThree size={32} weight="bold" />
-                        </div>
-                      )}
-                    </Menu.Item>
-                  </Menu.Items>
-                )}
-              </Menu.Item>
+                          <Info size={32} />
+                          Contato
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
 
-              <Menu.Item>
-                {({ active }) => (
-                  <div
-                    className={`
-                flex
-                py-2
-                justify-center
-                items-center
-                ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
-              `}
-                  >
-                    <Info size={32} />
-                    <a
-                      href="#"
-                      className={`
-                    flex
-                    items-center
-                    px-4
-                    py-2
-                    text-sm
-                    hover:text-xl
-                    hover:font-bold
-                  `}
-                    >
-                      Contato
-                    </a>
-                  </div>
-                )}
-              </Menu.Item>
-
-              {/* Menu Item Desabilitado */}
-              {/* <Menu.Item disabled>
+                  {/* Menu Item Desabilitado */}
+                  {/* <Menu.Item disabled>
               {({ active, disabled }) => (
                 <div className="flex justify-evenly items-center">
                   <HandsClapping
@@ -220,9 +244,11 @@ export default function NavbarDropdownMenu() {
                 </div>
               )}
             </Menu.Item> */}
-            </div>
-          </Menu.Items>
-        </Transition>
+                </div>
+              </Menu.Items>
+            </Transition>
+          </Fragment>
+        )}
       </Menu>
     </div>
   )

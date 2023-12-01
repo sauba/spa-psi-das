@@ -30,12 +30,14 @@ export default function AboutDaniele() {
         <span
           className={`
             flex flex-col
-            sm:pt-64
-            md:pt-64
-            lg:pt-64
+            pt-4
+            pb-40
+            md:pt-48
+            lg:pt-56
             xl:pt-64
             
-            2xl:pt-48
+            2xl:pt-40
+            2xl:pb-80
 
             justify-center
             items-center
@@ -56,7 +58,13 @@ export default function AboutDaniele() {
           >
             Olá, eu sou
             <span
-              className={`font-allura text-3xl md:text-8xl animate-bounce-slow text-rose-500`}
+              className={`
+                font-allura
+                text-3xl
+                md:text-8xl
+                animate-bounce-slow
+                text-rose-500
+              `}
             >
               Daniele Andrade
             </span>
@@ -66,7 +74,6 @@ export default function AboutDaniele() {
           className={`
             px-8
             2xl:px-8
-            2xl:py-96
             2xl:text-3xl
             tracking-widest
             leading-loose
