@@ -10,7 +10,7 @@ export default function AbordagemHumanista() {
         bg-patient
         bg-cover
       `}
-      id="psicoterapiaCasal"
+      id="abordagem"
     >
       <div
         className={`text-center mt-96 xl:mt-0 bg-zinc-900 bg-opacity-90 sm:text-xs md:text-2xl xl:text-4xl tracking-widest font-Shadows-into-light-two`}
