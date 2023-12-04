@@ -31,13 +31,13 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                flex
-                py-2
-                mt-16
-                justify-center
-                items-center                              
-                ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
-              `}
+                          flex
+                          py-2
+                          mt-16
+                          justify-center
+                          items-center                              
+                          ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
+                        `}
                       >
                         <a
                           href="#aboutDaniele"
@@ -47,7 +47,7 @@ export default function NavbarDropdownMenu() {
                             px-4
                             py-2
                             text-sm
-                            gap-12
+                            gap-3
                           `}
                         >
                           <Image
@@ -67,29 +67,28 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                flex
-                py-2
-                justify-evenly
-                items-center                
-                ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
-              `}
+                          flex
+                          py-2
+                          justify-evenly
+                          items-center                
+                          ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
+                        `}
                       >
                         <a
                           href="#abordagem"
                           className={`
-                    flex
-                    items-center
-                    px-4
-                    py-2
-                    text-sm
-                    gap-12
-                  `}
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-3
+                          `}
                         >
                           <Handshake
                             size={32}
-                            className={`${
-                              active ? "bg-indigo-500 text-white font-bold" : ""
-                            }`}
+                            className={`${active ? "bg-indigo-500 text-white font-bold" : ""
+                              }`}
                           />
                           Abordagem
                         </a>
@@ -113,10 +112,9 @@ export default function NavbarDropdownMenu() {
                                 py-4
                                 justify-center
                                 items-center
-                                ${
-                                  active
-                                    ? "bg-indigo-500 text-white font-bold"
-                                    : "text-white"
+                                ${active
+                                  ? "bg-indigo-500 text-white font-bold"
+                                  : "text-white"
                                 }
                               `}
                             >
@@ -128,6 +126,7 @@ export default function NavbarDropdownMenu() {
                                   px-4
                                   py-2
                                   text-sm
+                                  gap-3
                                   hover:font-bold
                                 `}
                               >
@@ -152,10 +151,9 @@ export default function NavbarDropdownMenu() {
                                 py-4
                                 justify-center
                                 items-center
-                                ${
-                                  active
-                                    ? "bg-indigo-500 text-white font-bold"
-                                    : "text-white"
+                                ${active
+                                  ? "bg-indigo-500 text-white font-bold"
+                                  : "text-white"
                                 }
                               `}
                             >
@@ -167,7 +165,7 @@ export default function NavbarDropdownMenu() {
                                   px-4
                                   py-2
                                   text-sm
-                                  gap-12
+                                  gap-3
                                   hover:font-bold
                                 `}
                               >
@@ -189,24 +187,23 @@ export default function NavbarDropdownMenu() {
                           py-2
                           justify-center
                           items-center
-                          ${
-                            active
-                              ? "bg-indigo-500 text-white font-bold"
-                              : "text-white"
+                          ${active
+                            ? "bg-indigo-500 text-white font-bold"
+                            : "text-white"
                           }
                         `}
                       >
                         <a
                           href="#contato"
                           className={`
-                    flex
-                    items-center
-                    px-4
-                    py-2
-                    text-sm
-                    gap-12
-                    hover:font-bold
-                  `}
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:font-bold
+                          `}
                         >
                           <Info size={32} />
                           Contato
@@ -217,33 +214,33 @@ export default function NavbarDropdownMenu() {
 
                   {/* Menu Item Desabilitado */}
                   {/* <Menu.Item disabled>
-              {({ active, disabled }) => (
-                <div className="flex justify-evenly items-center">
-                  <HandsClapping
-                    size={32}
-                    className={`${
-                      disabled
-                        ? "text-gray-200"
-                        : active
-                        ? "text-white"
-                        : "text-gray-300"
-                    }`}
-                  />
-                  <a
-                    href="#"
-                    className={`flex items-center px-4 py-2 text-sm ${
-                      disabled
-                        ? "text-zinc-300"
-                        : active
-                        ? "bg-indigo-500 text-white"
-                        : "text-gray-700"
-                    }`}
-                  >
-                    Abordagem
-                  </a>
-                </div>
-              )}
-            </Menu.Item> */}
+                      {({ active, disabled }) => (
+                        <div className="flex justify-evenly items-center">
+                          <HandsClapping
+                            size={32}
+                            className={`${
+                              disabled
+                                ? "text-gray-200"
+                                : active
+                                ? "text-white"
+                                : "text-gray-300"
+                            }`}
+                          />
+                          <a
+                            href="#"
+                            className={`flex items-center px-4 py-2 text-sm ${
+                              disabled
+                                ? "text-zinc-300"
+                                : active
+                                ? "bg-indigo-500 text-white"
+                                : "text-gray-700"
+                            }`}
+                          >
+                            Abordagem
+                          </a>
+                        </div>
+                      )}
+                  </Menu.Item> */}
                 </div>
               </Menu.Items>
             </Transition>
