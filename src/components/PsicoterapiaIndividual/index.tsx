@@ -46,7 +46,6 @@ export default function PsicoterapiaIndividual() {
             2xl:text-4xl
             text-center
             tracking-widest
-            leading-10
           `}>
           A Psicoterapia Individual é um processo mediado por profissional especializado, tendo como base
           o conhecimento científico, os princípios e as técnicas da Psicologia.
