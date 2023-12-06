@@ -19,7 +19,9 @@ export default function PsicoterapiaCasal() {
           min-h-screen"
       >
         <p className={`
-            px-3
+            px-3            
+            pt-16
+            pb-80
             2xl:pr-4
             2xl:pt-32
             2xl:pb-64
