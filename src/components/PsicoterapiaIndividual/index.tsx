@@ -9,15 +9,14 @@ export default function PsicoterapiaIndividual() {
       text-zinc-300
         bg-patient-happy
         bg-cover
-        bg-no-repeat
       `}
       id="psicoterapiaIndividual"
     >
       <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
         <p className={`
             px-3
-            2xl:pt-96
-            2xl:pb-16
+            pt-96
+            pb-16
             2xl:text-8xl
             text-center
             font-bad-script
