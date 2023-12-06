@@ -48,19 +48,7 @@ export default function PsicoterapiaIndividual() {
         <p
           className={`text-justify px-6 xl:mb-80 pb-8 xl:pb-80 3xl:text-7xl 3xl:pt-96`}
         >
-          A psicoterapia individual é um processo mediado por profissional
-          especializado, tendo como base o conhecimento científico, os
-          princípios e as técnicas da Psicologia. Configura uma relação
-          profissional entre terapeuta e cliente, tratando-se de um processo
-          colaborativo e que objetiva a promoção de autoconhecimento do
-          paciente. Predominantemente, configura um compromisso semanal, com
-          sessões agendadas em dia e horário fixo, conforme disponibilidade do
-          cliente e da psicóloga, tendo duração de 45 minutos. A terapia é ainda
-          um espaço que promove escuta, acolhimento, psicoeducação,
-          desenvolvimento sistêmico (área pessoal, profissional, relacionamentos
-          e qualidade de vida), proporcionando melhor compreensão e gestão das
-          emoções, o que contribui, diretamente, para a saúde mental.
-        </p>
+A Psicoterapia Individual é um processo mediado por profissional especializado, tendo como base o conhecimento científico, os princípios e as técnicas da Psicologia. Na terapia, o paciente encontra um espaço de escuta, acolhimento, psicoeducação e desenvolvimento de sua saúde mental. Sendo esses aspectos desenvolvidos pela promoção do autoconhecimento, o qual, atua, na vida do indivíduo, trazendo melhor compreensão, vivência e gestão das emoções.        </p>
       </div>
     </div>
   )
