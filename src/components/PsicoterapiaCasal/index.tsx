@@ -25,11 +25,11 @@ export default function PsicoterapiaCasal() {
             2xl:pl-96
             2xl:text-right
             
-            xs:text-sm
-            sm:text-lg
-            md:text-2xl
-            lg:text-3xl              
-            xl:text-4xl
+            xs:text-xs
+            sm:text-sm
+            md:text-lg
+            lg:text-2xl              
+            xl:text-3xl
             2xl:text-8xl
             3xl:text-9xl
 
