@@ -35,7 +35,7 @@ export default function PsicoterapiaIndividual() {
 
         <p className={`
             px-3
-            2xl:text-3xl
+            2xl:text-4xl
             text-center
           `}>
           Sendo esses aspectos desenvolvidos pela promoção do autoconhecimento, o qual, atua, na vida do indivíduo,
