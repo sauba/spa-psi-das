@@ -8,33 +8,22 @@ export default function PsicoterapiaCasal() {
         min-h-screen
       text-zinc-300
         bg-patient-couple
-        bg-cover
+        bg-contain
+        bg-no-repeat
+        bg-left
+        rounded-full
       `}
-      id="abordagem"
+      id="psicoterapiaCasal"
     >
-      <div className="bg-zinc-900 bg-opacity-80 min-h-screen">
-        <span
+      <div className="bg-zinc-900 bg-opacity-10 min-h-screen">
+        <p
           className={`
-            flex
-            flex-col
-            justify-center
-            items-center
-            pt-4
-            pb-40
-            md:pt-48
-            lg:pt-56
-            xl:pt-64
-            2xl:pt-8
-            3xl:pt-16
-          `}
-        >
-          <p
-            className={`
-              text-justify
-              text-lg
               md:text-4xl
               xl:text-4xl
               2xl:pt-40
+              2xl:pl-96
+              2xl:ml-96
+              2xl:text-right
               2xl:text-6xl
               font-bad-script
               hover:cursor-none
@@ -42,32 +31,18 @@ export default function PsicoterapiaCasal() {
               items-center
               gap-3
             `}
-          >
-            Psicoterapia
-            <span
-              className={`
-                font-allura
-              text-rose-500
-                text-4xl
-                md:text-5xl
-                lg:text-6xl
-                xl:text-7xl
-                2xl:text-8xl
-                3xl:text-9xl
-
-              `}
-            >
-              Casal
-            </span>
-          </p>
-        </span>
+        >
+          Psicoterapia Casal
+        </p>
 
         <p className={`
             px-3
-            2xl:px-8
+            2xl:pl-80
+            2xl:ml-80
+            2xl:pr-12
             2xl:pt-32
-            2xl:text-3xl
-            text-center
+            2xl:text-4xl
+            text-left
             tracking-widest
             leading-10
           `}>
