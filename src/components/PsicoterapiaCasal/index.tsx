@@ -14,7 +14,7 @@ export default function PsicoterapiaCasal() {
       `}
       id="psicoterapiaCasal"
     >
-      <div className="bg-zinc-900 bg-opacity-5 min-h-screen">
+      <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
         <p
           className={`
             pt-40
@@ -47,12 +47,6 @@ export default function PsicoterapiaCasal() {
 
         <p className={`
             px-3
-
-            pl-80
-            ml-80
-            pr-12
-            pt-32
-
             2xl:pl-80
             2xl:ml-80
             2xl:pr-4
