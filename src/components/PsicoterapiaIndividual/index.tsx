@@ -19,9 +19,9 @@ export default function PsicoterapiaIndividual() {
           className={`
               xs:text-sm
               sm:text-lg
-              md:text-4xl
-              lg:text-5xl              
-              xl:text-6xl
+              md:text-3xl
+              lg:text-4xl              
+              xl:text-5xl
               2xl:pt-40
               2xl:pl-12
               2xl:text-left
