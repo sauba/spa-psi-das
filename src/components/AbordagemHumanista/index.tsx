@@ -20,9 +20,10 @@ export default function AbordagemHumanista() {
               md:text-4xl
               xl:text-4xl
 
-              pl-8
+              pl-4
               pt-10
               pb-80
+              2xl:pl-8
               2xl:pt-20
               2xl:text-6xl
               font-bad-script
