@@ -14,15 +14,19 @@ export default function PsicoterapiaIndividual() {
       `}
       id="psicoterapiaIndividual"
     >
-      <div className="bg-zinc-900 bg-opacity-30 min-h-screen">
+      <div className="bg-zinc-900 bg-opacity-5 min-h-screen">
         <p
           className={`
+              xs:text-sm
+              sm:text-lg
               md:text-4xl
-              xl:text-4xl
+              lg:text-5xl              
+              xl:text-6xl
               2xl:pt-40
               2xl:pl-12
               2xl:text-left
-              2xl:text-6xl
+              2xl:text-8xl
+              3xl:text-9xl
               font-bad-script
               hover:cursor-none
               flex
@@ -35,12 +39,12 @@ export default function PsicoterapiaIndividual() {
 
         <p className={`
             px-3
-            2xl:pr-96
-            2xl:mr-96
-            2xl:pl-12
+            2xl:pr-72
+            2xl:mr-72
+            2xl:pl-4
             2xl:pt-32
             2xl:text-4xl
-            text-left
+            text-center
             tracking-widest
             leading-10
           `}>
