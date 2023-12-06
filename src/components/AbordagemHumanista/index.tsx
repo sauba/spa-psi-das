@@ -15,7 +15,7 @@ export default function AbordagemHumanista() {
       <div className="bg-zinc-900 bg-opacity-80 min-h-screen">
         <p
           className={`
-              text-justify
+              text-center
               text-lg
               md:text-4xl
               xl:text-4xl
@@ -38,7 +38,7 @@ export default function AbordagemHumanista() {
             2xl:px-8
             2xl:pt-32
             2xl:text-3xl
-            text-center
+            text-left
             tracking-widest
             leading-6
           `}>
@@ -50,7 +50,7 @@ export default function AbordagemHumanista() {
             2xl:px-8
             2xl:pt-2
             2xl:text-3xl
-            text-center
+            text-left
             tracking-widest
             leading-6
           `}>
@@ -63,7 +63,7 @@ export default function AbordagemHumanista() {
             2xl:px-8
             2xl:pt-2
             2xl:text-3xl
-            text-center
+            text-left
             tracking-widest
             leading-6
           `}>
