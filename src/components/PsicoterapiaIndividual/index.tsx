@@ -15,8 +15,8 @@ export default function PsicoterapiaIndividual() {
       <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
         <p className={`
             px-3
-            pt-96
-            pb-16
+            pt-16
+            pb-80
             2xl:text-8xl
             text-center
             font-bad-script
