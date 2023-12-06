@@ -42,22 +42,7 @@ export default function AbordagemHumanista() {
               items-center
             `}
           >
-            Abordagem
-            <span
-              className={`
-                font-allura
-              text-rose-500
-                text-2xl
-                md:text-5xl
-                lg:text-6xl
-                xl:text-7xl
-                2xl:text-8xl
-                3xl:text-9xl
-
-              `}
-            >
-              Humanista Fenomenológica-existencial
-            </span>
+            Abordagem Humanista Fenomenológica-existencial
           </p>
         </span>
 
