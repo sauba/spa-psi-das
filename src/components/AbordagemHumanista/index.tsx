@@ -32,7 +32,7 @@ export default function AbordagemHumanista() {
               items-center
             `}
         >
-          Abordagem Humanista Fenomenológica-existencial
+          Abordagem Humanista
         </p>
 
         <p className={`
