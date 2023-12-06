@@ -13,38 +13,22 @@ export default function AbordagemHumanista() {
       id="abordagem"
     >
       <div className="bg-zinc-900 bg-opacity-80 min-h-screen">
-        <span
+        <p
           className={`
-            flex
-            flex-col
-            justify-center
-            items-center
-            pt-4
-            pb-40
-            md:pt-48
-            lg:pt-56
-            xl:pt-64
-            2xl:pt-8
-            3xl:pt-16
-          `}
-        >
-          <p
-            className={`
               text-justify
               text-lg
               md:text-4xl
               xl:text-4xl
-              2xl:pt-40
+              2xl:pt-20
               2xl:text-6xl
               font-bad-script
               hover:cursor-none
               flex
               items-center
             `}
-          >
-            Abordagem Humanista Fenomenológica-existencial
-          </p>
-        </span>
+        >
+          Abordagem Humanista Fenomenológica-existencial
+        </p>
 
         <p className={`
             px-3
