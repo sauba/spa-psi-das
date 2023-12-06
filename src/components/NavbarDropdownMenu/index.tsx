@@ -8,7 +8,7 @@ import perfilDani from "../../../public/perfilDani.svg"
 export default function NavbarDropdownMenu() {
   return (
     <div className="flex justify-start items-start">
-      <Menu as="div" className="relative w-full h-screen">
+      <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
             <Menu.Button className="inline-flex justify-center w-full rounded-md">
@@ -25,7 +25,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-56 rounded-md bg-black text-white">
+              <Menu.Items className="origin-top-left absolute left-0 xs:w-full xs:h-screen sm:w-full sm:h-screen w-56 rounded-md bg-black text-white">
                 <div className="flex-col justify-center items-center">
                   <Menu.Item>
                     {({ active }) => (
