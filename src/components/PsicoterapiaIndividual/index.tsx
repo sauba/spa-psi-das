@@ -17,10 +17,6 @@ export default function PsicoterapiaIndividual() {
       <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
         <p className={`
             px-3
-            2xl:pr-72
-            2xl:mr-72
-            2xl:pl-4
-            2xl:pt-32
             2xl:text-8xl
             text-center
             font-bad-script
@@ -30,10 +26,6 @@ export default function PsicoterapiaIndividual() {
 
         <p className={`
             px-3
-            2xl:pr-72
-            2xl:mr-72
-            2xl:pl-4
-            2xl:pt-32
             2xl:text-3xl
             text-center
           `}>
@@ -45,10 +37,6 @@ export default function PsicoterapiaIndividual() {
 
         <p className={`
             px-3
-            2xl:pr-72
-            2xl:mr-72
-            2xl:pl-4
-            2xl:pt-32
             2xl:text-3xl
             text-center
           `}>
