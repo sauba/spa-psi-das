@@ -68,22 +68,10 @@ export default function AbordagemHumanista() {
             text-right
           `}
         >
-          Na Psicologia existem diferentes linhas teóricas para abordagem, as
-          quais, direcionam o método de atuação do Psicólogo Clínico frente ao
-          seu Cliente. Eu escolho conduzir os processos tendo como apoio a
-          abordagem{" "}
-          <span className={`text-teal-600`}>
-            Humanista Fenomenológica-existencial
-          </span>
-          , partindo do pressuposto de que o ser humano tem uma tendência
-          atualizante, podendo se construir, a partir de sua história, com
-          liberdade, responsabilidade e escolha.Sendo assim, o processo de
-          terapia parte de uma conversa dialógica e não determinista, onde o
-          paciente traz o fenômeno e o profissional age como intermediador,
-          contribuindo na compreensão da questão trazida, ampliando sentidos,
-          promovendo ressignificações, a partir dos recursos que o indivíduo tem
-          e que pode desenvolver, construindo assim sua constante evolução.
-        </p>
+        
+Abordagem
+	Humanista Fenomenológica-existencial
+A abordagem é a linha teórica em que o profissional de psicologia apoia a condução de seu trabalho. A abordagem Humanista Fenomenológica-existencial, parte do pressuposto de que o ser humano tem uma tendência atualizante, podendo se construir, a partir de sua história, com liberdade, responsabilidade e escolha. Desta forma, não há um determinismo, mas sim, a consideração de que os fenômenos podem ser elaborados, a partir do autoconhecimento, trazendo ressignificações, e, com isso, a expansão das possibilidades do sujeito no mundo.        </p>
       </div>
     </div>
   )
