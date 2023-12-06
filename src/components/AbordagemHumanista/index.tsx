@@ -48,7 +48,7 @@ export default function AbordagemHumanista() {
         <p className={`
             px-3
             2xl:px-8
-            2xl:pt-32
+            2xl:pt-2
             2xl:text-3xl
             text-center
             tracking-widest
@@ -61,7 +61,7 @@ export default function AbordagemHumanista() {
         <p className={`
             px-3
             2xl:px-8
-            2xl:pt-32
+            2xl:pt-2
             2xl:text-3xl
             text-center
             tracking-widest
