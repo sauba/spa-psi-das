@@ -37,7 +37,7 @@ export default function NavbarDropdownMenu() {
                           sm:pt-64
                           justify-center
                           items-center                              
-                          ${active ? "bg-daniele-profile2 bg-cover text-white font-bold" : "text-white"}
+                          ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
                         `}
                       >
                         <a
