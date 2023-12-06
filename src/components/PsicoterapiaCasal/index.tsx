@@ -38,7 +38,7 @@ export default function PsicoterapiaCasal() {
             2xl:ml-80
             2xl:pr-4
             2xl:pt-32
-            2xl:text-4xl
+            2xl:text-3xl
             text-center
           `}>
           A Terapia de Casal atua acolhendo demandas afetivas e auxiliando na identificação das necessidades do casal,
