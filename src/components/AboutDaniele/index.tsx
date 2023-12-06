@@ -20,7 +20,7 @@ export default function AboutDaniele() {
             justify-center
             items-center
             
-            pt-4
+            pt-16
             pb-40
             md:pt-48
             lg:pt-56
