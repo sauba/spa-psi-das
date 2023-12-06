@@ -20,7 +20,7 @@ export default function AbordagemHumanista() {
               md:text-4xl
               xl:text-4xl
 
-              pl-4
+              pl-32
               pt-10
               pb-80
               2xl:pt-20
@@ -39,7 +39,7 @@ export default function AbordagemHumanista() {
             2xl:px-8
             2xl:pt-32
             2xl:text-3xl
-            text-left
+            text-center
             tracking-widest
             leading-6
           `}>
@@ -52,7 +52,7 @@ export default function AbordagemHumanista() {
             2xl:px-8
             2xl:pt-2
             2xl:text-3xl
-            text-left
+            text-center
             tracking-widest
             leading-6
           `}>
