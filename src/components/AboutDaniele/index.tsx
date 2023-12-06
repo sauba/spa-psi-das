@@ -66,6 +66,7 @@ export default function AboutDaniele() {
 
         <p className={`
             px-3
+            pt-8
             2xl:px-8
             2xl:pt-32
             2xl:text-3xl
