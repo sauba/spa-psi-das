@@ -82,7 +82,7 @@ export default function AboutDaniele() {
             px-3
             pt-8
             2xl:px-8
-            2xl:pt-32
+            2xl:pt-8
             2xl:text-3xl
             text-center
             tracking-widest
