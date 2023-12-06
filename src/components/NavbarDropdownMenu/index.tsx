@@ -33,7 +33,6 @@ export default function NavbarDropdownMenu() {
                         className={`
                           flex
                           py-2
-                          mt-16
                           justify-center
                           items-center                              
                           ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
@@ -169,8 +168,8 @@ export default function NavbarDropdownMenu() {
                                   hover:font-bold
                                 `}
                               >
-                                <UsersThree size={32} weight="bold" />
                                 Casal
+                                <UsersThree size={32} weight="bold" />
                               </a>
                             </div>
                           )}

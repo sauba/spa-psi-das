@@ -12,18 +12,7 @@ export default function AboutDaniele() {
       `}
       id="aboutDaniele"
     >
-      <div
-        className={`
-          h-screen
-          text-center
-        bg-zinc-900
-          bg-opacity-80
-          text-sm
-          xl:text-2xl
-          tracking-widest
-          font-Shadows-into-light-two
-        `}
-      >
+      <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
         <span
           className={`
             flex
@@ -36,20 +25,15 @@ export default function AboutDaniele() {
             md:pt-48
             lg:pt-56
             xl:pt-64
-            
             2xl:pt-8
-            
-
             3xl:pt-16
-
-
           `}
         >
           <p
             className={`
               text-justify
               text-lg
-
+              2xl:pt-40
               2xl:text-8xl
               md:text-4xl
               xl:text-4xl
@@ -80,47 +64,19 @@ export default function AboutDaniele() {
           </p>
         </span>
 
-        <div
-          className={`
-            flex-col
+        <p className={`
             px-3
-            
-            xs:pt-8
-            sm:pt-16
-            md:pt-32
-            lg:pt-40
-
             2xl:px-8
-            2xl:pt-20
-            2xl:text-3xl            
-            3xl:text-7xl
-            3xl:pt-96
-
-            text-justify
+            2xl:pt-32
+            2xl:text-3xl
+            text-center
             tracking-widest
-            leading-loose
-          `}
-        >
-          <p
-            className={`
-            xs:pt-8
-            sm:pt-32
-            md:pt-38
-            lg:pt-48
-
-            2xl:pt-48
-            2xl:pb-2
-
-            3xl:pt-96
-            3xl:pb-38       
+            leading-10
           `}>
-            Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
-            com Psicoterapia Individual e Terapia de Casal.
-            As sessões são online e conduzidas através da abordagem humanista fenomenológica-existencial.
-            Também sou Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
-            terapêuticas.
-          </p>
-        </div>
+          Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
+          com Psicoterapia Individual e Terapia de Casal. As sessões são online e conduzidas através da abordagem humanista fenomenológica-existencial. Também sou Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
+          terapêuticas.
+        </p>
       </div>
     </div>
   )

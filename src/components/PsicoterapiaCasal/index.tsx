@@ -2,55 +2,75 @@ export default function PsicoterapiaCasal() {
   return (
     <div
       className={`
-        w-full
+        flex
         flex-col
-        justify-center
-        items-center
-        text-zinc-300
-        bg-patient-couple
+        xl:flex
+        min-h-screen
+      text-zinc-300
+        bg-patient
         bg-cover
       `}
-      id="psicoterapiaCasal"
+      id="abordagem"
     >
-      <div
-        className={`
-          h-screen
-          text-center
-          mt-96
-          xl:mt-0
-
-          3xl:pt-96
-
-          bg-zinc-900
-          bg-opacity-90
-          sm:text-xs
-          md:text-2xl
-          tracking-widest
-          font-Shadows-into-light-two
-        `}
-      >
-        <h1
+      <div className="bg-zinc-900 bg-opacity-80 min-h-screen">
+        <span
           className={`
-            pr-32
-            text-right
-            text-2xl
-            xl:text-8xl
-
-            3xl:pt-80
-            3xl:mb-12
-            3xl:text-9xl
-
-            font-allura
-          text-rose-500
-            tracking-widest
+            flex
+            flex-col
+            justify-center
+            items-center
+            pt-4
+            pb-40
+            md:pt-48
+            lg:pt-56
+            xl:pt-64
+            2xl:pt-8
+            3xl:pt-16
           `}
         >
-          Psicoterapia Casal
-        </h1>
+          <p
+            className={`
+              text-justify
+              text-lg
+              md:text-4xl
+              xl:text-4xl
+              2xl:pt-40
+              2xl:text-6xl
+              font-bad-script
+              hover:cursor-none
+              flex
+              items-center
+              gap-3
+            `}
+          >
+            Psicoterapia
+            <span
+              className={`
+                font-allura
+              text-rose-500
+                text-4xl
+                md:text-5xl
+                lg:text-6xl
+                xl:text-7xl
+                2xl:text-8xl
+                3xl:text-9xl
 
-        <p
-          className={`text-justify px-6 xl:mb-80 pb-8 xl:pb-80 3xl:text-7xl 3xl:pt-80`}
-        >
+              `}
+            >
+              Casal
+            </span>
+          </p>
+        </span>
+
+        <p className={`
+            px-3
+            2xl:px-8
+            2xl:pt-32
+            2xl:text-3xl
+            text-center
+            tracking-widest
+            leading-10
+          `}>
           A Terapia de Casal atua acolhendo demandas afetivas e auxiliando na identificação das necessidades do casal,
           bem como na compreensão e resolução de conflitos.
           Pra isto, é fundamental o comprometimento das partes, a fim de desenvolver uma comunicação mais assertiva e
