@@ -21,7 +21,7 @@ export default function AboutDaniele() {
             items-center
             
             pt-16
-            pb-40
+            pb-32
             md:pt-48
             lg:pt-56
             xl:pt-64
