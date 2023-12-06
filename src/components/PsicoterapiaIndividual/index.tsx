@@ -7,7 +7,7 @@ export default function PsicoterapiaIndividual() {
         xl:flex
         min-h-screen
       text-zinc-300
-        bg-patient
+        bg-patient-happy
         bg-cover
       `}
       id="abordagem"

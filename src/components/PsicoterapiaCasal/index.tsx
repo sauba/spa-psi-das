@@ -7,7 +7,7 @@ export default function PsicoterapiaCasal() {
         xl:flex
         min-h-screen
       text-zinc-300
-        bg-patient
+        bg-patient-couple
         bg-cover
       `}
       id="abordagem"
