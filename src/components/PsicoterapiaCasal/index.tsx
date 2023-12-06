@@ -20,8 +20,6 @@ export default function PsicoterapiaCasal() {
       >
         <p className={`
             px-3
-            2xl:pl-80
-            2xl:ml-80
             2xl:pr-4
             2xl:pt-32
             2xl:text-8xl
@@ -33,8 +31,6 @@ export default function PsicoterapiaCasal() {
 
         <p className={`
             px-3
-            2xl:pl-80
-            2xl:ml-80
             2xl:pr-4
             2xl:pt-32
             2xl:text-3xl
@@ -45,8 +41,6 @@ export default function PsicoterapiaCasal() {
         </p>
         <p className={`
             px-3
-            2xl:pl-80
-            2xl:ml-80
             2xl:pr-4
             2xl:pt-32
             2xl:text-3xl
