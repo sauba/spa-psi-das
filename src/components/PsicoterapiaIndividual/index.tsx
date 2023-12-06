@@ -14,7 +14,7 @@ export default function PsicoterapiaIndividual() {
       `}
       id="psicoterapiaIndividual"
     >
-      <div className="bg-zinc-900 bg-opacity-5 min-h-screen">
+      <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
         <p className={`
             px-3
             2xl:pr-72
