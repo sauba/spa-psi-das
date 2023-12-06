@@ -34,7 +34,7 @@ export default function NavbarDropdownMenu() {
                           flex
                           py-2
                           xs:mt-32
-                          sm:mt-16
+                          sm:mt-32
                           justify-center
                           items-center                              
                           ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
