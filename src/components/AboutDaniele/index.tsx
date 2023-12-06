@@ -88,7 +88,7 @@ export default function AboutDaniele() {
             tracking-widest
             leading-6
           `}>
-          As sessões são online e conduzidas através da abordagem humanista fenomenológica-existencial. Também sou Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
+          Nossas sessões aconteceram no formato online agendadas previamente e conduzidas utilizando uma abordagem humanista fenomenológica-existencial. Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
           terapêuticas.
         </p>
       </div>
