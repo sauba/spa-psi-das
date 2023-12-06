@@ -22,6 +22,7 @@ export default function PsicoterapiaCasal() {
             px-3
             2xl:pr-4
             2xl:pt-32
+            2xl:pb-32
             text-8xl
             text-center
             font-bad-script
@@ -42,7 +43,7 @@ export default function PsicoterapiaCasal() {
         <p className={`
             px-3
             2xl:pr-4
-            2xl:pt-32
+            2xl:pt-8
             2xl:text-3xl
             text-center
           `}>
