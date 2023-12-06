@@ -8,7 +8,7 @@ export default function AbordagemHumanista() {
         min-h-screen
       text-zinc-300
         bg-patient
-        bg-cover
+        bg-fixed
       `}
       id="abordagem"
     >
