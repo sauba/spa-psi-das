@@ -22,7 +22,7 @@ export default function AbordagemHumanista() {
 
               pl-4
               pt-10
-              pb-80
+              pb-64
               2xl:pl-8
               2xl:pt-20
               2xl:text-6xl
