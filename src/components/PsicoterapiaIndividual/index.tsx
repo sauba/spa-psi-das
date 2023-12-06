@@ -10,7 +10,6 @@ export default function PsicoterapiaIndividual() {
         bg-patient-happy
         bg-cover
         bg-no-repeat
-        bg-right
       `}
       id="psicoterapiaIndividual"
     >

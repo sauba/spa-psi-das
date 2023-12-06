@@ -10,7 +10,6 @@ export default function PsicoterapiaCasal() {
         bg-patient-couple
         bg-cover
         bg-no-repeat
-        bg-left
       `}
       id="psicoterapiaCasal"
     >
