@@ -75,7 +75,20 @@ export default function AboutDaniele() {
             leading-6
           `}>
           Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
-          com Psicoterapia Individual e Terapia de Casal. As sessões são online e conduzidas através da abordagem humanista fenomenológica-existencial. Também sou Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
+          com Psicoterapia Individual e Terapia de Casal.
+        </p>
+
+        <p className={`
+            px-3
+            pt-8
+            2xl:px-8
+            2xl:pt-32
+            2xl:text-3xl
+            text-center
+            tracking-widest
+            leading-6
+          `}>
+          As sessões são online e conduzidas através da abordagem humanista fenomenológica-existencial. Também sou Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
           terapêuticas.
         </p>
       </div>
