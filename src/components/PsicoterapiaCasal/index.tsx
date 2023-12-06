@@ -16,7 +16,7 @@ export default function PsicoterapiaCasal() {
     >
       <div className="
           bg-zinc-900
-          bg-opacity-90
+          bg-opacity-5
           min-h-screen"
       >
         <p className={`
@@ -25,7 +25,7 @@ export default function PsicoterapiaCasal() {
             2xl:ml-80
             2xl:pr-4
             2xl:pt-32
-            2xl:text-4xl
+            2xl:text-8xl
             text-center
             font-bad-script
           `}>
@@ -50,7 +50,7 @@ export default function PsicoterapiaCasal() {
             2xl:ml-80
             2xl:pr-4
             2xl:pt-32
-            2xl:text-4xl
+            2xl:text-3xl
             text-center
           `}>
           Pra isto, é fundamental o comprometimento das partes, a fim de desenvolver uma comunicação mais assertiva e

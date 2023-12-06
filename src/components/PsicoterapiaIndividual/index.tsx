@@ -14,18 +14,17 @@ export default function PsicoterapiaIndividual() {
       `}
       id="psicoterapiaIndividual"
     >
-      <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
-        <p
-          className={`
-              2xl:pt-40
-              2xl:pl-12
-              2xl:text-left
-              2xl:text-8xl
-              3xl:text-9xl
-              font-bad-script
-              hover:cursor-none
-            `}
-        >
+      <div className="bg-zinc-900 bg-opacity-5 min-h-screen">
+        <p className={`
+            px-3
+            2xl:pr-72
+            2xl:mr-72
+            2xl:pl-4
+            2xl:pt-32
+            2xl:text-8xl
+            text-center
+            font-bad-script
+          `}>
           Psicoterapia Individual
         </p>
 
@@ -35,7 +34,7 @@ export default function PsicoterapiaIndividual() {
             2xl:mr-72
             2xl:pl-4
             2xl:pt-32
-            2xl:text-4xl
+            2xl:text-3xl
             text-center
           `}>
           A Psicoterapia Individual é um processo mediado por profissional especializado, tendo como base

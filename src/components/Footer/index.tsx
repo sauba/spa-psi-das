@@ -10,11 +10,11 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <footer
-      className={`w-full bg-black justify-center items-center text-center`}
-      id="footer"
+      className={`w-full bg-black justify-center items-center text-center min-h-screen`}
+      id="contato"
     >
       <div
-        className={`flex w-full justify-center items-center text-center text-sky-500/75 gap-10`}
+        className={`flex w-full justify-center items-center text-center text-sky-500/75 min-h-screen gap-10`}
       >
         <div className={`flex flex-col mt-4 font-pt-mono hover:cursor-none`}>
           <span
@@ -88,7 +88,7 @@ export default function Footer() {
       >
         <span className={`flex justify-center tracking-tighter`}>
           Developed by Thiago J. de Queiroz. Psicóloga Daniele Andrade
-          <TrademarkRegistered size={14} />
+          <TrademarkRegistered size={10} />
           2023 Todos os direitos reservados.
         </span>
       </div>
