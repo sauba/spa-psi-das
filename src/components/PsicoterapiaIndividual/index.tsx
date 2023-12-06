@@ -26,7 +26,7 @@ export default function PsicoterapiaIndividual() {
 
         <p className={`
             px-3
-            2xl:text-3xl
+            2xl:text-4xl
             text-center
           `}>
           Na terapia, o paciente encontra um espaço de escuta, acolhimento, psicoeducação e desenvolvimento
