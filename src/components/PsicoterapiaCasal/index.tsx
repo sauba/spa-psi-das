@@ -8,7 +8,7 @@ export default function PsicoterapiaCasal() {
         min-h-screen
       text-zinc-300
         bg-patient-couple
-        bg-contain
+        bg-cover
         bg-no-repeat
         bg-left
       `}
