@@ -27,6 +27,7 @@ export default function PsicoterapiaCasal() {
             2xl:pt-32
             2xl:text-4xl
             text-center
+            font-bad-script
           `}>
           Psicoterapia Casal
         </p>
