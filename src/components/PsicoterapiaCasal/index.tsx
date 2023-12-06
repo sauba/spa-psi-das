@@ -11,32 +11,45 @@ export default function PsicoterapiaCasal() {
         bg-contain
         bg-no-repeat
         bg-left
-        rounded-full
       `}
       id="psicoterapiaCasal"
     >
       <div className="bg-zinc-900 bg-opacity-10 min-h-screen">
         <p
           className={`
-              md:text-4xl
-              xl:text-4xl
-              2xl:pt-40
-              2xl:pl-96
-              2xl:ml-96
-              2xl:text-right
-              2xl:text-6xl
-              font-bad-script
-              hover:cursor-none
-              flex
-              items-center
-              gap-3
-            `}
+            pt-40
+            pl-96
+            ml-96
+            text-right
+            text-6xl
+
+            md:text-4xl
+            xl:text-4xl
+
+
+            2xl:pt-40
+            2xl:pl-96
+            2xl:ml-96
+            2xl:text-right
+            2xl:text-6xl
+            font-bad-script
+            hover:cursor-none
+            flex
+            items-center
+            gap-3
+          `}
         >
           Psicoterapia Casal
         </p>
 
         <p className={`
             px-3
+
+            pl-80
+            ml-80
+            pr-12
+            pt-32
+
             2xl:pl-80
             2xl:ml-80
             2xl:pr-12
@@ -44,7 +57,6 @@ export default function PsicoterapiaCasal() {
             2xl:text-4xl
             text-left
             tracking-widest
-            leading-10
           `}>
           A Terapia de Casal atua acolhendo demandas afetivas e auxiliando na identificação das necessidades do casal,
           bem como na compreensão e resolução de conflitos.

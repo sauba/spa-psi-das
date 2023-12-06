@@ -11,7 +11,6 @@ export default function PsicoterapiaIndividual() {
         bg-contain
         bg-no-repeat
         bg-right
-        rounded-full
       `}
       id="psicoterapiaIndividual"
     >
