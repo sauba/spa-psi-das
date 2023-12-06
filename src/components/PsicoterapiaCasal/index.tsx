@@ -17,10 +17,6 @@ export default function PsicoterapiaCasal() {
       <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
         <p
           className={`
-            pt-40
-            pl-96
-            ml-96
-            
             2xl:pt-16
             2xl:pl-96
             2xl:text-right
