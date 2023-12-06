@@ -68,10 +68,13 @@ export default function AbordagemHumanista() {
             text-right
           `}
         >
-        
-Abordagem
-	Humanista Fenomenológica-existencial
-A abordagem é a linha teórica em que o profissional de psicologia apoia a condução de seu trabalho. A abordagem Humanista Fenomenológica-existencial, parte do pressuposto de que o ser humano tem uma tendência atualizante, podendo se construir, a partir de sua história, com liberdade, responsabilidade e escolha. Desta forma, não há um determinismo, mas sim, a consideração de que os fenômenos podem ser elaborados, a partir do autoconhecimento, trazendo ressignificações, e, com isso, a expansão das possibilidades do sujeito no mundo.        </p>
+          A abordagem é a linha teórica em que o profissional de psicologia apoia a condução de seu trabalho.
+          A abordagem Humanista Fenomenológica-existencial, parte do pressuposto de que o ser humano tem uma tendência
+          atualizante, podendo se construir, a partir de sua história, com liberdade, responsabilidade e escolha.
+          Desta forma, não há um determinismo, mas sim, a consideração de que os fenômenos podem ser elaborados,
+          a partir do autoconhecimento, trazendo ressignificações, e, com isso, a expansão das possibilidades do sujeito
+          no mundo.
+        </p>
       </div>
     </div>
   )
