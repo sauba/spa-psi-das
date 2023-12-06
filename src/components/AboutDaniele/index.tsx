@@ -5,7 +5,7 @@ export default function AboutDaniele() {
         flex
         flex-col
         xl:flex
-        h-screen
+        h-fit
       text-zinc-300
         bg-daniele-profile2
         bg-cover
