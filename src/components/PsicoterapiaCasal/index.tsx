@@ -19,19 +19,15 @@ export default function PsicoterapiaCasal() {
           bg-opacity-90
           min-h-screen"
       >
-        <p
-          className={`
-            2xl:pt-16
-            2xl:pl-96
-            2xl:text-right
-            2xl:text-8xl
-            3xl:text-9xl
-            text-right
-            font-bad-script
-            hover:cursor-none
-            flex
-          `}
-        >
+        <p className={`
+            px-3
+            2xl:pl-80
+            2xl:ml-80
+            2xl:pr-4
+            2xl:pt-32
+            2xl:text-4xl
+            text-center
+          `}>
           Psicoterapia Casal
         </p>
 
