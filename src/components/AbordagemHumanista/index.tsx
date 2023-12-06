@@ -40,7 +40,6 @@ export default function AbordagemHumanista() {
               hover:cursor-none
               flex
               items-center
-              gap-3
             `}
           >
             Abordagem
