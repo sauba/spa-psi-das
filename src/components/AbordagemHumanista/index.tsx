@@ -6,13 +6,11 @@ export default function AbordagemHumanista() {
         flex-col
         xl:flex
         min-h-screen
-      text-zinc-300
-        bg-patient
-        bg-cover
+      text-zinc-900
       `}
       id="abordagem"
     >
-      <div className="bg-zinc-900 bg-opacity-80 min-h-screen">
+      <div className="min-h-screen">
         <p
           className={`
               text-center
