@@ -16,7 +16,7 @@ export default function About() {
       id="aboutDaniele"
     >
       <div className="w-4/12">
-        <Image src={imgProfile} width={500} height={500} className={`w-full m-auto rounded-xl`} priority alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={500} height={500} className={`w-full 2xl:h-1/2 m-auto rounded-xl`} priority alt="Psicologa Daniele Andrade" />
       </div>
 
       <div className="w-8/12">
