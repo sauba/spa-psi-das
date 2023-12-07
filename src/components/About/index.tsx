@@ -1,121 +1,91 @@
-import { Circle } from "@phosphor-icons/react"
-import Image from "next/image"
-import logo from "../../../public/logoBranca.svg"
+import Image from "next/image";
+import imgProfile from "../../../public/perfilDani2.svg"
 
 export default function About() {
   return (
-    <div>
-      <div
-        className={`flex flex-col text-rose-300 justify-center items-center`}
-        id="about"
-      >
-        <h1 className={`text-4xl pt-2`}>Leveza Para Viver</h1>
-        <h1 className={`text-2xl`}>Espaço de Evolução</h1>
-        <p className={`m-5 text-center`}>
-          Lorem ipsum dolor. Voluptatum similique repellat error id. Culpa illo,
-          minima perferendis quidem quia quaerat assumenda explicabo ex at iusto
-          possimus amet facilis dolore eius. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Voluptatum similique repellat error id.
-          Culpa illo, minima perferendis quidem quia quaerat assumenda explicabo
-          ex at iusto possimus amet facilis dolore eius. Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit. Voluptatum similique repellat
-          error id. Culpa illo, minima perferendis quidem quia quaerat assumenda
-          explicabo ex at iusto possimus amet facilis dolore eius. Lorem ipsum
-          dolor sit amet consectetur, adipisicing elit. Voluptatum similique
-          repellat error id. Culpa illo, minima perferendis quidem quia quaerat
-          assumenda explicabo ex at iusto possimus amet facilis dolore eius.
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
-          similique repellat error id. Culpa illo, minima perferendis quidem
-          quia quaerat assumenda explicabo ex at iusto possimus amet facilis
-          dolore eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Voluptatum similique repellat error id. Culpa illo, minima perferendis
-          quidem quia quaerat assumenda explicabo ex at iusto possimus amet
-          facilis dolore eius. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Voluptatum similique repellat error id. Culpa illo,
-          minima perferendis quidem quia quaerat assumenda explicabo ex at iusto
-          possimus amet facilis dolore eius. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Voluptatum similique repellat error id.
-          Culpa illo, minima perferendis quidem quia quaerat assumenda explicabo
-          ex at iusto possimus amet facilis dolore eius. Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit. Voluptatum similique repellat
-          error id. Culpa illo, minima perferendis quidem quia quaerat assumenda
-          explicabo ex at iusto possimus amet facilis dolore eius. Lorem ipsum
-          dolor sit amet consectetur, adipisicing elit. Voluptatum similique
-          repellat error id. Culpa illo, minima perferendis quidem quia quaerat
-          assumenda explicabo ex at iusto possimus amet facilis dolore eius.
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
-          similique repellat error id. Culpa illo, minima perferendis quidem
-          quia quaerat assumenda explicabo ex at iusto possimus amet facilis
-          dolore eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Voluptatum similique repellat error id. Culpa illo, minima perferendis
-          quidem quia quaerat assumenda explicabo ex at iusto possimus amet
-          facilis dolore eius.
-        </p>
+    <div
+      className={`
+        flex
+        xl:flex
+      text-zinc-900  
+      `}
+      id="aboutDaniele"
+    >
+      <div className="w-4/12">
+        <Image src={imgProfile} width={500} height={500} className={`w-full m-auto rounded-xl`} alt="Psicologa Daniele Andrade" />
       </div>
 
-      <div
-        className={`grid grid-wrap lg:grid-cols-2 p-10 gap-3 justify-center items-center cursor-none`}
-        id="about"
-      >
-        <div
-          className={`text-zinc-100 text-center bg-gradient-to-br from-rose-500 hover:bg-rose-400/80 hover:cursor-pointer rounded-3xl py-6 hover:py-16`}
+      <div className="w-8/12">
+        <span
+          className={`
+            flex
+            flex-col
+            justify-center
+            items-center
+          `}
         >
-          <h1 className={`text-4xl font-gothamrounded-book`}>Nossa Missão</h1>
-          <p className={`mt-4 font-snowdrop-regular`}>
-            CONTRIBUIR NO PROCESSO DE AUTOCONHECIMENTO DE PESSOAS QUE BUSCAM POR
-            EVOLUÇÃO.
+          <p
+            className={`
+              text-justify
+              text-lg
+              2xl:pt-40
+              2xl:text-8xl
+              md:text-4xl
+              xl:text-4xl
+              font-bad-script
+              hover:cursor-none
+              flex
+              items-center
+              gap-3
+            `}
+          >
+            Olá, eu sou
+            <span
+              className={`
+                font-allura
+                animate-bounce-slow
+              text-rose-500
+                text-4xl
+                md:text-5xl
+                lg:text-6xl
+                xl:text-7xl
+                2xl:text-8xl
+                3xl:text-9xl
+
+              `}
+            >
+              Daniele Andrade
+            </span>
           </p>
-        </div>
+        </span>
 
-        <div
-          className={`text-zinc-100 text-center bg-gradient-to-bl from-rose-500 hover:bg-rose-400/80 hover:cursor-pointer rounded-3xl py-4 hover:py-16`}
-        >
-          <h1 className={`text-4xl font-gothamrounded-book`}>Nossa Crença</h1>
-          <p className={`mt-4 font-snowdrop-regular`}>
-            ACREDITAMOS QUE O AUTOCONHECIMENTO É A CHAVE PARA UMA TRANSFORMAÇÃO
-            PROFUNDA E SISTÊMICA, TENDO COMO RESULTADO O DESENVOLVIMENTO
-            PESSOAL.
-          </p>
-        </div>
+        <p className={`
+            px-3
+            pt-8
+            2xl:px-8
+            2xl:pt-32
+            2xl:text-3xl
+            text-center
+            tracking-widest
+            leading-6
+          `}>
+          Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
+          com Psicoterapia Individual e Terapia de Casal.
+        </p>
 
-        <div
-          className={`text-zinc-100 text-center bg-gradient-to-tr from-rose-500 hover:bg-rose-400/80 hover:cursor-pointer py-6 hover:py-16 rounded-3xl`}
-        >
-          <h1 className={`text-4xl font-gothamrounded-book`}>Nossos Valores</h1>
-          <ol className={`flex flex-col justify-center items-center my-4`}>
-            <li className="flex gap-3">
-              <span className={`flex items-center gap-1`}>
-                <Circle size={8} weight="fill" /> CRESCIMENTO CONTÍNUO
-              </span>
-            </li>
-            <li className={`flex gap-3`}>
-              <span className={`flex items-center gap-1`}>
-                <Circle size={8} weight="fill" /> CONFIANÇA
-              </span>
-              <span className={`flex items-center gap-1`}>
-                <Circle size={8} weight="fill" /> ÉTICA
-              </span>
-            </li>
-            <li>
-              <span className={`flex items-center gap-1`}>
-                <Circle size={8} weight="fill" /> RESPEITO
-              </span>
-            </li>
-          </ol>
-        </div>
-
-        <div
-          className={`text-zinc-100 text-center bg-gradient-to-tl from-rose-500 hover:bg-rose-400/80 hover:cursor-pointer py-4 hover:py-16 rounded-3xl`}
-        >
-          <h1 className={`text-4xl font-gothamrounded-book`}>Nosso Lema</h1>
-          <Image
-            src={logo}
-            width={200}
-            height={200}
-            alt="pessoa meditando sobre um galho com duas folhas em cada ponta"
-            className={`mx-auto`}
-          />
-        </div>
+        <p className={`
+            px-3
+            pt-8
+            2xl:px-8
+            2xl:pt-8
+            2xl:text-3xl
+            text-center
+            tracking-widest
+            leading-6
+          `}>
+          Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
+          terapêuticas.
+        </p>
       </div>
     </div>
   )

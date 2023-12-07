@@ -1,5 +1,5 @@
 import AbordagemHumanista from "@/components/AbordagemHumanista"
-import AboutDaniele from "@/components/AboutDaniele"
+import About from "@/components/About"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import PsicoterapiaCasal from "@/components/PsicoterapiaCasal"
@@ -21,11 +21,11 @@ export default function Home() {
       min-h-screen
       items-center
       justify-between
-      bg-black
+      bg-stone-400
       `}
     >
       <Header />
-      <AboutDaniele />
+      <About />
       <AbordagemHumanista />
       <PsicoterapiaIndividual />
       <PsicoterapiaCasal />
