@@ -1,5 +1,5 @@
 import Image from "next/image";
-import imgProfile from "../../../public/perfilDani2.svg"
+import imgProfile from "../../../public/perfilDani2.svg";
 
 export default function About() {
   return (
@@ -12,7 +12,7 @@ export default function About() {
       id="aboutDaniele"
     >
       <div className="w-4/12">
-        <Image src={imgProfile} width={500} height={500} className={`w-full m-auto rounded-xl`} alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={500} height={500} className={`w-full m-auto rounded-xl`} priority alt="Psicologa Daniele Andrade" />
       </div>
 
       <div className="w-8/12">
