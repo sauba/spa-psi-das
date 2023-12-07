@@ -21,7 +21,9 @@ export default function Home() {
       min-h-screen
       items-center
       justify-between
-      bg-stone-400
+      bg-gradient-to-bl
+      from-stone-600
+      to-red-50
       `}
     >
       <Header />

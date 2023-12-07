@@ -16,11 +16,11 @@ export default function About() {
       `}
       id="aboutDaniele"
     >
-      <div className="">
+      <div>
         <Image src={imgProfile} width={400} height={400} className={`rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
       </div>
 
-      <div className="">
+      <div>
         <span
           className={`
             flex
@@ -65,29 +65,14 @@ export default function About() {
 
         <p className={`
             px-3
-            pt-8
             2xl:px-8
-            2xl:pt-32
             2xl:text-3xl
             text-center
             tracking-widest
             leading-6
           `}>
           Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
-          com Psicoterapia Individual e Terapia de Casal.
-        </p>
-
-        <p className={`
-            px-3
-            pt-8
-            2xl:px-8
-            2xl:pt-8
-            2xl:text-3xl
-            text-center
-            tracking-widest
-            leading-6
-          `}>
-          Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
+          com Psicoterapia Individual e Terapia de Casal. Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
           terapêuticas.
         </p>
       </div>
