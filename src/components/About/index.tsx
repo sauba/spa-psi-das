@@ -5,21 +5,20 @@ export default function About() {
   return (
     <div
       className={`
-        flex
-        lg:flex-col
-        xl:flex
+        flex-col
         2xl:flex
+        mx-auto
         justify-center
         items-center
       text-zinc-900  
       `}
       id="aboutDaniele"
     >
-      <div className="w-4/12">
-        <Image src={imgProfile} width={500} height={500} className={`w-full 2xl:h-1/2 m-auto rounded-xl`} priority alt="Psicologa Daniele Andrade" />
+      <div className="">
+        <Image src={imgProfile} width={500} height={500} className={`rounded-xl`} priority alt="Psicologa Daniele Andrade" />
       </div>
 
-      <div className="w-8/12">
+      <div className="">
         <span
           className={`
             flex
@@ -32,7 +31,6 @@ export default function About() {
             className={`
               text-justify
               text-lg
-              2xl:pt-40
               2xl:text-8xl
               md:text-4xl
               xl:text-4xl
