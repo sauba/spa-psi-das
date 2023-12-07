@@ -8,6 +8,9 @@ export default function About() {
         flex
         lg:flex-col
         xl:flex
+        2xl:flex
+        justify-center
+        items-center
       text-zinc-900  
       `}
       id="aboutDaniele"
