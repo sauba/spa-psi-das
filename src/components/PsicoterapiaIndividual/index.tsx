@@ -6,13 +6,11 @@ export default function PsicoterapiaIndividual() {
         flex-col
         xl:flex
         min-h-screen
-      text-zinc-300
-        bg-patient-happy
-        bg-cover
+      text-zinc-900
       `}
       id="psicoterapiaIndividual"
     >
-      <div className="bg-zinc-900 bg-opacity-90 min-h-screen">
+      <div className="min-h-screen">
         <p className={`
             px-3
             pt-16

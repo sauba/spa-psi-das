@@ -6,17 +6,13 @@ export default function PsicoterapiaCasal() {
         flex-col
         xl:flex
         min-h-screen
-      text-zinc-300
-        bg-patient-couple
-        bg-cover
-        bg-no-repeat
+      text-zinc-900
       `}
       id="psicoterapiaCasal"
     >
       <div className="
-          bg-zinc-900
-          bg-opacity-90
-          min-h-screen"
+          min-h-screen
+        "
       >
         <p className={`
             px-3            
