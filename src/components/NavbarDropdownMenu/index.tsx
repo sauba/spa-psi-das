@@ -7,7 +7,7 @@ import perfilDani from "../../../public/perfilDani.svg"
 export default function NavbarDropdownMenu() {
   return (
     <div className="flex justify-start items-start">
-      <Menu as="div" className="relative">
+      <Menu as="div" className="fixed">
         {({ open }) => (
           <Fragment>
             <Menu.Button className="inline-flex justify-center rounded-md">
