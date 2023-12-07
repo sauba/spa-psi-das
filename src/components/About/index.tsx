@@ -9,6 +9,7 @@ export default function About() {
         flex
         flex-col
         mx-auto
+        min-h-screen
         justify-center
         items-center
       text-zinc-900  
