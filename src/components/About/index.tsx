@@ -5,8 +5,9 @@ export default function About() {
   return (
     <div
       className={`
+        w-full
+        flex
         flex-col
-        2xl:flex
         mx-auto
         justify-center
         items-center
@@ -15,7 +16,7 @@ export default function About() {
       id="aboutDaniele"
     >
       <div className="">
-        <Image src={imgProfile} width={500} height={500} className={`rounded-xl`} priority alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={400} height={400} className={`rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
       </div>
 
       <div className="">

@@ -1,5 +1,5 @@
 import { Menu, Transition } from "@headlessui/react"
-import { Handshake, Info, List, Person, UsersThree } from "@phosphor-icons/react"
+import { Handshake, HouseLine, Info, Person, UsersThree } from "@phosphor-icons/react"
 import Image from "next/image"
 import { Fragment } from "react"
 import perfilDani from "../../../public/perfilDani.svg"
@@ -11,7 +11,7 @@ export default function NavbarDropdownMenu() {
         {({ open }) => (
           <Fragment>
             <Menu.Button className="inline-flex justify-center rounded-md">
-              <List size={64} weight="fill" color="white" className={`py-4`} />
+              <HouseLine size={64} weight="fill" className={`py-4`} />
             </Menu.Button>
 
             {/* Menu Items */}
@@ -53,6 +53,7 @@ export default function NavbarDropdownMenu() {
                             height={32}
                             alt=""
                             className="rounded-full"
+                            priority
                           />
                           Quem Sou Eu
                         </a>
