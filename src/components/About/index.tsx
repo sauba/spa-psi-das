@@ -6,6 +6,7 @@ export default function About() {
     <div
       className={`
         flex
+        lg:flex-col
         xl:flex
       text-zinc-900  
       `}
