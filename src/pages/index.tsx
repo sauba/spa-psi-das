@@ -22,7 +22,7 @@ export default function Home() {
       items-center
       justify-between
       bg-gradient-to-bl
-      from-stone-600
+      from-stone-400
       to-red-50
       `}
     >
