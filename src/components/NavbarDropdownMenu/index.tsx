@@ -50,8 +50,8 @@ export default function NavbarDropdownMenu() {
                         >
                           <Image
                             src={perfilDani}
-                            width={32}
-                            height={32}
+                            width={24}
+                            height={24}
                             alt=""
                             className="rounded-full"
                             priority
