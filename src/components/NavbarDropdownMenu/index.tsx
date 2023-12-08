@@ -33,7 +33,7 @@ export default function NavbarDropdownMenu() {
                           flex
                           justify-center
                           items-center                              
-                          ${active ? "bg-amber-950 text-red-50 font-bold" : "text-white"}
+                          ${active ? "bg-amber-950 text-red-50 text-2xl font-bold" : "text-white"}
                         `}
                       >
                         <a
@@ -70,7 +70,7 @@ export default function NavbarDropdownMenu() {
                           py-2
                           justify-evenly
                           items-center                
-                          ${active ? "bg-amber-950 text-red-50 font-bold" : "text-white"}
+                          ${active ? "bg-amber-950 text-red-50 text-2xl font-bold" : "text-white"}
                         `}
                       >
                         <a
@@ -87,7 +87,7 @@ export default function NavbarDropdownMenu() {
                         >
                           <Handshake
                             size={32}
-                            className={`${active ? "bg-amber-950 text-red-50 font-bold" : ""
+                            className={`${active ? "bg-amber-950 text-red-50 text-2xl font-bold" : ""
                               }`}
                           />
                           Abordagem
@@ -113,7 +113,7 @@ export default function NavbarDropdownMenu() {
                                 justify-center
                                 items-center
                                 ${active
-                                  ? "bg-amber-950 text-red-50 font-bold"
+                                  ? "bg-amber-950 text-red-50 text-2xl font-bold"
                                   : "text-white"
                                 }
                               `}
@@ -190,7 +190,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-amber-950 text-red-50 font-bold"
+                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
                             : "text-white"
                           }
                         `}
