@@ -34,12 +34,12 @@ export default function About() {
             `}
         >
           Olá, eu sou
-          <span className={`font-allura animate-bounce-slow text-4xl`}> Daniele Andrade</span>
+          <span className={`font-allura animate-bounce-slow text-4xl`}>Daniele Andrade</span>
         </p>
       </span>
 
-      <div>
-        <Image src={imgProfile} width={400} height={400} className={`pb-4 rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
+      <div className={`w-full`}>
+        <Image src={imgProfile} width={400} height={400} className={`pb-4 w-8/12 rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
       </div>
       <p className={`
             px-3
@@ -50,7 +50,6 @@ export default function About() {
             text-2xl
             tracking-widest
             leading-6
-            font-bad-script
           `}>
         Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
         com Psicoterapia Individual e Terapia de Casal. Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
