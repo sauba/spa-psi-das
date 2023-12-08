@@ -17,7 +17,7 @@ export default function About() {
       id="aboutDaniele"
     >
       <div>
-        <Image src={imgProfile} width={400} height={400} className={`pb-2 rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={400} height={400} className={`pb-4 rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
       </div>
 
       <div>
@@ -32,7 +32,7 @@ export default function About() {
           <p
             className={`
               text-justify
-              text-4xl
+              text-lg
               2xl:text-8xl
               md:text-4xl
               xl:text-4xl
@@ -40,7 +40,7 @@ export default function About() {
               hover:cursor-none
               flex
               items-center
-              gap-2
+              gap-3
             `}
           >
             Olá, eu sou
@@ -64,8 +64,7 @@ export default function About() {
         </span>
 
         <p className={`
-            px-2
-            pt-4
+            px-3
             2xl:px-8
             2xl:pt-12
             2xl:text-3xl
