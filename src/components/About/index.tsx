@@ -17,7 +17,7 @@ export default function About() {
       id="aboutDaniele"
     >
       <div>
-        <Image src={imgProfile} width={120} height={120} className={`pb-12 rounded-tl-full rounded-br-full animate-surf-snap-right`} priority alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={300} height={300} className={`pb-12 rounded-tl-full rounded-br-full animate-surf-snap-right`} priority alt="Psicologa Daniele Andrade" />
       </div>
 
       <div>
