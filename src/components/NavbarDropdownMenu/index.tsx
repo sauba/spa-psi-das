@@ -31,6 +31,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
+                          fixed
                           justify-center
                           items-center                              
                           ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
