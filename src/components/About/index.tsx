@@ -16,21 +16,16 @@ export default function About() {
       `}
       id="aboutDaniele"
     >
-      <div>
-        <Image src={imgProfile} width={400} height={400} className={`pb-4 rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
-      </div>
-
-      <div>
-        <span
-          className={`
+      <span
+        className={`
             flex
             flex-col
             justify-center
             items-center
           `}
-        >
-          <p
-            className={`
+      >
+        <p
+          className={`
               text-justify
               text-lg
               2xl:text-8xl
@@ -42,10 +37,10 @@ export default function About() {
               items-center
               gap-3
             `}
-          >
-            Olá, eu sou
-            <span
-              className={`
+        >
+          Olá, eu sou
+          <span
+            className={`
                 font-allura
                 animate-bounce-slow
               text-rose-500
@@ -57,13 +52,16 @@ export default function About() {
                 3xl:text-9xl
 
               `}
-            >
-              Daniele Andrade
-            </span>
-          </p>
-        </span>
+          >
+            Daniele Andrade
+          </span>
+        </p>
+      </span>
 
-        <p className={`
+      <div>
+        <Image src={imgProfile} width={400} height={400} className={`pb-4 rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
+      </div>
+      <p className={`
             px-3
             2xl:px-8
             2xl:pt-12
@@ -73,11 +71,10 @@ export default function About() {
             tracking-widest
             leading-6
           `}>
-          Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
-          com Psicoterapia Individual e Terapia de Casal. Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
-          terapêuticas.
-        </p>
-      </div>
+        Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
+        com Psicoterapia Individual e Terapia de Casal. Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
+        terapêuticas.
+      </p>
     </div>
   )
 }
