@@ -88,8 +88,7 @@ export default function NavbarDropdownMenu() {
                         >
                           <Handshake
                             size={32}
-                            className={`${active ? "bg-amber-950 text-red-50 text-2xl font-bold" : ""
-   amber-950                      }`}
+                            className={`${active ? "bg-amber-950 text-red-50 text-2xl font-bold" : "text-amber-950"}`}
                           />
                           Abordagem
                         </a>
@@ -115,7 +114,7 @@ export default function NavbarDropdownMenu() {
                                 items-center
                                 ${active
                                   ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                                  : "text-white"
+                                  : "text-amber-950"
                                 }
                               `}
                             >
@@ -154,8 +153,8 @@ export default function NavbarDropdownMenu() {
                                 justify-center
                                 items-center
                                 ${active
-                                  ? "bg-amber-950 text-red-50 text-white font-bold"
-                                  : "text-white"
+                                  ? "bg-amber-950 text-red-50 font-bold"
+                                  : "text-amber-950"
                                 }
                               `}
                             >
@@ -192,7 +191,7 @@ export default function NavbarDropdownMenu() {
                           items-center
                           ${active
                             ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                            : "text-white"
+                            : "text-amber-950"
                           }
                         `}
                       >
@@ -226,7 +225,7 @@ export default function NavbarDropdownMenu() {
                               disabled
                                 ? "text-gray-200"
                                 : active
-                                ? "text-white"
+                                ? "text-amber-950"
                                 : "text-gray-300"
                             }`}
                           />
