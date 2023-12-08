@@ -1,3 +1,6 @@
+import Image from "next/image"
+import imgClient from "../../../public/coupleTalking.svg"
+
 export default function PsicoterapiaCasal() {
   return (
     <div
@@ -13,7 +16,7 @@ export default function PsicoterapiaCasal() {
       <p className={`
             px-3            
             pt-16
-            pb-16
+            pb-4
             2xl:pr-4
             2xl:pt-32
             2xl:pb-80
@@ -25,24 +28,18 @@ export default function PsicoterapiaCasal() {
         Psicoterapia Casal
       </p>
 
+      <Image src={imgClient} width={300} height={300} className={`w-full`} alt="" />
+
       <p className={`
             px-3
             2xl:pr-4
             2xl:pt-32
             2xl:text-3xl
             text-center
+            text-2xl
           `}>
         A Terapia de Casal atua acolhendo demandas afetivas e auxiliando na identificação das necessidades do casal,
-        bem como na compreensão e resolução de conflitos.
-      </p>
-      <p className={`
-            px-3
-            2xl:pr-4
-            2xl:pt-8
-            2xl:text-3xl
-            text-center
-          `}>
-        Pra isto, é fundamental o comprometimento das partes, a fim de desenvolver uma comunicação mais assertiva e
+        bem como na compreensão e resolução de conflitos. Pra isto, é fundamental o comprometimento das partes, a fim de desenvolver uma comunicação mais assertiva e
         reflexiva, ampliar o conhecimento de cada um sobre sua personalidade e a do outro, o que pode fortalecer
         o vínculo e refletir positivamente na convivência.
       </p>
