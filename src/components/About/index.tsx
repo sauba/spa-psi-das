@@ -39,7 +39,7 @@ export default function About() {
       </span>
 
       <div className={`w-full`}>
-        <Image src={imgProfile} width={400} height={400} className={`pb-4 w-8/12 mx-auto rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={400} height={400} className={`pb-4 w-4/12 mx-auto rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
       </div>
       <p className={`
             px-3
