@@ -1,3 +1,6 @@
+import Image from "next/image"
+import imgClient from "../../../public/psicoteraphySessionWithClient.svg"
+
 export default function PsicoterapiaIndividual() {
   return (
     <div
@@ -5,14 +8,14 @@ export default function PsicoterapiaIndividual() {
         flex
         flex-col
         min-h-screen
-      text-zinc-900
+      text-amber-700
       `}
       id="psicoterapiaIndividual"
     >
       <p className={`
             px-3
             pt-16
-            pb-80
+            pb-4
             2xl:text-8xl
             text-4xl
             text-center
@@ -20,22 +23,15 @@ export default function PsicoterapiaIndividual() {
           `}>
         Psicoterapia Individual
       </p>
+      <Image src={imgClient} width={300} height={300} className={`w-full`} alt="" />
 
       <p className={`
-            px-3
+            px-2
             2xl:text-4xl
             text-center
           `}>
         Na terapia, o paciente encontra um espaço de escuta, acolhimento, psicoeducação e desenvolvimento
-        de sua saúde mental.
-      </p>
-
-      <p className={`
-            px-3
-            2xl:text-4xl
-            text-center
-          `}>
-        Sendo esses aspectos desenvolvidos pela promoção do autoconhecimento, o qual, atua, na vida do indivíduo,
+        de sua saúde mental. Sendo esses aspectos desenvolvidos pela promoção do autoconhecimento, o qual, atua, na vida do indivíduo,
         trazendo melhor compreensão, vivência e gestão das emoções.
       </p>
     </div>

@@ -6,7 +6,7 @@ export default function PsicoterapiaCasal() {
         flex-col
         xl:flex
         min-h-screen
-      text-zinc-900
+      text-amber-700
       `}
       id="psicoterapiaCasal"
     >
