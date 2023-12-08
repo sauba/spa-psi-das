@@ -41,7 +41,6 @@ export default function About() {
             className={`
                 font-allura
                 animate-bounce-slow
-              text-rose-500
                 text-4xl
                 md:text-5xl
                 lg:text-6xl
