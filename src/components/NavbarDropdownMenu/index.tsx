@@ -33,7 +33,7 @@ export default function NavbarDropdownMenu() {
                           flex
                           justify-center
                           items-center                              
-                          ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
+                          ${active ? "bg-indigo-500 text-amber-950 font-bold" : "text-white"}
                         `}
                       >
                         <a
@@ -70,7 +70,7 @@ export default function NavbarDropdownMenu() {
                           py-2
                           justify-evenly
                           items-center                
-                          ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
+                          ${active ? "bg-indigo-500 text-amber-950 font-bold" : "text-white"}
                         `}
                       >
                         <a
@@ -87,7 +87,7 @@ export default function NavbarDropdownMenu() {
                         >
                           <Handshake
                             size={32}
-                            className={`${active ? "bg-indigo-500 text-white font-bold" : ""
+                            className={`${active ? "bg-indigo-500 text-amber-950 font-bold" : ""
                               }`}
                           />
                           Abordagem
@@ -113,7 +113,7 @@ export default function NavbarDropdownMenu() {
                                 justify-center
                                 items-center
                                 ${active
-                                  ? "bg-indigo-500 text-white font-bold"
+                                  ? "bg-indigo-500 text-amber-950 font-bold"
                                   : "text-white"
                                 }
                               `}
