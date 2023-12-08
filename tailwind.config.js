@@ -74,8 +74,8 @@ module.exports = {
         }
         ,
         'surf-snap-right': {
-          '0%, 100%': { transform: 'rotate(0deg)'},
-          '50%': { transform: 'rotate(-180deg)' },
+          '0%, 100%': { transform: 'rotate(0deg)', opacity: 1},
+          '50%': { transform: 'rotate(-3deg)', opacity: .5 },
         },
         'surf-inverted': {
           '0%, 100%': { transform: 'rotateY(-360deg)' },

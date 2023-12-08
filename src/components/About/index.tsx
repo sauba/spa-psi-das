@@ -10,14 +10,14 @@ export default function About() {
         flex-col
         mx-auto
         min-h-screen
-        justify-center
+        justify-start
         items-center
-      text-zinc-900  
+      text-zinc-900 
       `}
       id="aboutDaniele"
     >
       <div>
-        <Image src={imgProfile} width={400} height={400} className={`rounded-tl-full rounded-br-full`} priority alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={300} height={300} className={`rounded-tl-full rounded-br-full animate-surf-snap-right`} priority alt="Psicologa Daniele Andrade" />
       </div>
 
       <div>
@@ -66,6 +66,7 @@ export default function About() {
         <p className={`
             px-3
             2xl:px-8
+            2xl:pt-12
             2xl:text-3xl
             text-center
             tracking-widest

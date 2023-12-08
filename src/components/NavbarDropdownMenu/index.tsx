@@ -24,7 +24,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-56 rounded-md bg-stone-400 text-white">
+              <Menu.Items className="origin-top-left absolute left-0 w-56 rounded-md bg-stone-400/50">
                 <div className="flex-col justify-center items-center">
                   <Menu.Item>
                     {({ active }) => (
@@ -45,6 +45,7 @@ export default function NavbarDropdownMenu() {
                             py-2
                             text-sm
                             gap-3
+                            hover:text-lg
                           `}
                         >
                           <Image
@@ -81,6 +82,7 @@ export default function NavbarDropdownMenu() {
                             py-2
                             text-sm
                             gap-3
+                            hover:text-lg
                           `}
                         >
                           <Handshake
@@ -98,7 +100,7 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <Menu.Items>
                         <p
-                          className={`text-center hover:cursor-none hover:font-bold pt-8`}
+                          className={`text-center hover:cursor-none hover:font-bold pt-8 pb-4`}
                         >
                           Psicoterapia
                         </p>
@@ -126,6 +128,7 @@ export default function NavbarDropdownMenu() {
                                   text-sm
                                   gap-3
                                   hover:font-bold
+                                  hover:text-lg
                                 `}
                               >
                                 <Person size={32} weight="bold" />
@@ -165,10 +168,11 @@ export default function NavbarDropdownMenu() {
                                   text-sm
                                   gap-3
                                   hover:font-bold
+                                  hover:text-lg
                                 `}
                               >
-                                <UsersThree size={32} weight="bold" />
                                 Casal
+                                <UsersThree size={32} weight="bold" />
                               </a>
                             </div>
                           )}
@@ -201,6 +205,7 @@ export default function NavbarDropdownMenu() {
                             text-sm
                             gap-3
                             hover:font-bold
+                            hover:text-lg
                           `}
                         >
                           <Info size={32} />
