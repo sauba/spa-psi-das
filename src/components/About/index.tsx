@@ -36,7 +36,7 @@ export default function About() {
             `}
         >
           Olá, eu sou
-          <span className={`font-allura text-4xl 2xl:text-8xl pl-2`}>
+          <span className={`font-allura text-4xl 2xl:text-7xl pl-2`}>
             <p className={`animate-bounce-slow`}>
               Daniele Andrade
             </p>
