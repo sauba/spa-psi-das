@@ -29,7 +29,7 @@ export default function About() {
           className={`
               text-center
               text-2xl
-              2xl:text-4xl
+              2xl:text-8xl
               font-bad-script
               hover:cursor-none
               items-center
