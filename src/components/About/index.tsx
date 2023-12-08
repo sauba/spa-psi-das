@@ -36,15 +36,8 @@ export default function About() {
               items-center
             `}
         >
-          Olá, eu sou Daniele Andrade
-          <span
-            className={`
-                font-allura
-                animate-bounce-slow
-              `}
-          >
-
-          </span>
+          Olá, eu sou
+          <span className={`font-allura animate-bounce-slow`}>Daniele Andrade</span>
         </p>
       </span>
 
