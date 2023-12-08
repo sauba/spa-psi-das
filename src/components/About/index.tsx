@@ -12,7 +12,7 @@ export default function About() {
         min-h-screen
         justify-start
         items-center
-      text-amber-700
+      text-amber-900
       `}
       id="aboutDaniele"
     >
