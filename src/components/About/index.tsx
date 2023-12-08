@@ -12,7 +12,7 @@ export default function About() {
         min-h-screen
         justify-start
         items-center
-      text-amber-900
+      text-amber-950
       `}
       id="aboutDaniele"
     >
@@ -27,12 +27,9 @@ export default function About() {
         <p
           className={`
               text-center
-              text-8xl
-              md:text-4xl
-              xl:text-4xl
+              text-4xl
               font-bad-script
               hover:cursor-none
-              flex
               items-center
             `}
         >
