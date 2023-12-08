@@ -36,21 +36,14 @@ export default function About() {
               items-center
             `}
         >
-          Olá, eu sou
+          Olá, eu sou Daniele Andrade
           <span
             className={`
                 font-allura
                 animate-bounce-slow
-                text-4xl
-                md:text-5xl
-                lg:text-6xl
-                xl:text-7xl
-                2xl:text-8xl
-                3xl:text-9xl
-
               `}
           >
-            Daniele Andrade
+
           </span>
         </p>
       </span>
