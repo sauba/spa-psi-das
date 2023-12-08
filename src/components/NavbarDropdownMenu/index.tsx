@@ -10,7 +10,7 @@ export default function NavbarDropdownMenu() {
       <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-center rounded-md">
+            <Menu.Button className="inline-flex justify-center rounded-md text-amber-950">
               <HouseLine size={64} weight="fill" className={`py-4`} />
             </Menu.Button>
 
@@ -33,7 +33,7 @@ export default function NavbarDropdownMenu() {
                           flex
                           justify-center
                           items-center                              
-                          ${active ? "bg-indigo-500 text-amber-950 font-bold" : "text-white"}
+                          ${active ? "bg-amber-950 text-red-50 font-bold" : "text-white"}
                         `}
                       >
                         <a
@@ -70,7 +70,7 @@ export default function NavbarDropdownMenu() {
                           py-2
                           justify-evenly
                           items-center                
-                          ${active ? "bg-indigo-500 text-amber-950 font-bold" : "text-white"}
+                          ${active ? "bg-amber-950 text-red-50 font-bold" : "text-white"}
                         `}
                       >
                         <a
@@ -87,7 +87,7 @@ export default function NavbarDropdownMenu() {
                         >
                           <Handshake
                             size={32}
-                            className={`${active ? "bg-indigo-500 text-amber-950 font-bold" : ""
+                            className={`${active ? "bg-amber-950 text-red-50 font-bold" : ""
                               }`}
                           />
                           Abordagem
@@ -113,7 +113,7 @@ export default function NavbarDropdownMenu() {
                                 justify-center
                                 items-center
                                 ${active
-                                  ? "bg-indigo-500 text-amber-950 font-bold"
+                                  ? "bg-amber-950 text-red-50 font-bold"
                                   : "text-white"
                                 }
                               `}
@@ -153,7 +153,7 @@ export default function NavbarDropdownMenu() {
                                 justify-center
                                 items-center
                                 ${active
-                                  ? "bg-indigo-500 text-white font-bold"
+                                  ? "bg-amber-950 text-red-50 text-white font-bold"
                                   : "text-white"
                                 }
                               `}
@@ -190,7 +190,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-indigo-500 text-white font-bold"
+                            ? "bg-amber-950 text-red-50 font-bold"
                             : "text-white"
                           }
                         `}
@@ -235,7 +235,7 @@ export default function NavbarDropdownMenu() {
                               disabled
                                 ? "text-zinc-300"
                                 : active
-                                ? "bg-indigo-500 text-white"
+                                ? "bg-amber-950 text-red-50 text-white"
                                 : "text-gray-700"
                             }`}
                           >
