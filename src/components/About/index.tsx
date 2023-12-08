@@ -35,7 +35,6 @@ export default function About() {
               hover:cursor-none
               flex
               items-center
-              gap-3
             `}
         >
           Olá, eu sou
@@ -44,7 +43,7 @@ export default function About() {
                 font-allura
                 animate-bounce-slow
               text-rose-500
-                text-4xl
+                text-5xl
                 md:text-5xl
                 lg:text-6xl
                 xl:text-7xl
