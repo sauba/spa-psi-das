@@ -22,6 +22,7 @@ export default function About() {
             flex-col
             justify-center
             items-center
+            gap-3
           `}
       >
         <p
