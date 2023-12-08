@@ -27,6 +27,7 @@ export default function About() {
       >
         <p
           className={`
+              flex
               text-center
               text-2xl
               2xl:text-6xl
