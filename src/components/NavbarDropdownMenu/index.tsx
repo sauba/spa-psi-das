@@ -24,14 +24,13 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left relative left-0 w-80 rounded-md bg-transparent text-amber-700">
-                <div className="flex-col justify-center items-start">
+              <Menu.Items className="origin-top-left absolute left-0 w-80 rounded-md bg-transparent">
+                <div className="flex-col justify-center items-center">
                   <Menu.Item>
                     {({ active }) => (
                       <div
                         className={`
                           flex
-                          fixed
                           justify-center
                           items-center                              
                           ${active ? "bg-indigo-500 text-white font-bold" : "text-white"}
@@ -51,8 +50,8 @@ export default function NavbarDropdownMenu() {
                         >
                           <Image
                             src={perfilDani}
-                            width={24}
-                            height={24}
+                            width={32}
+                            height={32}
                             alt=""
                             className="rounded-full"
                             priority
