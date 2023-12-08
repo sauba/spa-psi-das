@@ -27,7 +27,7 @@ export default function About() {
         <p
           className={`
               text-center
-              2xl:text-8xl
+              text-8xl
               md:text-4xl
               xl:text-4xl
               font-bad-script
