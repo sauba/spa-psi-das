@@ -24,7 +24,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-80 rounded-md bg-transparent hover:bg-stone-400">
+              <Menu.Items className="origin-top-left absolute left-0 w-80 pt-16 rounded-md bg-transparent">
                 <div className="flex-col justify-center items-center">
                   <Menu.Item>
                     {({ active }) => (
