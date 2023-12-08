@@ -12,7 +12,7 @@ export default function AbordagemHumanista() {
       <p
         className={`
               text-center
-              text-4xl
+              text-3xl
               md:text-4xl
               xl:text-4xl
               pl-4
