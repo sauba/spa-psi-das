@@ -42,9 +42,9 @@ export default function NavbarDropdownMenu() {
                             flex
                             items-center
                             px-4
-                            py-2
+                            py-1
                             text-sm
-                            gap-3
+                            gap-1
                             hover:text-lg
                           `}
                         >
