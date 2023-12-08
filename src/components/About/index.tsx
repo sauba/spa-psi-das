@@ -26,8 +26,7 @@ export default function About() {
       >
         <p
           className={`
-              text-justify
-              text-lg
+              text-center
               2xl:text-8xl
               md:text-4xl
               xl:text-4xl
