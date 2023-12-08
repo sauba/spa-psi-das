@@ -27,7 +27,7 @@ export default function About() {
         <p
           className={`
               text-center
-              text-3xl
+              text-2xl
               font-bad-script
               hover:cursor-none
               items-center
