@@ -50,6 +50,7 @@ export default function About() {
             text-2xl
             tracking-widest
             leading-6
+            font-bad-script
           `}>
         Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
         com Psicoterapia Individual e Terapia de Casal. Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
