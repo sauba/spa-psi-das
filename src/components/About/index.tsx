@@ -27,14 +27,14 @@ export default function About() {
         <p
           className={`
               text-center
-              text-4xl
+              text-3xl
               font-bad-script
               hover:cursor-none
               items-center
             `}
         >
           Olá, eu sou
-          <span className={`font-allura animate-bounce-slow`}>Daniele Andrade</span>
+          <span className={`font-allura animate-bounce-slow text-4xl`}> Daniele Andrade</span>
         </p>
       </span>
 
