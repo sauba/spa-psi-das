@@ -54,7 +54,7 @@ export default function About() {
             2xl:pt-4
             2xl:text-3xl
             text-center
-            text-2xl
+            text-xl
             tracking-widest
             leading-6
           `}>
