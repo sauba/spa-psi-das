@@ -14,8 +14,7 @@ export default function PsicoterapiaCasal() {
       id="psicoterapiaCasal"
     >
       <p className={`
-            px-3            
-            pt-16
+            px-3
             pb-4
             2xl:pr-4
             2xl:pt-32
