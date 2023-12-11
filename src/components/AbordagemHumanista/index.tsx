@@ -5,7 +5,7 @@ export default function AbordagemHumanista() {
         flex
         flex-col
         min-h-screen
-      text-zinc-900
+      text-amber-950
       `}
       id="abordagem"
     >
