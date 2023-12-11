@@ -8,7 +8,7 @@ export default function PsicoterapiaIndividual() {
         flex
         flex-col
         min-h-screen
-      text-amber-700
+      text-amber-950
       `}
       id="psicoterapiaIndividual"
     >
