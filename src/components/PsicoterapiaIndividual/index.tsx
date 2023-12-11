@@ -24,7 +24,7 @@ export default function PsicoterapiaIndividual() {
           `}>
           Psicoterapia Individual
         </p>
-        <Image src={imgClient} width={300} height={300} className={`mx-auto z-4`} alt="" />
+        <Image src={imgClient} width={300} height={300} className={`mx-auto z-4 rounded-lg`} alt="" />
       </div>
 
       <p className={`
