@@ -28,7 +28,7 @@ export default function Home() {
     >
       <Header />
       <About />
-      <AbordagemHumanista />
+      /* <AbordagemHumanista /> */
       <PsicoterapiaIndividual />
       <PsicoterapiaCasal />
 
