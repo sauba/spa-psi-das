@@ -31,6 +31,7 @@ export default function PsicoterapiaIndividual() {
             px-2
             2xl:text-4xl
             text-center
+            leading-6
           `}>
         Na terapia, o paciente encontra um espaço de escuta, acolhimento, psicoeducação e desenvolvimento
         de sua saúde mental. Sendo esses aspectos desenvolvidos pela promoção do autoconhecimento, o qual, atua, na vida do indivíduo,
