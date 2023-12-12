@@ -21,6 +21,7 @@ export default function About() {
             flex-col
             justify-center
             items-center
+            pb-6
             gap-3
           `}
       >
@@ -49,6 +50,7 @@ export default function About() {
       </div>
       <p className={`
             px-3
+            pt-8
             pb-4
             2xl:px-8
             2xl:pt-4
