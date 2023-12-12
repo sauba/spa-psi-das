@@ -49,6 +49,7 @@ export default function About() {
       </div>
       <p className={`
             px-3
+            pb-4
             2xl:px-8
             2xl:pt-4
             2xl:text-3xl
