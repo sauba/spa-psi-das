@@ -7,7 +7,8 @@ export default function PsicoterapiaIndividual() {
       className={`
         flex
         flex-col
-        py-4
+        pt-10
+        pb-4
       text-amber-950
       `}
       id="psicoterapiaIndividual"
