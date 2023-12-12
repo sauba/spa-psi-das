@@ -14,7 +14,7 @@ export default function Footer() {
       id="contato"
     >
       <div
-        className={`flex w-full justify-center items-center text-center text-sky-500/75 min-h-screen gap-10`}
+        className={`flex w-full justify-center items-center text-center text-red-50 min-h-screen gap-10`}
       >
         <div className={`flex flex-col mt-4 font-pt-mono hover:cursor-none`}>
           <span
