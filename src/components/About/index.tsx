@@ -9,7 +9,6 @@ export default function About() {
         flex
         flex-col
         mx-auto
-        min-h-screen
         justify-start
         items-center
       text-amber-950
@@ -46,7 +45,7 @@ export default function About() {
       </span>
 
       <div>
-        <Image src={imgProfile} width={256} height={256} className={`pb-1 rounded-tl-full rounded-br-full mx-auto`} priority alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={300} height={300} className={`pb-1 rounded-tl-full rounded-br-full mx-auto`} priority alt="Psicologa Daniele Andrade" />
       </div>
       <p className={`
             px-3
