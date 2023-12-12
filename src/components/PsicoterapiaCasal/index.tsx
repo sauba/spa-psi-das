@@ -9,7 +9,8 @@ export default function PsicoterapiaCasal() {
         flex-col
         xl:flex
         min-h-screen
-      text-amber-700
+        bg-amber-950/50
+        text-amber-950
       `}
       id="psicoterapiaCasal"
     >
