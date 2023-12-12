@@ -84,7 +84,7 @@ export default function Footer() {
       </div>
 
       <div
-        className={`flex-col justify-center items-center text-center text-[8px] text-red-500 mb-1`}
+        className={`flex-col justify-center items-center text-center text-[8px] text-sky-800 mb-1`}
       >
         <span className={`flex justify-center tracking-tighter`}>
           Developed by Thiago J. de Queiroz. Psicóloga Daniele Andrade
