@@ -8,9 +8,8 @@ export default function PsicoterapiaCasal() {
         flex
         flex-col
         xl:flex
-        min-h-screen
         bg-amber-950/50
-        text-amber-950
+        text-red-50
       `}
       id="psicoterapiaCasal"
     >
