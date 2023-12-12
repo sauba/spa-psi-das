@@ -28,7 +28,7 @@ export default function PsicoterapiaCasal() {
         Psicoterapia Casal
       </p>
 
-      <Image src={imgClient} width={300} height={300} className={`w-full`} alt="" />
+      <Image src={imgClient} width={300} height={300} className={`mr-auto`} alt="" />
 
       <p className={`
             px-3
