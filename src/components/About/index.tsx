@@ -45,7 +45,7 @@ export default function About() {
       </span>
 
       <div>
-        <Image src={imgProfile} width={300} height={300} className={`pb-1 rounded-tl-full rounded-br-full mx-auto`} priority alt="Psicologa Daniele Andrade" />
+        <Image src={imgProfile} width={300} height={300} className={`pb-1 rounded-tl-lg rounded-br-lg mx-auto`} priority alt="Psicologa Daniele Andrade" />
       </div>
       <p className={`
             px-3
