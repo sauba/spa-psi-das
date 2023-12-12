@@ -14,7 +14,7 @@ export default function Footer() {
       id="contato"
     >
       <div
-        className={`flex w-full justify-center items-center text-center text-rose-500 min-h-screen gap-10`}
+        className={`flex w-full justify-center items-center text-center text-red-50 min-h-screen gap-10`}
       >
         <div className={`flex flex-col mt-4 font-pt-mono hover:cursor-none`}>
           <span
@@ -84,7 +84,7 @@ export default function Footer() {
       </div>
 
       <div
-        className={`flex-col justify-center items-center text-center text-[8px] text-sky-800 mb-1`}
+        className={`flex-col justify-center items-center text-center text-[8px] text-red-500 mb-1`}
       >
         <span className={`flex justify-center tracking-tighter`}>
           Developed by Thiago J. de Queiroz. Psicóloga Daniele Andrade
