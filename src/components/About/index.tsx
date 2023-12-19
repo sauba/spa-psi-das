@@ -26,7 +26,7 @@ export default function About() {
             gap-3
           `}
       >
-        <p
+        <span
           className={`
               flex
               text-center
@@ -41,7 +41,7 @@ export default function About() {
           <span className={`font-allura text-4xl 2xl:text-8xl pl-2`}>
             <p className={`animate-bounce-slow`}>Daniele Andrade</p>
           </span>
-        </p>
+        </span>
       </span>
 
       <div className="w-full">

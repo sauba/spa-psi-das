@@ -22,7 +22,7 @@ export default function PsicoterapiaCasal() {
             pb-6
             2xl:pr-4
             2xl:pt-32
-            2xl:pb-80
+            2xl:pb-8
             2xl:text-8xl
             text-4xl
             text-center

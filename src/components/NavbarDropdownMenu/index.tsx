@@ -1,8 +1,6 @@
 import { Menu, Transition } from "@headlessui/react"
-import { Handshake, List, Info, Person, UsersThree } from "@phosphor-icons/react"
-import Image from "next/image"
+import { List } from "@phosphor-icons/react"
 import { Fragment } from "react"
-import perfilDani from "../../../public/perfilDani.svg"
 
 export default function NavbarDropdownMenu() {
   return (
@@ -10,8 +8,13 @@ export default function NavbarDropdownMenu() {
       <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-center rounded-md text-amber-950">
-              <List size={64} weight="fill" className={`py-4`} />
+            <Menu.Button className="inline-flex justify-center rounded-md text-red-50">
+              <List
+                size={64}
+                weight="fill"
+                color="text-amber-950"
+                className={`py-4`}
+              />
             </Menu.Button>
 
             {/* Menu Items */}
@@ -24,8 +27,8 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-80 rounded-md bg-transparent">
-                <div className="flex-col justify-center items-center bg-amber-950/25">
+              <Menu.Items className="origin-top-left absolute left-0 w-72 rounded-md bg-transparent">
+                <div className="flex-col justify-center items-center bg-amber-950">
                   <Menu.Item>
                     {({ active }) => (
                       <div
@@ -33,8 +36,12 @@ export default function NavbarDropdownMenu() {
                           flex
                           justify-center
                           items-center
-                          pt-32                             
-                          ${active ? "bg-amber-950 text-red-50 text-2xl font-bold" : "text-amber-950"}
+                          pt-4                             
+                          ${
+                            active
+                              ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                              : "text-red-50"
+                          }
                         `}
                       >
                         <a
@@ -49,14 +56,6 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          <Image
-                            src={perfilDani}
-                            width={32}
-                            height={32}
-                            alt=""
-                            className="rounded-full"
-                            priority
-                          />
                           Quem Sou Eu
                         </a>
                       </div>
@@ -71,7 +70,11 @@ export default function NavbarDropdownMenu() {
                           py-2
                           justify-evenly
                           items-center                
-                          ${active ? "bg-amber-950 text-red-50 text-2xl font-bold" : "text-amber-950"}
+                          ${
+                            active
+                              ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                              : "text-red-50"
+                          }
                         `}
                       >
                         <a
@@ -86,10 +89,6 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          <Handshake
-                            size={32}
-                            className={`${active ? "bg-amber-950 text-red-50 text-2xl font-bold" : "text-amber-950"}`}
-                          />
                           Abordagem
                         </a>
                       </div>
@@ -99,11 +98,6 @@ export default function NavbarDropdownMenu() {
                   <Menu.Item>
                     {({ active }) => (
                       <Menu.Items>
-                        <p
-                          className={`text-center hover:cursor-none hover:font-bold pt-8 pb-4`}
-                        >
-                          Psicoterapia
-                        </p>
                         <Menu.Item>
                           {({ active }) => (
                             <div
@@ -112,9 +106,10 @@ export default function NavbarDropdownMenu() {
                                 py-4
                                 justify-center
                                 items-center
-                                ${active
-                                  ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                                  : "text-amber-950"
+                                ${
+                                  active
+                                    ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                                    : "text-red-50"
                                 }
                               `}
                             >
@@ -128,11 +123,9 @@ export default function NavbarDropdownMenu() {
                                   text-sm
                                   gap-3
                                   hover:font-bold
-                                  hover:text-lg
                                 `}
                               >
-                                <Person size={32} weight="bold" />
-                                Individual
+                                Psicoterapia Individual
                               </a>
                             </div>
                           )}
@@ -152,9 +145,10 @@ export default function NavbarDropdownMenu() {
                                 py-4
                                 justify-center
                                 items-center
-                                ${active
-                                  ? "bg-amber-950 text-red-50 font-bold"
-                                  : "text-amber-950"
+                                ${
+                                  active
+                                    ? "bg-amber-950 text-red-50 font-bold"
+                                    : "text-red-50"
                                 }
                               `}
                             >
@@ -171,8 +165,7 @@ export default function NavbarDropdownMenu() {
                                   hover:text-lg
                                 `}
                               >
-                                Casal
-                                <UsersThree size={32} weight="bold" />
+                                Terapia de Casal
                               </a>
                             </div>
                           )}
@@ -189,9 +182,10 @@ export default function NavbarDropdownMenu() {
                           py-2
                           justify-center
                           items-center
-                          ${active
-                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                            : "text-amber-950"
+                          ${
+                            active
+                              ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                              : "text-red-50"
                           }
                         `}
                       >
@@ -208,7 +202,6 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          <Info size={32} />
                           Contato
                         </a>
                       </div>
@@ -225,7 +218,7 @@ export default function NavbarDropdownMenu() {
                               disabled
                                 ? "text-gray-200"
                                 : active
-                                ? "text-amber-950"
+                                ? "text-red-50"
                                 : "text-gray-300"
                             }`}
                           />

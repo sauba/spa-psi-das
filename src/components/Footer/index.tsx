@@ -24,7 +24,7 @@ export default function Footer() {
           </span>
 
           <span
-            className={`flex flex-col md:flex-row justify-center items-center tracking-widest gap-2 py-1`}
+            className={`flex flex-col md:flex-row justify-center items-center tracking-widest gap-2`}
           >
             Psicóloga Clínica
             <Heart
@@ -43,7 +43,11 @@ export default function Footer() {
             Gestão de Pessoas|Coaching Sistêmico
           </span>
 
-          <div className={`flex justify-center items-center gap-3 py-6`}>
+          <span className={`pt-8 pb-2 text-3xl tracking-widest flex-wrap`}>
+            Entre em Contato
+          </span>
+
+          <div className={`flex justify-center items-center gap-10`}>
             <div className={`hover:animate-wiggle`}>
               <span className={`text-rose-400`}>
                 <Link
