@@ -8,7 +8,7 @@ export default function NavbarDropdownMenu() {
       <Menu as="div" className="absolute">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-start rounded-md text-red-50">
+            <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50">
               <List
                 size={64}
                 weight="fill"
@@ -28,7 +28,7 @@ export default function NavbarDropdownMenu() {
               leaveTo="opacity-0 scale-95"
             >
               <Menu.Items className="origin-top-left absolute left-0 w-72 rounded-md bg-transparent">
-                <div className="flex-col justify-center items-center bg-amber-950">
+                <div className="flex-col justify-start items-start bg-amber-950">
                   <Menu.Item>
                     {({ active }) => (
                       <div

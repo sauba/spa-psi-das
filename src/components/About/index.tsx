@@ -9,10 +9,10 @@ export default function About() {
         flex
         flex-col
         mx-auto
-        justify-start
+        justify-center
         items-center
       text-amber-950
-      min-h-screen
+        min-h-screen
       `}
       id="aboutDaniele"
     >
@@ -58,11 +58,10 @@ export default function About() {
       </div>
       <p
         className={`
-            px-3
-            pt-8
+            px-2
+            pt-4
             pb-4
             2xl:px-8
-            2xl:pt-16
             2xl:text-3xl
             text-center
             tracking-widest
