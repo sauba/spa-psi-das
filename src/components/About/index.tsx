@@ -33,6 +33,7 @@ export default function About() {
               text-2xl
               pt-16
               2xl:text-6xl
+              2xl:pt-8
               font-bad-script
               hover:cursor-none
               items-center
