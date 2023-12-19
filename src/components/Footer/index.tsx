@@ -43,7 +43,9 @@ export default function Footer() {
             Gestão de Pessoas|Coaching Sistêmico
           </span>
 
-          <span className={`pt-8 pb-2 text-3xl tracking-widest flex-wrap`}>
+          <span
+            className={`pt-8 pb-2 text-3xl text-rose-500 tracking-widest flex-wrap`}
+          >
             Entre em Contato
           </span>
 
@@ -63,7 +65,7 @@ export default function Footer() {
             <div className={`animate-wiggle`}>
               <span className={`text-green-600`}>
                 <Link
-                  href="https://wa.me/558183049659"
+                  href="https://wa.me/558189689423"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
