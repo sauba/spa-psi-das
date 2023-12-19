@@ -10,11 +10,13 @@ export default function PsicoterapiaIndividual() {
         pt-10
         pb-4
       text-amber-950
+        min-h-screen
       `}
       id="psicoterapiaIndividual"
     >
       <div>
-        <p className={`
+        <p
+          className={`
             px-3
             pb-6
             2xl:text-8xl
@@ -22,22 +24,34 @@ export default function PsicoterapiaIndividual() {
             text-center
             font-bad-script
             z-5
-          `}>
+          `}
+        >
           Psicoterapia Individual
         </p>
-        <Image src={imgClient} width={300} height={300} className={`2xl:w-3/12 ml-auto z-4 rounded-lg`} alt="" />
+        <Image
+          src={imgClient}
+          width={300}
+          height={300}
+          className={`2xl:w-3/12 ml-auto z-4 rounded-lg`}
+          alt=""
+        />
       </div>
 
-      <p className={`
+      <p
+        className={`
             px-3
             pt-8
             2xl:text-4xl
             text-center
-            tracking-widest            leading-6
-          `}>
-        Na terapia, o paciente encontra um espaço de escuta, acolhimento, psicoeducação e desenvolvimento
-        de sua saúde mental. Sendo esses aspectos desenvolvidos pela promoção do autoconhecimento, o qual, atua, na vida do indivíduo,
-        trazendo melhor compreensão, vivência e gestão das emoções.
+            tracking-widest
+            leading-6
+          `}
+      >
+        As sessões de terapia envolvem escuta e acolhimento aos clientes,
+        trazendo intervenções terapêuticas, psicoeducação e orientações, que
+        contribuam na promoção do autoconhecimento. Um processo que reflete,
+        diretamente, na saúde mental do paciente, ajudando em seu
+        desenvolvimento sistêmico.
       </p>
     </div>
   )

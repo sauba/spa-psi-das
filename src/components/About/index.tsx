@@ -1,5 +1,5 @@
-import Image from "next/image";
-import imgProfile from "../../../public/perfilDani2.svg";
+import Image from "next/image"
+import imgProfile from "../../../public/perfilDani2.svg"
 
 export default function About() {
   return (
@@ -39,17 +39,23 @@ export default function About() {
         >
           Olá, eu sou
           <span className={`font-allura text-4xl 2xl:text-8xl pl-2`}>
-            <p className={`animate-bounce-slow`}>
-              Daniele Andrade
-            </p>
+            <p className={`animate-bounce-slow`}>Daniele Andrade</p>
           </span>
         </p>
       </span>
 
       <div className="w-full">
-        <Image src={imgProfile} width={256} height={256} className={`2xl:w-3/12 mx-auto rounded-tl-3xl rounded-bl-xl rounded-tr-xl rounded-br-3xl`} priority alt="Psicologa Daniele Andrade" />
+        <Image
+          src={imgProfile}
+          width={256}
+          height={256}
+          className={`2xl:w-3/12 mx-auto rounded-tl-3xl rounded-bl-xl rounded-tr-xl rounded-br-3xl`}
+          priority
+          alt="Psicologa Daniele Andrade"
+        />
       </div>
-      <p className={`
+      <p
+        className={`
             px-3
             pt-8
             pb-4
@@ -59,8 +65,10 @@ export default function About() {
             text-center
             tracking-widest
             leading-6
-          `}>
-        Psicóloga Clínica, desde 2019, atendendo adultos, através de Psicoterapia Individual e Terapia de Casal.
+          `}
+      >
+        Psicóloga Clínica, desde 2019, atendendo adultos, através de
+        Psicoterapia Individual e Terapia de Casal.
       </p>
     </div>
   )
