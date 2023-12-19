@@ -12,6 +12,7 @@ export default function About() {
         justify-start
         items-center
       text-amber-950
+      min-h-screen
       `}
       id="aboutDaniele"
     >
@@ -59,9 +60,7 @@ export default function About() {
             tracking-widest
             leading-6
           `}>
-        Sou Psicóloga e atuo na área clínica, há 5 anos, atendendo o público adulto,
-        com Psicoterapia Individual e Terapia de Casal. Pós Graduada em Gestão de Pessoas, com Certificação em Coaching Sistêmico e outras
-        terapêuticas.
+        Psicóloga Clínica, desde 2019, atendendo adultos, através de Psicoterapia Individual e Terapia de Casal.
       </p>
     </div>
   )
