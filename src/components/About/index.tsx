@@ -31,7 +31,7 @@ export default function About() {
               flex
               text-center
               text-2xl
-              pt-8
+              pt-16
               2xl:text-6xl
               font-bad-script
               hover:cursor-none
