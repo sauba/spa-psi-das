@@ -12,6 +12,7 @@ export default function PsicoterapiaCasal() {
         pb-4
         bg-amber-950/50
         text-red-50
+        min-h-screen
       `}
       id="psicoterapiaCasal"
     >
@@ -26,7 +27,7 @@ export default function PsicoterapiaCasal() {
             text-center
             font-bad-script
           `}>
-        Psicoterapia Casal
+        Terapia Casal
       </p>
 
       <Image src={imgClient} width={300} height={300} className={`2xl:w-3/12 mr-auto rounded-r-3xl`} alt="" />
