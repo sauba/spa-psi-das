@@ -31,6 +31,7 @@ export default function About() {
               flex
               text-center
               text-2xl
+              pt-8
               2xl:text-6xl
               font-bad-script
               hover:cursor-none
@@ -60,7 +61,7 @@ export default function About() {
             pt-8
             pb-4
             2xl:px-8
-            2xl:pt-4
+            2xl:pt-16
             2xl:text-3xl
             text-center
             tracking-widest

@@ -5,7 +5,7 @@ import { Fragment } from "react"
 export default function NavbarDropdownMenu() {
   return (
     <div className="flex justify-start items-start">
-      <Menu as="div" className="relative">
+      <Menu as="div" className="absolute">
         {({ open }) => (
           <Fragment>
             <Menu.Button className="inline-flex justify-center rounded-md text-red-50">
