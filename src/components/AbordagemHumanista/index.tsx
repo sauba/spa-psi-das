@@ -34,10 +34,10 @@ export default function AbordagemHumanista() {
       <p
         className={`
             px-3
-            pt-6
+            pt-2
             pb-4
             2xl:px-8
-            2xl:pt-32
+            2xl:pt-8
             2xl:text-3xl
             text-center
             tracking-widest
