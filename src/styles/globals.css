@@ -29,113 +29,13 @@
   box-sizing: border-box;
 }
 
-#fichaPaciente input,
+/* #fichaPaciente input,
 select {
   text-align: center;
   color: black;
   border-radius: 4px;
 }
-
-/* Keen Slider Basic Usage */
-
-/* .slider {
-  width: 100;
-  max-width: 900px;
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.inner {
-  display: flex;
-}
-
-.item {
-  min-height: 200px;
-  min-width: 400px;
-  padding: 14px;
-}
-
-.item img {
-  width: 100%;
-  height: 90%;
-  border-radius: 12px;
-  pointer-events: none;
-}
-
-.carousel {
-  pointer: grab;
-  overflow: hidden;
-} */
-
-/* Keen-Slider Auto Width */
-
-/* [class^="number-slide"],
-[class*=" number-slide"] {
-  background: grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  color: #fff;
-  font-weight: 500;
-  height: 300px;
-  max-height: 100vh;
-}
-
-.number-slide1 {
-  background: rgb(64, 175, 255);
-  background: linear-gradient(
-    128deg,
-    rgba(64, 175, 255, 1) 0%,
-    rgba(63, 97, 255, 1) 100%
-  );
-}
-
-.number-slide2 {
-  background: rgb(255, 75, 64);
-  background: linear-gradient(
-    128deg,
-    rgba(255, 154, 63, 1) 0%,
-    rgba(255, 75, 64, 1) 100%
-  );
-}
-
-.number-slide3 {
-  background: rgb(182, 255, 64);
-  background: linear-gradient(
-    128deg,
-    rgba(182, 255, 64, 1) 0%,
-    rgba(63, 255, 71, 1) 100%
-  );
-  background: linear-gradient(
-    128deg,
-    rgba(189, 255, 83, 1) 0%,
-    rgba(43, 250, 82, 1) 100%
-  );
-}
-
-.number-slide4 {
-  background: rgb(64, 255, 242);
-  background: linear-gradient(
-    128deg,
-    rgba(64, 255, 242, 1) 0%,
-    rgba(63, 188, 255, 1) 100%
-  );
-}
-
-.number-slide5 {
-  background: rgb(255, 64, 156);
-  background: linear-gradient(
-    128deg,
-    rgba(255, 64, 156, 1) 0%,
-    rgba(255, 63, 63, 1) 100%
-  );
-} */
-
-/* Keen Slider Carousel */
+*/
 
 [class^="number-slide"],
 [class*=" number-slide"] {
@@ -143,9 +43,10 @@ select {
   align-items: center;
   justify-content: center;
   font-size: 50px;
+  left: 25%;
   color: #fff;
   font-weight: 500;
-  height: 200px;
+  height: 300px;
   max-height: 100vh;
 }
 
@@ -164,27 +65,5 @@ select {
 .number-slide5 {
 }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
-}
-.scene {
-  width: 260px;
-  height: 200px;
-  perspective: 1000px;
-  position: relative;
-}
-.scene .carousel.keen-slider {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: absolute;
-  transform: translateZ(-288px);
-  transform-style: preserve-3d;
-}
-.carousel__cell {
-  position: absolute;
-  width: 360px;
-  left: 10px;
-  height: 320px;
+.number-slide6 {
 }
