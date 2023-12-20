@@ -1,6 +1,8 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { useEffect, useRef, useState } from "react"
+import React from "react"
+
+import { useEffect, useState } from "react"
 
 import imgSlideAbordagem1 from "../../../public/imgSlideAbordagem01.svg"
 import imgSlideAbordagem2 from "../../../public/imgSlideAbordagem02.svg"
@@ -17,7 +19,7 @@ const images = [
 ]
 
 export default function Slider() {
-  const carousel = useRef()
+  const carousel = React.useRef(HTMLElement.arguments)
 
   const [width, setWidth] = useState(0)
 
