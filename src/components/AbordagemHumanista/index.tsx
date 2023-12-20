@@ -1,3 +1,5 @@
+import Slider from "../Slider"
+
 export default function AbordagemHumanista() {
   return (
     <div
@@ -49,6 +51,8 @@ export default function AbordagemHumanista() {
         partir de sua história, com liberdade, responsabilidade e escolha,
         superando o determinismo.
       </p>
+
+      <Slider />
     </div>
   )
 }
