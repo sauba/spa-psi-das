@@ -1,8 +1,6 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
-import React from "react"
-
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 import imgSlideAbordagem1 from "../../../public/imgSlideAbordagem01.svg"
 import imgSlideAbordagem2 from "../../../public/imgSlideAbordagem02.svg"
@@ -19,23 +17,19 @@ const images = [
 ]
 
 export default function Slider() {
-  const carousel = React.useRef(HTMLElement.arguments)
+  const carousel = useRef(null) // Initialize useRef with null
 
   const [width, setWidth] = useState(0)
 
   useEffect(() => {
-    console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth)
-    setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
-  }, [])
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+  }, [carousel])
 
   return (
     <div className={`slider`}>
-      <motion.div
-        ref={carousel}
-        className={`carousel`}
-        whileTap={{ cursor: "grabbing" }}
-      >
+      <motion.div className={`carousel`} whileTap={{ cursor: "grabbing" }}>
         <motion.div
+          ref={carousel}
           className={`inner`}
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
@@ -59,4 +53,3 @@ export default function Slider() {
     </div>
   )
 }
-;[]
