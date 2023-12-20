@@ -1,4 +1,4 @@
-import Slider from "../Slider"
+import KeenSliderCarousel from "../KeenSliderCarousel"
 
 export default function AbordagemHumanista() {
   return (
@@ -52,7 +52,11 @@ export default function AbordagemHumanista() {
         superando o determinismo.
       </p>
 
-      <Slider />
+      <div className={`w-full`}>
+        <KeenSliderCarousel />
+        {/* <KeenSliderAutoWidth /> */}
+        {/* <KeenSlider /> */}
+      </div>
     </div>
   )
 }
