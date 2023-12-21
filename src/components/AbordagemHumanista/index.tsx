@@ -5,9 +5,7 @@ export default function AbordagemHumanista() {
     <div
       className={`
         w-full
-        bg-amber-950/50
-        text-red-50
-        min-h-screen`}
+        `}
       id="abordagem"
     >
       <div
@@ -15,6 +13,9 @@ export default function AbordagemHumanista() {
         flex
         flex-col
         flex-wrap
+        bg-amber-950/50
+        text-red-50
+        min-h-screen
       `}
       >
         <p
@@ -38,6 +39,10 @@ export default function AbordagemHumanista() {
           Abordagem Humanista
         </p>
 
+        <div className={`w-11/12 mx-auto overflow-hidden`}>
+          <KeenSlider />
+        </div>
+
         <p
           className={`
             px-3
@@ -56,10 +61,6 @@ export default function AbordagemHumanista() {
           a partir de sua história, com liberdade, responsabilidade e escolha,
           superando o determinismo.
         </p>
-      </div>
-
-      <div className={`w-11/12 mx-auto overflow-hidden`}>
-        <KeenSlider />
       </div>
     </div>
   )
