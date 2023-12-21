@@ -25,7 +25,7 @@ export default function AbordagemHumanista() {
               xl:text-6xl
               pl-20
               pt-10
-              pb-6
+              pb-10
               2xl:pl-8
               2xl:pt-20
               font-bad-script
@@ -44,6 +44,7 @@ export default function AbordagemHumanista() {
         <p
           className={`
             px-3
+            pt-4
             pb-4
             xl:px-8
             xl:text-2xl
