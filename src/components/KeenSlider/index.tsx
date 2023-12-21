@@ -14,7 +14,7 @@ export default function KeenSlider() {
         slides: { perView: 2, spacing: 5 },
       },
       "(min-width: 1000px)": {
-        slides: { perView: 3, spacing: 10 },
+        slides: { perView: 2, spacing: 10 },
       },
     },
     slides: { perView: 1 },
@@ -22,19 +22,19 @@ export default function KeenSlider() {
   return (
     <div ref={ref} className="keen-slider">
       <div className="keen-slider__slide number-slide1">
-        <Image src={img1} width={400} height={400} alt="" priority />
+        <Image src={img1} width={720} height={680} alt="" priority />
       </div>
       <div className="keen-slider__slide number-slide2">
-        <Image src={img2} width={400} height={400} alt="" priority />
+        <Image src={img2} width={720} height={680} alt="" priority />
       </div>
       <div className="keen-slider__slide number-slide3">
-        <Image src={img3} width={400} height={400} alt="" priority />
+        <Image src={img3} width={720} height={680} alt="" priority />
       </div>
       <div className="keen-slider__slide number-slide4">
-        <Image src={img4} width={400} height={400} alt="" priority />
+        <Image src={img4} width={720} height={680} alt="" priority />
       </div>
       <div className="keen-slider__slide number-slide5">
-        <Image src={img5} width={400} height={400} alt="" priority />
+        <Image src={img5} width={720} height={680} alt="" priority />
       </div>
     </div>
   )

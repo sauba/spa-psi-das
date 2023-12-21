@@ -1,19 +1,24 @@
-import KeenSlider from "../KeenSlider";
+import KeenSlider from "../KeenSlider"
 
 export default function AbordagemHumanista() {
   return (
     <div
       className={`
-        flex
-        flex-col
+        w-full
         bg-amber-950/50
         text-red-50
-        min-h-screen
-      `}
+        min-h-screen`}
       id="abordagem"
     >
-      <p
+      <div
         className={`
+        flex
+        flex-col
+        flex-wrap
+      `}
+      >
+        <p
+          className={`
               text-center
               text-3xl
               md:text-4xl
@@ -29,12 +34,12 @@ export default function AbordagemHumanista() {
               flex
               items-center
             `}
-      >
-        Abordagem Humanista
-      </p>
+        >
+          Abordagem Humanista
+        </p>
 
-      <p
-        className={`
+        <p
+          className={`
             px-3
             pt-2
             pb-4
@@ -45,14 +50,17 @@ export default function AbordagemHumanista() {
             tracking-widest
             leading-6
           `}
-      >
-        Essa linha teórica apoia os atendimentos, partindo do pressuposto de que
-        o ser humano tem uma tendência atualizante, podendo se construir, a
-        partir de sua história, com liberdade, responsabilidade e escolha,
-        superando o determinismo.
-      </p>
+        >
+          Essa linha teórica apoia os atendimentos, partindo do pressuposto de
+          que o ser humano tem uma tendência atualizante, podendo se construir,
+          a partir de sua história, com liberdade, responsabilidade e escolha,
+          superando o determinismo.
+        </p>
+      </div>
 
-      <KeenSlider />
+      <div className={`w-6/12 mx-auto overflow-hidden`}>
+        <KeenSlider />
+      </div>
     </div>
   )
 }

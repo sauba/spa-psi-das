@@ -37,20 +37,21 @@ select {
 }
 */
 
+/* Keen Slider com erro de responsividade */
+
 [class^="number-slide"],
 [class*=" number-slide"] {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 50px;
-  left: 25%;
   color: #fff;
   font-weight: 500;
   height: 300px;
   max-height: 100vh;
 }
 
-.number-slide1 {
+/* .number-slide1 {
 }
 
 .number-slide2 {
@@ -63,7 +64,4 @@ select {
 }
 
 .number-slide5 {
-}
-
-.number-slide6 {
-}
+} */
