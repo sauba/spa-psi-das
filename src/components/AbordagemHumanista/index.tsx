@@ -58,7 +58,7 @@ export default function AbordagemHumanista() {
         </p>
       </div>
 
-      <div className={`w-6/12 mx-auto overflow-hidden`}>
+      <div className={`w-11/12 mx-auto overflow-hidden`}>
         <KeenSlider />
       </div>
     </div>
