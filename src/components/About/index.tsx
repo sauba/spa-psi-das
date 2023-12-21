@@ -12,7 +12,6 @@ export default function About() {
         justify-center
         items-center
       text-amber-950
-        min-h-screen
       `}
       id="aboutDaniele"
     >
@@ -22,8 +21,7 @@ export default function About() {
             flex-col
             justify-center
             items-center
-            pb-6
-            gap-3
+            gap-1
           `}
       >
         <span
@@ -31,9 +29,7 @@ export default function About() {
               flex
               text-center
               text-2xl
-              pt-16
               2xl:text-6xl
-              2xl:pt-8
               font-bad-script
               hover:cursor-none
               items-center
@@ -62,7 +58,7 @@ export default function About() {
             pt-4
             pb-4
             2xl:px-8
-            2xl:text-3xl
+            2xl:text-4xl
             text-center
             tracking-widest
             leading-6
