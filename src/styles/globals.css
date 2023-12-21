@@ -47,7 +47,7 @@ select {
   font-size: 50px;
   color: #fff;
   font-weight: 500;
-  height: 440px;
+  /* height: 440px; */
   max-height: 100vh;
 }
 
