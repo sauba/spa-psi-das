@@ -28,7 +28,7 @@ export default function NavbarDropdownMenu() {
               leaveTo="opacity-0 scale-95"
             >
               <Menu.Items className="origin-top-left absolute left-0 w-72 rounded-md bg-transparent">
-                <div className="flex-col justify-start items-start bg-amber-950">
+                <div className="flex-col justify-start items-start">
                   <Menu.Item>
                     {({ active }) => (
                       <div
@@ -40,7 +40,7 @@ export default function NavbarDropdownMenu() {
                           ${
                             active
                               ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                              : "text-red-50"
+                              : "bg-amber-950 text-red-50 font-bold"
                           }
                         `}
                       >
@@ -73,7 +73,7 @@ export default function NavbarDropdownMenu() {
                           ${
                             active
                               ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                              : "text-red-50"
+                              : "bg-amber-950 text-red-50 font-bold"
                           }
                         `}
                       >
@@ -109,7 +109,7 @@ export default function NavbarDropdownMenu() {
                                 ${
                                   active
                                     ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                                    : "text-red-50"
+                                    : "bg-amber-950 text-red-50 font-bold"
                                 }
                               `}
                             >
@@ -148,7 +148,7 @@ export default function NavbarDropdownMenu() {
                                 ${
                                   active
                                     ? "bg-amber-950 text-red-50 font-bold"
-                                    : "text-red-50"
+                                    : "bg-amber-950 text-red-50 font-bold"
                                 }
                               `}
                             >
@@ -185,7 +185,7 @@ export default function NavbarDropdownMenu() {
                           ${
                             active
                               ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                              : "text-red-50"
+                              : "bg-amber-950 text-red-50 font-bold"
                           }
                         `}
                       >
@@ -218,7 +218,7 @@ export default function NavbarDropdownMenu() {
                               disabled
                                 ? "text-gray-200"
                                 : active
-                                ? "text-red-50"
+                                ? "bg-amber-950 text-red-50 font-bold"
                                 : "text-gray-300"
                             }`}
                           />
