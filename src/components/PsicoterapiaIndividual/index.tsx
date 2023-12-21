@@ -18,7 +18,7 @@ export default function PsicoterapiaIndividual() {
           className={`
             px-3
             pb-6
-            2xl:text-8xl
+            xl:text-6xl
             text-4xl
             text-center
             font-bad-script
@@ -40,7 +40,7 @@ export default function PsicoterapiaIndividual() {
         className={`
             px-3
             pt-8
-            2xl:text-4xl
+            xl:text-2xl
             text-center
             tracking-widest
             leading-6

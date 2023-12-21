@@ -22,7 +22,7 @@ export default function PsicoterapiaCasal() {
             2xl:pr-4
             2xl:pt-32
             2xl:pb-8
-            2xl:text-8xl
+            xl:text-6xl
             text-4xl
             text-center
             font-bad-script
@@ -35,7 +35,7 @@ export default function PsicoterapiaCasal() {
         src={imgClient}
         width={500}
         height={500}
-        className={`2xl:w-3/12 mr-auto rounded-r-3xl`}
+        className={`2xl:w-3/12 mx-auto rounded-r-3xl`}
         alt=""
       />
 
@@ -43,12 +43,10 @@ export default function PsicoterapiaCasal() {
         className={`
             px-3
             pt-8
-            2xl:pr-4
-            2xl:pt-32
-            2xl:text-3xl
             text-center
             tracking-widest
             leading-6
+            xl:text-2xl
           `}
       >
         Modalidade que acolhe demandas afetivas e práticas do casal, através da
