@@ -54,7 +54,7 @@ export default function About() {
       </div>
       <p
         className={`
-            px-32
+            px-3
             pt-4
             pb-4
             2xl:px-8
