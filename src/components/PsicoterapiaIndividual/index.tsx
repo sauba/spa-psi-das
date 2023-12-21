@@ -10,7 +10,6 @@ export default function PsicoterapiaIndividual() {
         pt-10
         pb-4
       text-amber-950
-        min-h-screen
       `}
       id="psicoterapiaIndividual"
     >
@@ -30,9 +29,9 @@ export default function PsicoterapiaIndividual() {
         </p>
         <Image
           src={imgClient}
-          width={300}
-          height={300}
-          className={`2xl:w-3/12 ml-auto z-4 rounded-lg`}
+          width={500}
+          height={500}
+          className={`2xl:w-3/12 ml-auto mr-8 z-4 rounded-lg`}
           alt=""
         />
       </div>

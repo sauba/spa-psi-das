@@ -12,7 +12,6 @@ export default function PsicoterapiaCasal() {
         pb-4
         bg-amber-950/50
         text-red-50
-        min-h-screen
       `}
       id="psicoterapiaCasal"
     >
@@ -34,8 +33,8 @@ export default function PsicoterapiaCasal() {
 
       <Image
         src={imgClient}
-        width={300}
-        height={300}
+        width={500}
+        height={500}
         className={`2xl:w-3/12 mr-auto rounded-r-3xl`}
         alt=""
       />

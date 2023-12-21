@@ -15,7 +15,6 @@ export default function AbordagemHumanista() {
         flex-wrap
         bg-amber-950/50
         text-red-50
-        min-h-screen
       `}
       >
         <p
