@@ -37,21 +37,18 @@ export default function AbordagemHumanista() {
           Abordagem Humanista
         </p>
 
-        <div className={`w-11/12 mx-auto overflow-hidden`}>
+        <div className={`w-full mx-auto overflow-hidden`}>
           <KeenSlider />
         </div>
 
         <p
           className={`
             px-3
-            pt-2
             pb-4
-            2xl:px-8
-            2xl:pt-8
+            xl:px-8
             xl:text-2xl
             text-center
             tracking-widest
-            leading-6
           `}
         >
           Essa linha teórica apoia os atendimentos, partindo do pressuposto de

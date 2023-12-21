@@ -35,14 +35,15 @@ export default function PsicoterapiaCasal() {
         src={imgClient}
         width={500}
         height={500}
-        className={`2xl:w-3/12 mx-auto rounded-r-3xl`}
+        className={`xl:w-5/12 mx-auto rounded-r-3xl`}
         alt=""
       />
 
       <p
         className={`
             px-3
-            pt-8
+            pt-4
+            pb-4
             text-center
             tracking-widest
             leading-6

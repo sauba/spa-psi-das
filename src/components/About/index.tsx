@@ -29,14 +29,14 @@ export default function About() {
               flex
               text-center
               text-2xl
-              2xl:text-6xl
+              xl:text-6xl
               font-bad-script
               hover:cursor-none
               items-center
             `}
         >
           Olá, eu sou
-          <span className={`font-allura text-4xl 2xl:text-8xl pl-2`}>
+          <span className={`font-allura text-4xl xl:text-8xl pl-2`}>
             <p className={`animate-bounce-slow`}>Daniele Andrade</p>
           </span>
         </span>
@@ -54,11 +54,11 @@ export default function About() {
       </div>
       <p
         className={`
-            px-2
+            px-32
             pt-4
             pb-4
             2xl:px-8
-            2xl:text-4xl
+            xl:text-2xl
             text-center
             tracking-widest
             leading-6
