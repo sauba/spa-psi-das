@@ -26,7 +26,7 @@ export default function PsicoterapiaIndividual() {
             z-5
           `}
         >
-          Psicoterapia Individual
+          Terapia Individual
         </p>
         <Image
           src={imgClient}

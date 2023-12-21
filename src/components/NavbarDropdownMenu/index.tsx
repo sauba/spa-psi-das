@@ -36,7 +36,7 @@ export default function NavbarDropdownMenu() {
                           flex
                           justify-center
                           items-center
-                          pt-4                             
+                          my-2                             
                           ${
                             active
                               ? "bg-amber-950 text-red-50 text-2xl font-bold"
@@ -52,7 +52,6 @@ export default function NavbarDropdownMenu() {
                             px-4
                             py-2
                             text-sm
-                            gap-3
                             hover:text-lg
                           `}
                         >
@@ -67,7 +66,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          py-2
+                          my-2
                           justify-evenly
                           items-center                
                           ${
@@ -103,7 +102,7 @@ export default function NavbarDropdownMenu() {
                             <div
                               className={`
                                 flex
-                                py-4
+                                my-2
                                 justify-center
                                 items-center
                                 ${
@@ -123,9 +122,10 @@ export default function NavbarDropdownMenu() {
                                   text-sm
                                   gap-3
                                   hover:font-bold
+                                  hover:text-lg
                                 `}
                               >
-                                Psicoterapia Individual
+                                Terapia Individual
                               </a>
                             </div>
                           )}
@@ -142,7 +142,7 @@ export default function NavbarDropdownMenu() {
                             <div
                               className={`
                                 flex
-                                py-4
+                                my-2
                                 justify-center
                                 items-center
                                 ${
@@ -179,7 +179,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          py-2
+                          my-2
                           justify-center
                           items-center
                           ${
@@ -207,36 +207,6 @@ export default function NavbarDropdownMenu() {
                       </div>
                     )}
                   </Menu.Item>
-
-                  {/* Menu Item Desabilitado */}
-                  {/* <Menu.Item disabled>
-                      {({ active, disabled }) => (
-                        <div className="flex justify-evenly items-center">
-                          <HandsClapping
-                            size={32}
-                            className={`${
-                              disabled
-                                ? "text-gray-200"
-                                : active
-                                ? "bg-amber-950 text-red-50 font-bold"
-                                : "text-gray-300"
-                            }`}
-                          />
-                          <a
-                            href="#"
-                            className={`flex items-center px-4 py-2 text-sm ${
-                              disabled
-                                ? "text-zinc-300"
-                                : active
-                                ? "bg-amber-950 text-red-50 text-white"
-                                : "text-gray-700"
-                            }`}
-                          >
-                            Abordagem
-                          </a>
-                        </div>
-                      )}
-                  </Menu.Item> */}
                 </div>
               </Menu.Items>
             </Transition>
@@ -245,4 +215,38 @@ export default function NavbarDropdownMenu() {
       </Menu>
     </div>
   )
+}
+
+{
+  /* Menu Item Desabilitado */
+}
+{
+  /* <Menu.Item disabled>
+      {({ active, disabled }) => (
+        <div className="flex justify-evenly items-center">
+          <HandsClapping
+            size={32}
+            className={`${
+              disabled
+                ? "text-gray-200"
+                : active
+                ? "bg-amber-950 text-red-50 font-bold"
+                : "text-gray-300"
+            }`}
+          />
+          <a
+            href="#"
+            className={`flex items-center px-4 py-2 text-sm ${
+              disabled
+                ? "text-zinc-300"
+                : active
+                ? "bg-amber-950 text-red-50 text-white"
+                : "text-gray-700"
+            }`}
+          >
+            Abordagem
+          </a>
+        </div>
+      )}
+  </Menu.Item> */
 }
