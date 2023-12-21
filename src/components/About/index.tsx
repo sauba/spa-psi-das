@@ -59,6 +59,7 @@ export default function About() {
             pb-4
             2xl:px-8
             xl:text-2xl
+            2xl:text-3xl
             text-center
             tracking-widest
             leading-6

@@ -17,8 +17,9 @@ export default function PsicoterapiaIndividual() {
         <p
           className={`
             px-3
-            pb-6
+            py-8
             xl:text-6xl
+            2xl:text-8xl
             text-4xl
             text-center
             font-bad-script
@@ -31,17 +32,18 @@ export default function PsicoterapiaIndividual() {
           src={imgClient}
           width={500}
           height={500}
-          className={`2xl:w-3/12 ml-auto mr-8 z-4 rounded-lg`}
+          className={`xl:w-5/12 ml-auto mr-8 z-4 rounded-lg`}
           alt=""
         />
       </div>
 
       <p
         className={`
-            px-3
-            pt-4
-            pb-4
+            px-16
+            pt-8
+            pb-16
             xl:text-2xl
+            2xl:text-4xl
             text-right
             tracking-widest
             leading-6
