@@ -25,7 +25,7 @@ export default function KeenSliderAuto() {
     },
   })
   return (
-    <div ref={sliderRef} className="keen-slider">
+    <div ref={sliderRef} className="keen-slider rounded-lg">
       <div className="keen-slider__slide number-slide1">
         <Image src={img1} width={720} height={680} alt="" priority />
       </div>
