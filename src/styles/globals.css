@@ -32,7 +32,7 @@
 [class^="number-slide"],
 [class*=" number-slide"] {
   display: flex;
-  height: 400px;
+  height: 300px;
   max-height: 100vh;
   border-radius: 12px;
 }

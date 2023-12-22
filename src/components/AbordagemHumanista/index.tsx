@@ -1,4 +1,3 @@
-import KeenSlider from "../KeenSlider"
 import KeenSliderAuto from "../KeenSliderAuto"
 
 export default function AbordagemHumanista() {
