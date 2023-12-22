@@ -39,7 +39,7 @@ select {
 
 /* Keen Slider com erro de responsividade */
 
-[class^="number-slide"],
+/* [class^="number-slide"],
 [class*=" number-slide"] {
   display: flex;
   align-items: center;
@@ -48,8 +48,9 @@ select {
   color: #fff;
   font-weight: 500;
   /* height: 440px; */
-  max-height: 100vh;
-}
+/* max-height: 100vh; */
+/* } */
+*/
 
 /* .number-slide1 {
 }
@@ -66,7 +67,7 @@ select {
 .number-slide5 {
 } */
 
-/*  */
+/* KeenSlider Auto */
 
 [class^="number-slide"],
 [class*=" number-slide"] {
