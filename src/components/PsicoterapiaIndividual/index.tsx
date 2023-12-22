@@ -11,9 +11,8 @@ export default function PsicoterapiaIndividual() {
       `}
       id="psicoterapiaIndividual"
     >
-      <div>
-        <p
-          className={`
+      <p
+        className={`
             px-3
             py-8
             xl:text-6xl
@@ -22,17 +21,16 @@ export default function PsicoterapiaIndividual() {
             text-center
             font-bad-script
           `}
-        >
-          Terapia Individual
-        </p>
-        <Image
-          src={imgClient}
-          width={500}
-          height={500}
-          className={`xl:w-5/12 ml-auto mr-8 z-4 rounded-lg`}
-          alt=""
-        />
-      </div>
+      >
+        Terapia Individual
+      </p>
+      <Image
+        src={imgClient}
+        width={500}
+        height={500}
+        className={`xl:w-5/12 ml-auto mr-8 z-4 rounded-lg`}
+        alt=""
+      />
 
       <p
         className={`
