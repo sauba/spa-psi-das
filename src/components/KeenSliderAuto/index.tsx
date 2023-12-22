@@ -25,7 +25,7 @@ export default function KeenSliderAuto() {
     },
     breakpoints: {
       "(min-width: 400px)": {
-        slides: { perView: 1.4 },
+        slides: { perView: 1 },
       },
       "(min-width: 1000px)": {
         slides: { perView: 2 },

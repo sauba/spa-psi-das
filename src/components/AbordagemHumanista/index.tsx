@@ -12,7 +12,6 @@ export default function AbordagemHumanista() {
         className={`
         flex
         flex-col
-        flex-wrap
         bg-amber-950/50
         text-red-50
       `}
@@ -25,14 +24,11 @@ export default function AbordagemHumanista() {
               xl:text-6xl
               pl-20
               pt-10
-              pb-4
+              xl:pb-4
               2xl:pl-40
               2xl:pt-20
               2xl:text-8xl
               font-bad-script
-              hover:cursor-none
-              flex
-              items-center
             `}
         >
           Abordagem Humanista
