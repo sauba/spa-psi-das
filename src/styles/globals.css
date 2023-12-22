@@ -32,8 +32,6 @@
 [class^="number-slide"],
 [class*=" number-slide"] {
   display: flex;
-  align-items: center;
-  justify-content: center;
   height: 400px;
   max-height: 100vh;
 }
