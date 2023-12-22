@@ -13,7 +13,7 @@ export default function KeenSliderAuto() {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
     loop: true,
     renderMode: "performance",
-    drag: true,
+    drag: false,
     created(s) {
       s.moveToIdx(5, true, animation)
     },
