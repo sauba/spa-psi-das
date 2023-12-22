@@ -28,26 +28,61 @@ export default function KeenSliderAuto() {
         slides: { perView: 1.4 },
       },
       "(min-width: 1000px)": {
-        slides: { perView: 2.4 },
+        slides: { perView: 2 },
       },
     },
   })
   return (
     <div ref={sliderRef} className="keen-slider w-full">
-      <div className="keen-slider__slide number-slide1 rounded-br-lg">
-        <Image src={img1} width={720} height={680} alt="" priority />
+      <div className="keen-slider__slide number-slide1">
+        <Image
+          src={img1}
+          width={720}
+          height={680}
+          alt=""
+          priority
+          className={`rounded-xl`}
+        />
       </div>
-      <div className="keen-slider__slide number-slide2 rounded-br-lg">
-        <Image src={img2} width={720} height={680} alt="" priority />
+      <div className="keen-slider__slide number-slide2">
+        <Image
+          src={img2}
+          width={720}
+          height={680}
+          alt=""
+          priority
+          className={`rounded-xl`}
+        />
       </div>
-      <div className="keen-slider__slide number-slide3 rounded-br-lg">
-        <Image src={img3} width={720} height={680} alt="" priority />
+      <div className="keen-slider__slide number-slide3">
+        <Image
+          src={img3}
+          width={720}
+          height={680}
+          alt=""
+          priority
+          className={`rounded-xl`}
+        />
       </div>
-      <div className="keen-slider__slide number-slide4 rounded-br-lg">
-        <Image src={img4} width={720} height={680} alt="" priority />
+      <div className="keen-slider__slide number-slide4">
+        <Image
+          src={img4}
+          width={720}
+          height={680}
+          alt=""
+          priority
+          className={`rounded-xl`}
+        />
       </div>
-      <div className="keen-slider__slide number-slide5 rounded-br-lg">
-        <Image src={img5} width={720} height={680} alt="" priority />
+      <div className="keen-slider__slide number-slide5">
+        <Image
+          src={img5}
+          width={720}
+          height={680}
+          alt=""
+          priority
+          className={`rounded-xl`}
+        />
       </div>
     </div>
   )

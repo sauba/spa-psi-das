@@ -25,6 +25,7 @@ export default function AbordagemHumanista() {
               xl:text-6xl
               pl-20
               pt-10
+              pb-4
               2xl:pl-40
               2xl:pt-20
               2xl:text-8xl
@@ -44,8 +45,7 @@ export default function AbordagemHumanista() {
         <p
           className={`
             px-3
-            pt-4
-            pb-4
+            pb-10
             xl:px-8
             xl:text-2xl
             2xl:text-4xl
