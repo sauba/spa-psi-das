@@ -28,7 +28,7 @@ export default function KeenSliderAuto() {
         slides: { perView: 1.4, spacing: 5 },
       },
       "(min-width: 1000px)": {
-        slides: { perView: 2.4, spacing: 5 },
+        slides: { perView: 2.4, spacing: 2 },
       },
     },
   })
