@@ -23,22 +23,30 @@ export default function KeenSliderAuto() {
     animationEnded(s) {
       s.moveToIdx(s.track.details.abs + 5, true, animation)
     },
+    breakpoints: {
+      "(min-width: 400px)": {
+        slides: { perView: 1.4, spacing: 5 },
+      },
+      "(min-width: 1000px)": {
+        slides: { perView: 2.4 },
+      },
+    },
   })
   return (
-    <div ref={sliderRef} className="keen-slider rounded-lg">
-      <div className="keen-slider__slide number-slide1">
+    <div ref={sliderRef} className="keen-slider">
+      <div className="keen-slider__slide number-slide1 rounded-br-lg">
         <Image src={img1} width={720} height={680} alt="" priority />
       </div>
-      <div className="keen-slider__slide number-slide2">
+      <div className="keen-slider__slide number-slide2 rounded-br-lg">
         <Image src={img2} width={720} height={680} alt="" priority />
       </div>
-      <div className="keen-slider__slide number-slide3">
+      <div className="keen-slider__slide number-slide3 rounded-br-lg">
         <Image src={img3} width={720} height={680} alt="" priority />
       </div>
-      <div className="keen-slider__slide number-slide4">
+      <div className="keen-slider__slide number-slide4 rounded-br-lg">
         <Image src={img4} width={720} height={680} alt="" priority />
       </div>
-      <div className="keen-slider__slide number-slide5">
+      <div className="keen-slider__slide number-slide5 rounded-br-lg">
         <Image src={img5} width={720} height={680} alt="" priority />
       </div>
     </div>
