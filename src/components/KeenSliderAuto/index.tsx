@@ -41,7 +41,7 @@ export default function KeenSliderAuto() {
           height={680}
           alt=""
           priority
-          className={`rounded-xl`}
+          className={`rounded-3xl`}
         />
       </div>
       <div className="keen-slider__slide number-slide2">
@@ -51,7 +51,7 @@ export default function KeenSliderAuto() {
           height={680}
           alt=""
           priority
-          className={`rounded-xl`}
+          className={`rounded-3xl`}
         />
       </div>
       <div className="keen-slider__slide number-slide3">
@@ -61,7 +61,7 @@ export default function KeenSliderAuto() {
           height={680}
           alt=""
           priority
-          className={`rounded-xl`}
+          className={`rounded-3xl`}
         />
       </div>
       <div className="keen-slider__slide number-slide4">
@@ -71,7 +71,7 @@ export default function KeenSliderAuto() {
           height={680}
           alt=""
           priority
-          className={`rounded-xl`}
+          className={`rounded-3xl`}
         />
       </div>
       <div className="keen-slider__slide number-slide5">
@@ -81,7 +81,7 @@ export default function KeenSliderAuto() {
           height={680}
           alt=""
           priority
-          className={`rounded-xl`}
+          className={`rounded-3xl`}
         />
       </div>
     </div>

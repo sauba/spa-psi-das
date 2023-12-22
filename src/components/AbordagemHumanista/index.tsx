@@ -40,7 +40,7 @@ export default function AbordagemHumanista() {
         <p
           className={`
             px-3
-            pt-2
+            pt-4
             pb-10
             xl:px-8
             xl:text-2xl
