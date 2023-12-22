@@ -1,4 +1,5 @@
 import KeenSlider from "../KeenSlider"
+import KeenSliderAuto from "../KeenSliderAuto"
 
 export default function AbordagemHumanista() {
   return (
@@ -38,7 +39,7 @@ export default function AbordagemHumanista() {
         </p>
 
         <div className={`w-full mx-auto overflow-hidden`}>
-          <KeenSlider />
+          <KeenSliderAuto />
         </div>
 
         <p
