@@ -37,7 +37,7 @@ export default function PsicoterapiaCasal() {
 
       <p
         className={`
-            px-16
+            px-3
             pt-2
             pb-10
             xl:text-2xl
