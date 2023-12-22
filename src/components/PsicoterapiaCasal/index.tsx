@@ -19,7 +19,7 @@ export default function PsicoterapiaCasal() {
             py-8
             xl:text-6xl
             2xl:text-8xl
-            text-6xl
+            text-4xl
             text-center
             font-bad-script
           `}
@@ -39,7 +39,7 @@ export default function PsicoterapiaCasal() {
         className={`
             px-16
             pt-8
-            pb-16
+            pb-10
             xl:text-2xl
             2xl:text-4xl
             text-center
