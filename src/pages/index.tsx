@@ -20,7 +20,7 @@ export default function Home() {
       w-full
       min-h-screen
       items-center
-      justify-between
+      justify-center
       bg-gradient-to-bl
       from-stone-400
       to-red-50
