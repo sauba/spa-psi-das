@@ -44,9 +44,9 @@ export default function Footer() {
           </span>
 
           <span
-            className={`pt-8 pb-2 text-lg text-rose-500 tracking-widest flex-wrap`}
+            className={`pt-8 pb-2 text-md text-rose-500 tracking-widest flex-wrap`}
           >
-            Entre em Contato
+            Entre em Contato:
           </span>
 
           <div className={`flex justify-center items-center gap-6`}>
