@@ -7,7 +7,7 @@ import "keen-slider/keen-slider.min.css"
 import { useKeenSlider } from "keen-slider/react"
 import Image from "next/image"
 
-const animation = { duration: 200000, easing: (t: number) => t }
+const animation = { duration: 160000, easing: (t: number) => t }
 
 export default function KeenSliderAuto() {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
