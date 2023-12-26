@@ -33,7 +33,7 @@ export default function KeenSliderAuto() {
     },
   })
   return (
-    <div ref={sliderRef} className="keen-slider w-full">
+    <div ref={sliderRef} className="keen-slider">
       <div className="keen-slider__slide number-slide1">
         <Image
           src={img1}
