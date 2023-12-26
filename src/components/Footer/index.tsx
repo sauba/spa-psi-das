@@ -44,7 +44,7 @@ export default function Footer() {
           </span>
 
           <span
-            className={`pt-8 pb-2 text-md text-rose-500 tracking-widest flex-wrap`}
+            className={`pt-8 pb-4 text-md text-rose-500 tracking-widest flex-wrap`}
           >
             Entre em Contato:
           </span>
