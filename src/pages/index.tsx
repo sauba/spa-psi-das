@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
+
   return (
     <main
       className={`
@@ -31,7 +32,6 @@ export default function Home() {
       <AbordagemHumanista />
       <PsicoterapiaIndividual />
       <PsicoterapiaCasal />
-
       <Footer />
     </main>
   )

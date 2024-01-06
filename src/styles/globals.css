@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Allura&family=Athiti:wght@200;300&family=Bad+Script&family=Castoro+Titling&family=Caveat:wght@400;500;700&family=Comforter&family=David+Libre&family=Inspiration&family=Instrument+Serif:ital@0;1&family=Julius+Sans+One&family=Jura:wght@300&family=Mate+SC&family=Meddon&family=PT+Mono&family=Poiret+One&family=Reenie+Beanie&family=Shadows+Into+Light+Two&family=Zeyada&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Athiti:wght@200;300&family=Bad+Script&family=Castoro+Titling&family=Caveat:wght@400;500;700&family=Comforter&family=David+Libre&family=Inspiration&family=Instrument+Serif:ital@0;1&family=Julius+Sans+One&family=Jura:wght@300&family=Mate+SC&family=Meddon&family=PT+Mono&family=Poiret+One&family=Reenie+Beanie&family=Shadows+Into+Light+Two&family=Zeyada&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,18 +6,18 @@
 
 /* Fonts imported locally */
 @font-face {
-  font-family: "gothamrounded-book";
-  src: url("../fonts/gothamrounded-book.otf") format("otf");
+  font-family: 'gothamrounded-book';
+  src: url('../fonts/gothamrounded-book.otf') format('otf');
 }
 
 @font-face {
-  font-family: "";
-  src: url("../fonts/gothamrounded-medium.otf") format("otf");
+  font-family: '';
+  src: url('../fonts/gothamrounded-medium.otf') format('otf');
 }
 
 @font-face {
-  font-family: "snowdrop-regular";
-  src: url("../fonts/snowdrop-regular.ttf") format(ttf);
+  font-family: 'snowdrop-regular';
+  src: url('../fonts/snowdrop-regular.ttf') format(ttf);
 }
 
 :root {
@@ -29,8 +29,8 @@
   box-sizing: border-box;
 }
 
-[class^="number-slide"],
-[class*=" number-slide"] {
+[class^='number-slide'],
+[class*=' number-slide'] {
   display: flex;
   justify: center;
   items: center;

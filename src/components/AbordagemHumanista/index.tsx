@@ -5,6 +5,7 @@ export default function AbordagemHumanista() {
     <div
       className={`
         w-full
+        min-h-screen
         `}
       id="abordagem"
     >
@@ -14,6 +15,7 @@ export default function AbordagemHumanista() {
         flex-col
         bg-amber-950/50
         text-red-50
+        min-h-screen
       `}
       >
         <p

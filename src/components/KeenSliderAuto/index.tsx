@@ -28,12 +28,12 @@ export default function KeenSliderAuto() {
         slides: { perView: 1, spacing: 0 },
       },
       "(min-width: 1000px)": {
-        slides: { perView: 2, spacing: 0 },
+        slides: { perView: 3, spacing: 0 },
       },
     },
   })
   return (
-    <div ref={sliderRef} className="keen-slider">
+    <div ref={sliderRef} className="keen-slider my-16">
       <div className="keen-slider__slide number-slide1">
         <Image
           src={img1}
