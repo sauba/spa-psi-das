@@ -37,8 +37,8 @@ export default function KeenSliderAuto() {
       <div className="keen-slider__slide number-slide1">
         <Image
           src={img1}
-          width={720}
-          height={680}
+          width={400}
+          height={400}
           alt=""
           priority
           className={`rounded-3xl`}
@@ -47,8 +47,8 @@ export default function KeenSliderAuto() {
       <div className="keen-slider__slide number-slide2">
         <Image
           src={img2}
-          width={720}
-          height={680}
+          width={400}
+          height={400}
           alt=""
           priority
           className={`rounded-3xl`}
@@ -57,8 +57,8 @@ export default function KeenSliderAuto() {
       <div className="keen-slider__slide number-slide3">
         <Image
           src={img3}
-          width={720}
-          height={680}
+          width={400}
+          height={400}
           alt=""
           priority
           className={`rounded-3xl`}
@@ -67,8 +67,8 @@ export default function KeenSliderAuto() {
       <div className="keen-slider__slide number-slide4">
         <Image
           src={img4}
-          width={720}
-          height={680}
+          width={400}
+          height={400}
           alt=""
           priority
           className={`rounded-3xl`}
@@ -77,8 +77,8 @@ export default function KeenSliderAuto() {
       <div className="keen-slider__slide number-slide5">
         <Image
           src={img5}
-          width={720}
-          height={680}
+          width={400}
+          height={400}
           alt=""
           priority
           className={`rounded-3xl`}
