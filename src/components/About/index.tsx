@@ -48,7 +48,7 @@ export default function About() {
           src={imgProfile}
           width={256}
           height={256}
-          className={`2xl:w-3/12 mx-auto rounded-tl-3xl rounded-bl-xl rounded-tr-xl rounded-br-3xl`}
+          className={`2xl:w-2/12 mx-auto rounded-tl-3xl rounded-bl-xl rounded-tr-xl rounded-br-3xl`}
           priority
           alt="Psicologa Daniele Andrade"
         />

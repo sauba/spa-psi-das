@@ -5,6 +5,7 @@ export default function AbordagemHumanista() {
     <div
       className={`
         w-full
+        min-h-screen
         `}
       id="abordagem"
     >
@@ -33,7 +34,7 @@ export default function AbordagemHumanista() {
           Abordagem Humanista
         </p>
 
-        <div className={`w-full mx-auto overflow-hidden`}>
+        <div className={`w-full flex flex-col justify-center items-center mx-auto my-8 overflow-hidden`}>
           <KeenSliderAuto />
         </div>
 
