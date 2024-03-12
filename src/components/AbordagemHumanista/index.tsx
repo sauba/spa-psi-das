@@ -5,7 +5,6 @@ export default function AbordagemHumanista() {
     <div
       className={`
         w-full
-        min-h-screen
         `}
       id="abordagem"
     >
