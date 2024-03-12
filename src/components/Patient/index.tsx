@@ -36,6 +36,7 @@ interface IPatient {
   forwarded?: string
   consultationReason?: string
   considerations?: string
+  accessGranted: boolean
 }
 
 export default function Patient() {

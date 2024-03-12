@@ -92,10 +92,10 @@ export default function Footer() {
       <div
         className={`flex-col justify-center items-center text-center text-[8px] text-sky-800 mb-1`}
       >
-        <span className={`flex justify-center tracking-tighter`}>
+        <span className={`flex justify-center tracking-tighter text-rose-500`}>
           Developed by Thiago J. de Queiroz. Psicóloga Daniele Andrade
           <TrademarkRegistered size={10} />
-          2023 Todos os direitos reservados.
+          2024 Todos os direitos reservados.
         </span>
       </div>
     </footer>

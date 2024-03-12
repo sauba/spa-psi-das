@@ -25,10 +25,10 @@ export default function KeenSliderAuto() {
     },
     breakpoints: {
       "(min-width: 400px)": {
-        slides: { perView: 0.8, spacing: 4 },
+        slides: { perView: 0.8, spacing: 12 },
       },
       "(min-width: 1000px)": {
-        slides: { perView: 2.8, spacing: 4 },
+        slides: { perView: 5, spacing: 16 },
       },
     },
   })
@@ -41,7 +41,7 @@ export default function KeenSliderAuto() {
           height={400}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`w-full rounded-2xl`}
         />
       </div>
       <div className="keen-slider__slide number-slide2">
@@ -51,7 +51,7 @@ export default function KeenSliderAuto() {
           height={400}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`w-full rounded-2xl`}
         />
       </div>
       <div className="keen-slider__slide number-slide3">
@@ -61,7 +61,7 @@ export default function KeenSliderAuto() {
           height={400}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`w-full rounded-2xl`}
         />
       </div>
       <div className="keen-slider__slide number-slide4">
@@ -71,7 +71,7 @@ export default function KeenSliderAuto() {
           height={400}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`w-full rounded-2xl`}
         />
       </div>
       <div className="keen-slider__slide number-slide5">
@@ -81,7 +81,7 @@ export default function KeenSliderAuto() {
           height={400}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`w-full rounded-2xl`}
         />
       </div>
     </div>
