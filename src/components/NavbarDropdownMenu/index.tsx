@@ -5,10 +5,10 @@ import { Fragment } from "react"
 export default function NavbarDropdownMenu() {
   return (
     <div className="flex justify-start items-start">
-      <Menu as="div" className="absolute">
+      <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50">
+            <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50 fixed">
               <List
                 size={64}
                 weight="fill"
