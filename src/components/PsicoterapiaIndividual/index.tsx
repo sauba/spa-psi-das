@@ -16,7 +16,7 @@ export default function PsicoterapiaIndividual() {
       <p
         className={`
             px-3
-            pt-8
+            px-8
             xl:text-6xl
             2xl:text-8xl
             text-4xl
