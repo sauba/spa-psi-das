@@ -8,7 +8,7 @@ export default function NavbarDropdownMenu() {
       <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50 fixed">
+            <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50">
               <List
                 size={64}
                 weight="fill"
