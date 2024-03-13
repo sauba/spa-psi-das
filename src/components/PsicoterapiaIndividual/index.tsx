@@ -8,7 +8,6 @@ export default function PsicoterapiaIndividual() {
         flex
         flex-col
       text-amber-950
-        min-h-screen
         justify-center
         items-center
       `}
