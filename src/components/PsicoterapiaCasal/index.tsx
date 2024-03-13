@@ -10,7 +10,6 @@ export default function PsicoterapiaCasal() {
         xl:flex
         bg-amber-950/50
         text-red-50
-        min-h-screen
         justify-center
         items-center
       `}
