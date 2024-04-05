@@ -1,0 +1,45 @@
+'use client'
+import { Tab } from '@headlessui/react'
+import { Fragment } from 'react'
+import PsicoterapiaCasal from '../PsicoterapiaCasal'
+import PsicoterapiaIndividual from '../PsicoterapiaIndividual'
+
+export default function NavbarTabs() {
+  return (
+    <div className={`font-bad-script`}>
+      <Tab.Group>
+        <Tab.List className={`flex justify-center items-center gap-3 py-16`}>
+          <Tab as={Fragment}>
+            {({ selected }) => (
+              /* Use the `selected` state to conditionally style the selected tab. */
+              <button
+                className={
+                  selected ? 'text-green-400 xl:text-6xl 2xl:text-8xl text-4xl text-center border-none outline-none' : 'xl:text-4xl 2xl:text-6xl text-2xl text-center border-none outline-none text-amber-950'
+                }
+              >
+                Terapia Individual
+              </button>
+            )}
+          </Tab>
+
+          <Tab as={Fragment}>
+            {({ selected }) => (
+              /* Use the `selected` state to conditionally style the selected tab. */
+              <button
+                className={
+                  selected ? 'text-green-400 xl:text-6xl 2xl:text-8xl text-4xl text-center border-none outline-none' : 'xl:text-4xl 2xl:text-6xl text-2xl text-center border-none outline-none text-red-50'
+                }
+              >
+                Terapia de Casal
+              </button>
+            )}
+          </Tab>
+        </Tab.List>
+        <Tab.Panels className={`w-full`}>
+          <Tab.Panel className={``}><PsicoterapiaIndividual /></Tab.Panel>
+          <Tab.Panel className={``}><PsicoterapiaCasal /></Tab.Panel>
+        </Tab.Panels>
+      </Tab.Group>
+    </div>
+  )
+}

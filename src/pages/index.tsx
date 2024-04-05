@@ -2,8 +2,7 @@ import AbordagemHumanista from "@/components/AbordagemHumanista"
 import About from "@/components/About"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
-import PsicoterapiaCasal from "@/components/PsicoterapiaCasal"
-import PsicoterapiaIndividual from "@/components/PsicoterapiaIndividual"
+import NavbarTabs from "@/components/NavbarTabs"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -30,8 +29,7 @@ export default function Home() {
       <Header />
       <About />
       <AbordagemHumanista />
-      <PsicoterapiaIndividual />
-      <PsicoterapiaCasal />
+      <NavbarTabs />
       <Footer />
     </main>
   )
