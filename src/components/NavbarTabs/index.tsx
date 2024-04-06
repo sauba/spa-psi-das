@@ -14,7 +14,7 @@ export default function NavbarTabs() {
               /* Use the `selected` state to conditionally style the selected tab. */
               <button
                 className={
-                  selected ? 'text-green-400 xl:text-4xl 2xl:text-6xl text-3xl text-center border-none outline-none' : 'xl:text-3xl 2xl:text-5xl text-xl text-center border-none outline-none text-amber-950'
+                  selected ? 'animate-wiggle text-green-400 xl:text-4xl 2xl:text-6xl text-3xl text-center border-none outline-none' : 'xl:text-3xl 2xl:text-5xl text-xl text-center border-none outline-none text-amber-950'
                 }
               >
                 Terapia Individual
@@ -27,7 +27,7 @@ export default function NavbarTabs() {
               /* Use the `selected` state to conditionally style the selected tab. */
               <button
                 className={
-                  selected ? 'text-green-400 xl:text-4xl 2xl:text-6xl text-3xl text-center border-none outline-none' : 'xl:text-3xl 2xl:text-5xl text-xl text-center border-none outline-none text-red-50'
+                  selected ? 'animate-wiggle text-green-400 xl:text-4xl 2xl:text-6xl text-3xl text-center border-none outline-none' : 'xl:text-3xl 2xl:text-5xl text-xl text-center border-none outline-none text-red-50'
                 }
               >
                 Terapia de Casal
