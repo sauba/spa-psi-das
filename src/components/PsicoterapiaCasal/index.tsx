@@ -10,11 +10,23 @@ export default function PsicoterapiaCasal() {
         xl:flex
         bg-amber-950/50
         text-red-50
-        justify-center
+        justify-around
         items-center
       `}
       id="psicoterapiaCasal"
     >
+      <p className={`
+              text-center
+              text-3xl
+              md:text-4xl
+              xl:text-6xl
+              pt-8
+              xl:pb-4
+              2xl:text-8xl
+              font-bad-script
+      `}>
+        Terapia de Casal
+      </p>
       <Image
         src={imgClient}
         width={500}

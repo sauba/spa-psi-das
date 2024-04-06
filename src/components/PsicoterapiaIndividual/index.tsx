@@ -8,11 +8,24 @@ export default function PsicoterapiaIndividual() {
         flex
         flex-col
       text-amber-950
-        justify-between
+        justify-around
         items-center
+        min-h-screen
       `}
       id="psicoterapiaIndividual"
     >
+      <p className={`
+              text-center
+              text-3xl
+              md:text-4xl
+              xl:text-6xl
+              pt-8
+              xl:pb-4
+              2xl:text-8xl
+              font-bad-script
+      `}>
+        Terapia Individual
+      </p>
       <Image
         src={imgClient}
         width={500}

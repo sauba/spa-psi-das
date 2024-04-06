@@ -2,12 +2,13 @@ import AbordagemHumanista from "@/components/AbordagemHumanista"
 import About from "@/components/About"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
-import NavbarTabs from "@/components/NavbarTabs"
+import PsicoterapiaCasal from "@/components/PsicoterapiaCasal"
+import PsicoterapiaIndividual from "@/components/PsicoterapiaIndividual"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Daniele Andrade Blog",
-  description: "This is the Daniele Andrade Blog",
+  title: "Psychologist Daniele Andrade",
+  description: "This is the Daniele Andrade psychologist website",
 }
 
 export default function Home() {
@@ -29,7 +30,8 @@ export default function Home() {
       <Header />
       <About />
       <AbordagemHumanista />
-      <NavbarTabs />
+      <PsicoterapiaIndividual />
+      <PsicoterapiaCasal />
       <Footer />
     </main>
   )

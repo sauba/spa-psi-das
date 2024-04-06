@@ -122,7 +122,40 @@ export default function NavbarDropdownMenu() {
                                   hover:text-lg
                                 `}
                               >
-                                Terapias
+                                Terapia Individual
+                              </a>
+                            </div>
+                          )}
+                        </Menu.Item>
+
+                        <Menu.Item>
+                          {({ active }) => (
+                            <div
+                              className={`
+                                flex
+                                my-2
+                                justify-center
+                                items-center
+                                ${active
+                                  ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                                  : "bg-amber-950 text-red-50 font-bold"
+                                }
+                              `}
+                            >
+                              <a
+                                href="#terapias"
+                                className={`
+                                  flex
+                                  items-center
+                                  px-4
+                                  py-2
+                                  text-sm
+                                  gap-3
+                                  hover:font-bold
+                                  hover:text-lg
+                                `}
+                              >
+                                Terapia de Casal
                               </a>
                             </div>
                           )}
