@@ -34,7 +34,7 @@ export default function AbordagemHumanista() {
           Abordagem Humanista
         </p>
 
-        <div className={`w-full flex flex-col justify-center items-center mx-auto my-8 overflow-hidden`}>
+        <div className={`w-full flex flex-col justify-center items-center mx-auto overflow-hidden`}>
           <KeenSliderAuto />
         </div>
 
