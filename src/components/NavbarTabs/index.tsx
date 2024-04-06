@@ -8,7 +8,7 @@ export default function NavbarTabs() {
   return (
     <div className={`font-bad-script`}>
       <Tab.Group>
-        <Tab.List className={`flex justify-between items-center lg:py-16`}>
+        <Tab.List className={`flex justify-around items-center lg:py-16`}>
           <Tab as={Fragment}>
             {({ selected }) => (
               /* Use the `selected` state to conditionally style the selected tab. */
