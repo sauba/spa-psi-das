@@ -1,5 +1,4 @@
-import Image from "next/image"
-import imgProfile from "../../../public/perfilDani2.svg"
+// import imgProfile from "../../../public/perfilDani2.svg"
 
 export default function About() {
   return (
@@ -21,7 +20,6 @@ export default function About() {
             flex
             flex-col
             justify-center
-            items-center
             gap-1
           `}
       >
@@ -44,14 +42,15 @@ export default function About() {
       </span>
 
       <div className="w-full">
-        <Image
+        <iframe width="560" height="315" className={`mx-auto rounded-3xl`} src="https://www.youtube.com/embed/e22D0IZ7nkE?si=6JzYN9CbcIwwhj5e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        {/* <Image
           src={imgProfile}
           width={256}
           height={256}
           className={`2xl:w-2/12 mx-auto rounded-tl-3xl rounded-bl-xl rounded-tr-xl rounded-br-3xl`}
           priority
           alt="Psicologa Daniele Andrade"
-        />
+        /> */}
       </div>
       <p
         className={`
