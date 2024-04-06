@@ -1,5 +1,5 @@
 import { Menu, Transition } from "@headlessui/react"
-import { List } from "@phosphor-icons/react"
+import { ListBullets } from "@phosphor-icons/react"
 import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
@@ -9,10 +9,10 @@ export default function NavbarDropdownMenu() {
         {({ open }) => (
           <Fragment>
             <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50">
-              <List
-                size={64}
+              <ListBullets
+                size={72}
                 weight="fill"
-                color="text-amber-950"
+                color="white"
                 className={`py-4`}
               />
             </Menu.Button>
@@ -37,10 +37,9 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           my-2                             
-                          ${
-                            active
-                              ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                              : "bg-amber-950 text-red-50 font-bold"
+                          ${active
+                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                            : "bg-amber-950 text-red-50 font-bold"
                           }
                         `}
                       >
@@ -69,10 +68,9 @@ export default function NavbarDropdownMenu() {
                           my-2
                           justify-evenly
                           items-center                
-                          ${
-                            active
-                              ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                              : "bg-amber-950 text-red-50 font-bold"
+                          ${active
+                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                            : "bg-amber-950 text-red-50 font-bold"
                           }
                         `}
                       >
@@ -105,10 +103,9 @@ export default function NavbarDropdownMenu() {
                                 my-2
                                 justify-center
                                 items-center
-                                ${
-                                  active
-                                    ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                                    : "bg-amber-950 text-red-50 font-bold"
+                                ${active
+                                  ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                                  : "bg-amber-950 text-red-50 font-bold"
                                 }
                               `}
                             >
@@ -145,10 +142,9 @@ export default function NavbarDropdownMenu() {
                                 my-2
                                 justify-center
                                 items-center
-                                ${
-                                  active
-                                    ? "bg-amber-950 text-red-50 font-bold"
-                                    : "bg-amber-950 text-red-50 font-bold"
+                                ${active
+                                  ? "bg-amber-950 text-red-50 font-bold"
+                                  : "bg-amber-950 text-red-50 font-bold"
                                 }
                               `}
                             >
@@ -182,10 +178,9 @@ export default function NavbarDropdownMenu() {
                           my-2
                           justify-center
                           items-center
-                          ${
-                            active
-                              ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                              : "bg-amber-950 text-red-50 font-bold"
+                          ${active
+                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                            : "bg-amber-950 text-red-50 font-bold"
                           }
                         `}
                       >
