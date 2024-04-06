@@ -12,6 +12,7 @@ export default function AbordagemHumanista() {
       <div
         className={`
         flex
+        min-h-screen
         flex-col
         bg-amber-950/50
         text-red-50
