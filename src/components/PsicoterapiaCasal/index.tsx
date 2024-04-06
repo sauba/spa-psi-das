@@ -5,13 +5,14 @@ export default function PsicoterapiaCasal() {
   return (
     <div
       className={`
+        w-full
+        min-h-screen
         flex
         flex-col
         xl:flex
         bg-amber-950/50
         text-red-50
         justify-around
-        items-center
       `}
       id="psicoterapiaCasal"
     >
