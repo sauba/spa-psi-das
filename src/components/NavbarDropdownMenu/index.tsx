@@ -110,7 +110,7 @@ export default function NavbarDropdownMenu() {
                               `}
                             >
                               <a
-                                href="#terapias"
+                                href="#psicoterapiaIndividual"
                                 className={`
                                   flex
                                   items-center
@@ -143,7 +143,7 @@ export default function NavbarDropdownMenu() {
                               `}
                             >
                               <a
-                                href="#terapias"
+                                href="#psicoterapiaCasal"
                                 className={`
                                   flex
                                   items-center
