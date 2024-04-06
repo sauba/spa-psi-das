@@ -8,13 +8,13 @@ export default function NavbarTabs() {
   return (
     <div className={`font-bad-script`}>
       <Tab.Group>
-        <Tab.List className={`flex justify-center items-center gap-3 lg:py-16`}>
+        <Tab.List className={`flex justify-between items-center lg:py-16`}>
           <Tab as={Fragment}>
             {({ selected }) => (
               /* Use the `selected` state to conditionally style the selected tab. */
               <button
                 className={
-                  selected ? 'text-green-400 xl:text-6xl 2xl:text-8xl text-4xl text-center border-none outline-none' : 'xl:text-4xl 2xl:text-6xl text-2xl text-center border-none outline-none text-amber-950'
+                  selected ? 'text-green-400 xl:text-4xl 2xl:text-6xl text-3xl text-center border-none outline-none' : 'xl:text-3xl 2xl:text-5xl text-xl text-center border-none outline-none text-amber-950'
                 }
               >
                 Terapia Individual
@@ -27,7 +27,7 @@ export default function NavbarTabs() {
               /* Use the `selected` state to conditionally style the selected tab. */
               <button
                 className={
-                  selected ? 'text-green-400 xl:text-6xl 2xl:text-8xl text-4xl text-center border-none outline-none' : 'xl:text-4xl 2xl:text-6xl text-2xl text-center border-none outline-none text-red-50'
+                  selected ? 'text-green-400 xl:text-4xl 2xl:text-6xl text-3xl text-center border-none outline-none' : 'xl:text-3xl 2xl:text-5xl text-xl text-center border-none outline-none text-red-50'
                 }
               >
                 Terapia de Casal
