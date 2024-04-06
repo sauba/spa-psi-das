@@ -6,7 +6,7 @@ import PsicoterapiaIndividual from '../PsicoterapiaIndividual'
 
 export default function NavbarTabs() {
   return (
-    <div className={`font-bad-script`}>
+    <div className={`font-bad-script`} id='terapias'>
       <Tab.Group>
         <Tab.List className={`flex justify-around items-center lg:py-16`}>
           <Tab as={Fragment}>
