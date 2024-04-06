@@ -42,7 +42,7 @@ export default function About() {
       </span>
 
       <div className="w-full">
-        <iframe width="300" height="300" className={`mx-auto rounded-3xl border-none outline-none`} src="https://www.youtube.com/embed/e22D0IZ7nkE?si=Qh-KaPvCSXL4P7Gj" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" rel="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe width="320" height="320" className={`mx-auto rounded-3xl lg:w-96 lg:h-96 border-none outline-none`} src="https://www.youtube.com/embed/e22D0IZ7nkE?si=Qh-KaPvCSXL4P7Gj" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" rel="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
         {/* <Image
           src={imgProfile}
