@@ -5,19 +5,15 @@ export default function AbordagemHumanista() {
     <div
       className={`
         w-full
-        `}
-      id="abordagem"
-    >
-      <div
-        className={`
         flex
         flex-col
         bg-amber-950/50
         text-red-50
-      `}
-      >
-        <p
-          className={`
+        `}
+      id="abordagem"
+    >
+      <p
+        className={`
               text-center
               text-3xl
               md:text-4xl
@@ -29,16 +25,16 @@ export default function AbordagemHumanista() {
               2xl:text-8xl
               font-bad-script
             `}
-        >
-          Abordagem Humanista
-        </p>
+      >
+        Abordagem Humanista
+      </p>
 
-        <div className={`w-full flex flex-col justify-center items-center mx-auto my-4 lg:my-6 overflow-hidden`}>
-          <KeenSliderAuto />
-        </div>
+      <div className={`w-full flex flex-col justify-center items-center mx-auto my-4 lg:my-6 overflow-hidden`}>
+        <KeenSliderAuto />
+      </div>
 
-        <p
-          className={`
+      <p
+        className={`
             px-3
             pt-4
             pb-10
@@ -50,12 +46,21 @@ export default function AbordagemHumanista() {
             text-center
             tracking-widest
           `}
-        >
-          Essa linha teórica apoia os atendimentos, partindo do pressuposto de
-          que o ser humano tem uma tendência atualizante, podendo se construir,
-          a partir de sua história, com liberdade, responsabilidade e escolha,
-          superando o determinismo.
-        </p>
+      >
+        Essa linha teórica apoia os atendimentos, partindo do pressuposto de
+        que o ser humano tem uma tendência atualizante, podendo se construir,
+        a partir de sua história, com liberdade, responsabilidade e escolha,
+        superando o determinismo.
+      </p>
+      <div
+        className={`
+        flex
+        flex-col
+        bg-amber-950/50
+        text-red-50
+      `}
+      >
+
       </div>
     </div>
   )
