@@ -31,6 +31,7 @@ export default function About() {
               font-bad-script
               hover:cursor-none
               items-center
+              pb-10
             `}
         >
           Olá, eu sou
@@ -56,7 +57,7 @@ export default function About() {
         className={`
             px-3
             pt-4
-            pb-4
+            pb-10
             2xl:px-8
             xl:text-2xl
             2xl:text-3xl
