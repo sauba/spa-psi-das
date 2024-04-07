@@ -28,7 +28,7 @@ export default function PsicoterapiaIndividual() {
         src={imgClient}
         width={500}
         height={500}
-        className={`xl:w-5/12 mx-auto rounded-lg py-4`}
+        className={`xl:w-4/12 mx-auto rounded-lg py-4`}
         alt=""
       />
 
