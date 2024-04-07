@@ -52,16 +52,6 @@ export default function AbordagemHumanista() {
         a partir de sua história, com liberdade, responsabilidade e escolha,
         superando o determinismo.
       </p>
-      <div
-        className={`
-        flex
-        flex-col
-        bg-amber-950/50
-        text-red-50
-      `}
-      >
-
-      </div>
     </div>
   )
 }
