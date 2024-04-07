@@ -18,7 +18,7 @@ export default function PsicoterapiaIndividual() {
               text-3xl
               md:text-4xl
               xl:text-6xl
-              pt-8
+              pt-2
               xl:pb-4
               2xl:text-8xl
               font-bad-script
