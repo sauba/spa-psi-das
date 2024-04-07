@@ -8,8 +8,7 @@ export default function About() {
         flex
         flex-col
         mx-auto
-        justify-center
-        items-center
+        justify-around
       text-amber-950 pt-16
       `}
       id="aboutDaniele"
@@ -56,8 +55,7 @@ export default function About() {
       <p
         className={`
             px-3
-            pt-4
-            pb-10
+            py-10
             2xl:px-8
             xl:text-2xl
             2xl:text-3xl
