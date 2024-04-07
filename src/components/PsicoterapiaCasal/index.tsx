@@ -31,7 +31,7 @@ export default function PsicoterapiaCasal() {
         src={imgClient}
         width={500}
         height={500}
-        className={`xl:w-4/12 mx-auto rounded-3xl py-4`}
+        className={`xl:w-4/12 mx-auto lg:rounded-3xl py-4`}
         alt=""
       />
 
