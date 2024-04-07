@@ -9,7 +9,6 @@ export default function PsicoterapiaIndividual() {
         flex-col
       text-amber-950
         justify-around
-        min-h-screen
       `}
       id="psicoterapiaIndividual"
     >
@@ -19,6 +18,7 @@ export default function PsicoterapiaIndividual() {
               md:text-4xl
               xl:text-6xl
               pt-2
+              lg:pt-4
               xl:pb-4
               2xl:text-8xl
               font-bad-script

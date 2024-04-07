@@ -6,7 +6,6 @@ export default function PsicoterapiaCasal() {
     <div
       className={`
         w-full
-        min-h-screen
         flex
         flex-col
         xl:flex
@@ -22,6 +21,7 @@ export default function PsicoterapiaCasal() {
               md:text-4xl
               xl:text-6xl
               pt-2
+              lg:pt-4
               xl:pb-4
               2xl:text-8xl
               font-bad-script
