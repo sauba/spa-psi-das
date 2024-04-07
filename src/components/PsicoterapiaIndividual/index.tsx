@@ -17,8 +17,7 @@ export default function PsicoterapiaIndividual() {
               text-3xl
               md:text-4xl
               xl:text-6xl
-              pt-2
-              lg:pt-4
+              pt-4
               xl:pb-4
               2xl:text-8xl
               font-bad-script
@@ -29,7 +28,7 @@ export default function PsicoterapiaIndividual() {
         src={imgClient}
         width={500}
         height={500}
-        className={`xl:w-5/12 mx-auto rounded-lg`}
+        className={`xl:w-5/12 mx-auto rounded-lg py-4`}
         alt=""
       />
 
