@@ -8,7 +8,8 @@ export default function About() {
         flex
         flex-col
         mx-auto
-        justify-around
+        justify-center
+        items-center
       text-amber-950 pt-16
       `}
       id="aboutDaniele"
