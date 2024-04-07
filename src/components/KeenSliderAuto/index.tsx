@@ -7,7 +7,7 @@ import "keen-slider/keen-slider.min.css"
 import { useKeenSlider } from "keen-slider/react"
 import Image from "next/image"
 
-const animation = { duration: 40000, easing: (t: number) => t }
+const animation = { duration: 80000, easing: (t: number) => t }
 
 export default function KeenSliderAuto() {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
@@ -25,7 +25,7 @@ export default function KeenSliderAuto() {
     },
     breakpoints: {
       "(min-width: 400px)": {
-        slides: { perView: 1, spacing: 8 },
+        slides: { perView: 1, spacing: 24 },
       },
       "(min-width: 1000px)": {
         slides: { perView: 3, spacing: 16 },
