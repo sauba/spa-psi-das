@@ -44,27 +44,6 @@ export default function Home() {
       <AbordagemHumanista />
       <PsicoterapiaIndividual />
       <PsicoterapiaCasal />
-      {/* <div className={`w-full`}>
-        <ul className={`grid`}>
-          {data.items.map((item) => {
-            console.log('item', item)
-            const { id, snippet = {} } = item
-            const { title, thumbnails = {}, resourceId } = snippet
-            const { medium = {} } = thumbnails
-
-            return (
-              <li key={id} className={`card`}>
-                <a href={`https://www.youtube.com/watch?v=${resourceId.videoId}`}>
-                  <p>
-                    <Image src={medium.url} width={medium.width} height={medium.height} alt="" />
-                  </p>
-                  <h3>{title}</h3>
-                </a>
-              </li>
-            )
-          })}
-        </ul>
-      </div> */}
       <Footer />
     </main>
   )
